@@ -339,18 +339,18 @@
         },
         "skill": {
             "name": {
-                "en": "Hedgehog",
-                "es": "Erizo",
-                "de": "Igel",
-                "fr": "Hérisson",
-                "it": "Riccio",
-                "nl": "Egel",
+                "en": "Porcupine",
+                "es": "Puercoespín",
+                "de": "Stachelschwein",
+                "fr": "Stachelschwein",
+                "it": "Istrice",
+                "nl": "Stekelvarken",
                 "pt": "Porco-espinho",
-                "ru": "Ежик",
-                "ja": "ヘッジホッグ",
-                "zh": "刺猬",
-                "zh-CN": "刺猬",
-                "ko": "고슴도치"
+                "ru": "Дикобраз",
+                "ja": "ポーキュパイン",
+                "zh": "豪豬",
+                "zh-CN": "豪猪",
+                "ko": "호저"
             },
             "is_active_skill": true,
             "cooldown": {
@@ -2394,13 +2394,13 @@
                 "zh-CN": "污染",
                 "ko": "오염"
             },
-            "is_active_skill": false,
+            "is_active_skill": true,
             "cooldown": {
-                "min": 60,
-                "max": 12
+                "min": 15,
+                "max": 9
             },
             "activation_conditions": [
-                "WhenScoring"
+                "WhenFlapping"
             ],
             "increased_royal_appearence": false,
             "increased_chest_appearence": false,
@@ -2412,7 +2412,7 @@
                 "min": 10,
                 "max": 100,
                 "prefix": null,
-                "suffix": "%"
+                "suffix": null
             },
             "SECONDARY_VALUE": {
                 "min": 6,
@@ -2421,18 +2421,18 @@
                 "suffix": null
             },
             "description": {
-                "en": "{[PRIMARY_VALUE]} of releasing a gas that poisons aristocrats when scoring.",
-                "es": "{[PRIMARY_VALUE]} de liberar un gas que envenena a los aristócratas al puntuar.",
-                "de": "{[PRIMARY_VALUE]} ein Gas freizusetzen, das Aristokraten vergiftet, wenn sie ein Tor schießen.",
-                "fr": "{[PRIMARY_VALUE]} de libérer un gaz qui empoisonne les aristocrates lorsqu'ils marquent des points.",
-                "it": "{[PRIMARY_VALUE]} di rilasciare un gas che avvelena gli aristocratici quando si segna.",
-                "nl": "{[PRIMARY_VALUE]} van het vrijlaten van een gas dat aristocraten vergiftigt bij het scoren.",
-                "pt": "{[PRIMARY_VALUE]} de libertar um gás que envenena os aristocratas ao pontuar.",
-                "ru": "{[PRIMARY_VALUE]} выпускать газ, который отравляет аристократов, когда они набирают очки.",
-                "ja": "{[PRIMARY_VALUE]}は、得点時に貴族を毒殺するガスを放出すること",
-                "zh": "得分時釋放毒氣的{[PRIMARY_VALUE]}",
-                "zh-CN": "得分时释放毒气的{[PRIMARY_VALUE]}",
-                "ko": "득점 시 귀족을 독살시키는 가스를 방출하는 {[PRIMARY_VALUE]}"
+                "en": "Release a gas that poisons aristocrats.",
+                "es": "Libera un gas que envenena a los aristócratas.",
+                "de": "Eine giftige Wolke freisetzen, die die Royals vergiftet.",
+                "fr": "Libérer un nuage toxique qui empoisonne les royaux.",
+                "it": "Rilasciare una nube tossica che avvelena i reali.",
+                "nl": "Laat een giftige wolk los die de koninklijken vergiftigt.",
+                "pt": "Liberta uma nuvem tóxica que envenena os reais.",
+                "ru": "Выпустить токсичное облако, отравляющее королевских особ.",
+                "ja": "王族を毒する有毒な雲を放出",
+                "zh": "釋放毒藥皇家隊的有毒雲",
+                "zh-CN": "释放毒云，毒害皇室成员",
+                "ko": "포이즌 로얄에 독성 구름을 방출하십시오"
             }
         }
     },
@@ -4708,6 +4708,85 @@
         }
     },
     {
+        "name": "Huooo",
+        "type": "Eastern",
+        "rarity": "Legendary",
+        "control": "Hold",
+        "speed": 2.7760105,
+        "force": 4.960434,
+        "weight": 9.450284,
+        "description": {
+            "en": "Master pyrotechnician of the Eastern Kingdoms. He loves to ride his rockets to study (and enjoy) his fireworks from as close as possible.",
+            "es": "Maestro pirotécnico de los Reinos del Este. Le encanta montar en sus cohetes para estudiar (y disfrutar) sus fuegos artificiales lo más cerca posible.",
+            "de": "Meister-Pyrotechniker der Östlichen Königreiche. Er liebt es, auf seinen Raketen zu reiten, um sein Feuerwerk aus nächster Nähe zu studieren (und zu genießen).",
+            "fr": "Maître artificier des Royaumes de l'Est. Il adore chevaucher ses fusées pour étudier (et apprécier) ses feux d'artifice de aussi près que possible.",
+            "it": "Maestro pirotecnico dei Regni Orientali. Ama cavalcare i suoi razzi per studiare (e godersi) i suoi fuochi d'artificio il più da vicino possibile.",
+            "nl": "Meester-vuurwerktechnicus van de Oostelijke Koninkrijken. Hij houdt ervan om op zijn raketten te rijden om zijn vuurwerk van zo dichtbij mogelijk te bestuderen (en te genieten).",
+            "pt": "Mestre pirotécnico dos Reinos do Oriente. Ele adora andar nos seus foguetes para estudar (e desfrutar) dos seus fogos de artifício o mais próximo possível.",
+            "ru": "Мастер пиротехники Восточных Королевств. Он обожает кататься на своих ракетах, чтобы изучать (и наслаждаться) своими фейерверками как можно ближе.",
+            "ja": "東方王国の花火職人の達人。彼はロケットに乗って自分の花火をできるだけ近くで研究し（そして楽しむ）のが大好きです。",
+            "zh": "東方王國的煙火大師。他喜歡騎著他的火箭去研究（並享受）他的煙火，盡可能地近。",
+            "zh-CN": "东方王国的烟火大师。他喜欢骑着他的火箭去研究（并享受）他的烟火，尽可能地近。",
+            "ko": "동방 왕국의 마스터 불꽃놀이 기술자. 그는 로켓을 타고 자신의 불꽃놀이를 가능한 한 가까이에서 연구하고 즐기는 것을 좋아합니다."
+        },
+        "skill": {
+            "name": {
+                "en": "Firework Rocket FD3000",
+                "es": "Cohete Pirotécnico FD3000",
+                "de": "Feuerwerksrakete FD3000",
+                "fr": "Fusée Pyrotechnique FD3000",
+                "it": "Fuoco d'Artificio Razzo FD3000",
+                "nl": "Vuurpijl FD3000",
+                "pt": "Foguete de Fogo de Artifício FD3000",
+                "ru": "Фейерверк Ракета FD3000",
+                "ja": "花火ロケット FD3000",
+                "zh": "煙火火箭 FD3000",
+                "zh-CN": "烟花火箭 FD3000",
+                "ko": "불꽃놀이 로켓 FD3000"
+            },
+            "is_active_skill": true,
+            "cooldown": {
+                "min": 15,
+                "max": 9
+            },
+            "activation_conditions": [
+                "WhenDying"
+            ],
+            "increased_royal_appearence": false,
+            "increased_chest_appearence": false,
+            "increased_egg_appearence": false,
+            "increased_powerup_appearence": false,
+            "increased_portal_appearence": false,
+            "increased_donut_appearence": false,
+            "PRIMARY_VALUE": {
+                "min": 10,
+                "max": 100,
+                "prefix": null,
+                "suffix": null
+            },
+            "SECONDARY_VALUE": {
+                "min": 0,
+                "max": 0,
+                "prefix": null,
+                "suffix": null
+            },
+            "description": {
+                "en": "Gain speed over time. Activate the ability to produce an explosion and reset the speed (dying with the skill ready will also activate it).",
+                "es": "Gana velocidad con el tiempo. Activa la habilidad para producir una explosión y reiniciar la velocidad (morir con la habilidad preparada también la activará).",
+                "de": "Sammle mit der Zeit Geschwindigkeit. Aktiviere die Fähigkeit, eine Explosion zu erzeugen und die Geschwindigkeit zurückzusetzen (wenn man stirbt, während die Fähigkeit bereit ist, wird sie ebenfalls aktiviert).",
+                "fr": "Accumulez de la vitesse avec le temps. Activez la capacité de produire une explosion et de réinitialiser la vitesse (mourir avec la compétence prête l'activera également).",
+                "it": "Guadagna velocità nel tempo. Attiva la capacità di produrre un'esplosione e azzera la velocità (morire con l'abilità pronta la attiverà anche).",
+                "nl": "Verkrijg in de loop van de tijd snelheid. Activeer het vermogen om een explosie te veroorzaken en de snelheid te resetten (ook als je sterft met de vaardigheid klaar, wordt deze geactiveerd).",
+                "pt": "Ganha velocidade ao longo do tempo. Ativa a habilidade de produzir uma explosão e reiniciar a velocidade (morrer com a habilidade pronta também a ativará).",
+                "ru": "Набирайте скорость со временем. Активируйте способность вызвать взрыв и сбросить скорость (если умереть с готовым навыком, он также активируется).",
+                "ja": "時間とともに速度を上げる。爆発を起こして速度をリセットする能力を発動（スキルが準備完了で死んでも発動される）。",
+                "zh": "隨著時間逐漸增速。啟動能力製造爆炸並重置速度（技能準備就緒時死亡也會激活它）。",
+                "zh-CN": "随着时间逐渐增速。激活能力制造爆炸并重置速度（技能准备就绪时死亡也会激活它）。",
+                "ko": "시간이 지남에 따라 속도를 높입니다. 폭발을 일으키고 속도를 초기화하는 능력을 활성화하세요 (스킬이 준비된 상태에서 사망하면 또한 활성화됩니다)."
+            }
+        }
+    },
+    {
         "name": "Hurbom",
         "type": "Mountain",
         "rarity": "Epic",
@@ -4941,6 +5020,83 @@
                 "zh": "{[PRIMARY_VALUE]}龍眼似乎",
                 "zh-CN": "{[PRIMARY_VALUE]}的龙眼外观",
                 "ko": "{[PRIMARY_VALUE]} 드래곤 아이의 외관"
+            }
+        }
+    },
+    {
+        "name": "Jaa Eda",
+        "type": "Eastern",
+        "rarity": "Rare",
+        "control": "Hold",
+        "speed": 3.2517376,
+        "force": 4.881935,
+        "weight": 9.528424,
+        "description": {
+            "en": "Ancient emperors of the east, worshipped for their incredibly robust jade scales.",
+            "es": "Antiguos emperadores del este, adorados por sus increíblemente robustas escamas de jade.",
+            "de": "Alte Kaiser des Ostens, verehrt für ihre unglaublich robusten Jadeschuppen.",
+            "fr": "Anciens empereurs de l'Est, vénérés pour leurs écailles de jade incroyablement robustes.",
+            "it": "Antichi imperatori dell'est, venerati per le loro incredibilmente robuste scaglie di giada.",
+            "nl": "Oude keizers van het oosten, aanbeden om hun ongelooflijk robuuste jadeschubben.",
+            "pt": "Antigos imperadores do oriente, venerados pelas suas incrivelmente robustas escamas de jade.",
+            "ru": "Древние императоры Востока, почитаемые за их невероятно прочные нефритовые чешуйки.",
+            "ja": "東の古代の皇帝たち、信じられないほど頑丈な翡翠の鱗で崇拝される。",
+            "zh": "東方古代帝王，因其堅固無比的玉鱗而受到崇拜。",
+            "zh-CN": "东方古代帝王，因其坚固无比的玉鳞而受到崇拜。",
+            "ko": "동쪽의 고대 황제들은 그들의 믿을 수 없을 만큼 강건한 옥 비늘로 숭배받았습니다."
+        },
+        "skill": {
+            "name": {
+                "en": "Jade mandate",
+                "es": "Mandato de jade",
+                "de": "Jade-Mandat",
+                "fr": "Mandat de jade",
+                "it": "Mandato di giada",
+                "nl": "Jade mandaat",
+                "pt": "Mandato de jade",
+                "ru": "Нефритовый мандат",
+                "ja": "ジェイドの命令",
+                "zh": "玉璽令",
+                "zh-CN": "玉璽命令",
+                "ko": "옥령"
+            },
+            "is_active_skill": false,
+            "cooldown": {
+                "min": 45,
+                "max": 18
+            },
+            "activation_conditions": [],
+            "increased_royal_appearence": false,
+            "increased_chest_appearence": false,
+            "increased_egg_appearence": false,
+            "increased_powerup_appearence": false,
+            "increased_portal_appearence": false,
+            "increased_donut_appearence": false,
+            "PRIMARY_VALUE": {
+                "min": 1,
+                "max": 10,
+                "prefix": null,
+                "suffix": null
+            },
+            "SECONDARY_VALUE": {
+                "min": 0,
+                "max": 0,
+                "prefix": null,
+                "suffix": null
+            },
+            "description": {
+                "en": "Earn {[PRIMARY_VALUE]} crowns when picking up a power-up.",
+                "es": "Gana {[PRIMARY_VALUE]} coronas al recoger un potenciador.",
+                "de": "Verdiene {[PRIMARY_VALUE]} Kronen, wenn Sie ein Power-Up aufnehmen.",
+                "fr": "Gagnez {[PRIMARY_VALUE]} couronnes en ramassant un power-up.",
+                "it": "Guadagna {[PRIMARY_VALUE]} corone raccogliendo un potenziamento.",
+                "nl": "Verdien {[PRIMARY_VALUE]} kronen bij het oppakken van een power-up.",
+                "pt": "Ganha {[PRIMARY_VALUE]} coroas ao pegar um potenciador.",
+                "ru": "Заработайте {[PRIMARY_VALUE]} корон, подобрав усилитель.",
+                "ja": "パワーアップを拾うと{[PRIMARY_VALUE]}の王冠を獲得します。",
+                "zh": "撿起一個增強道具時可獲得{[PRIMARY_VALUE]}個冠冕。",
+                "zh-CN": "捡起一个增强道具时可获得{[PRIMARY_VALUE]}个王冠。",
+                "ko": "파워업을 주울 때 {[PRIMARY_VALUE]}개의 왕관을 획득하세요."
             }
         }
     },
@@ -5332,6 +5488,83 @@
                 "zh": "寶箱可以含有多達{[PRIMARY_VALUE]}個額外的冠",
                 "zh-CN": "宝箱中最多可容纳{[PRIMARY_VALUE]}个额外的皇冠",
                 "ko": "보물 상자에는 최대 {[PRIMARY_VALUE]} 개의 여분의 크라운이 포함될 수 있습니다"
+            }
+        }
+    },
+    {
+        "name": "Kri Kri",
+        "type": "Feathered",
+        "rarity": "Common",
+        "control": "Tap",
+        "speed": 2.6607523,
+        "force": 5.048148,
+        "weight": 10.001744,
+        "description": {
+            "en": "They used to live locked up on farms to collect their rare golden eggs, until they rebelled against the aristocrats and threw off their yoke.",
+            "es": "Solían vivir encerrados en granjas para recolectar sus raros huevos dorados, hasta que se rebelaron contra los aristócratas y se liberaron de su yugo.",
+            "de": "Sie lebten eingesperrt auf Farmen, um ihre seltenen goldenen Eier zu sammeln, bis sie sich gegen die Aristokraten auflehnten und ihr Joch abwarfen.",
+            "fr": "Ils vivaient enfermés dans des fermes pour récolter leurs œufs d'or rares, jusqu'à ce qu'ils se rebellent contre les aristocrates et rejettent leur joug.",
+            "it": "Vivevano rinchiusi nelle fattorie per raccogliere le loro rare uova d'oro, finché non si ribellarono agli aristocratici e si liberarono del loro giogo.",
+            "nl": "Ze leefden opgesloten op boerderijen om hun zeldzame gouden eieren te verzamelen, totdat ze in opstand kwamen tegen de aristocraten en hun juk afwierpen.",
+            "pt": "Viviam trancados em fazendas para coletar seus raros ovos dourados, até que se rebelaram contra os aristocratas e se livraram de seu jugo.",
+            "ru": "Они жили запертыми на фермах для сбора своих редких золотых яиц, пока не восстали против аристократов и сбросили своё иго.",
+            "ja": "彼らは、珍しい金の卵を集めるために農場で閉じ込められて生活していましたが、貴族に対して反乱を起こし、くびきを投げ捨てました。",
+            "zh": "他們曾被鎖在農場裡收集稀有的金蛋，直到他們反抗貴族，擺脫了枷鎖。",
+            "zh-CN": "他们曾被关在农场里收集稀有的金蛋，直到他们反抗贵族，摆脱了枷锁。",
+            "ko": "그들은 희귀한 황금 알을 수집하기 위해 농장에 갇혀 살았으나, 귀족에 대항하여 멍에를 벗어던졌습니다."
+        },
+        "skill": {
+            "name": {
+                "en": "Golden egg",
+                "es": "Huevo dorado",
+                "de": "Goldenes Ei",
+                "fr": "Œuf d'or",
+                "it": "Uovo d'oro",
+                "nl": "Gouden ei",
+                "pt": "Ovo dourado",
+                "ru": "Золотое яйцо",
+                "ja": "金の卵",
+                "zh": "金蛋",
+                "zh-CN": "金蛋",
+                "ko": "황금 알"
+            },
+            "is_active_skill": false,
+            "cooldown": {
+                "min": 0,
+                "max": 0
+            },
+            "activation_conditions": [],
+            "increased_royal_appearence": false,
+            "increased_chest_appearence": false,
+            "increased_egg_appearence": false,
+            "increased_powerup_appearence": false,
+            "increased_portal_appearence": false,
+            "increased_donut_appearence": false,
+            "PRIMARY_VALUE": {
+                "min": 10,
+                "max": 100,
+                "prefix": null,
+                "suffix": "%"
+            },
+            "SECONDARY_VALUE": {
+                "min": 0,
+                "max": 0,
+                "prefix": null,
+                "suffix": null
+            },
+            "description": {
+                "en": "{[PRIMARY_VALUE]} of getting an extra mystery egg when picking up one.",
+                "es": "{[PRIMARY_VALUE]} de obtener un huevo misterioso extra al recoger uno.",
+                "de": "{[PRIMARY_VALUE]} Wahrscheinlichkeit, ein zusätzliches Geheimnis-Ei zu bekommen, wenn man eines aufnimmt.",
+                "fr": "{[PRIMARY_VALUE]} de possibilité d'obtenir un œuf mystère supplémentaire en ramassant un.",
+                "it": "{[PRIMARY_VALUE]} di ottenere un uovo misterioso extra raccogliendone uno.",
+                "nl": "{[PRIMARY_VALUE]} kans op een extra mysterie-ei bij het oppakken van één.",
+                "pt": "{[PRIMARY_VALUE]} de obter um ovo misterioso extra ao apanhar um.",
+                "ru": "{[PRIMARY_VALUE]} получить дополнительное таинственное яйцо при подборе одного.",
+                "ja": "一つを拾うと、追加の謎の卵を得る確率が{[PRIMARY_VALUE]}です。",
+                "zh": "撿起一個時有{[PRIMARY_VALUE]}獲得額外的神秘蛋。",
+                "zh-CN": "拾起一个时有{[PRIMARY_VALUE]}获得额外的神秘蛋。",
+                "ko": "하나를 주울 때 추가 미스테리 알을 얻을 확률이 {[PRIMARY_VALUE]}입니다."
             }
         }
     },
@@ -5925,8 +6158,8 @@
             },
             "is_active_skill": true,
             "cooldown": {
-                "min": 15,
-                "max": 9
+                "min": 12,
+                "max": 4
             },
             "activation_conditions": [
                 "WhenDying"
@@ -5962,6 +6195,85 @@
                 "zh": "用喇叭向前充電並摧毀塔",
                 "zh-CN": "向前冲锋，用你的角摧毁塔楼",
                 "ko": "앞으로 충전하고 당신의 뿔으로 타워를 파괴하십시오"
+            }
+        }
+    },
+    {
+        "name": "Malian",
+        "type": "Eastern",
+        "rarity": "Mythic",
+        "control": "Hold",
+        "speed": 3.56789,
+        "force": 5.1618004,
+        "weight": 9.611142,
+        "description": {
+            "en": "Legend has it that fireworks were used to scare it away and protect the kingdom. Ridiculous! She just had very sensitive ears that day and was caught by surprise, next time she will wear earplugs.",
+            "es": "La leyenda cuenta que se usaron fuegos artificiales para ahuyentarla y proteger el reino. ¡Ridículo! Ese día ella tenía los oídos muy sensibles y fue tomada por sorpresa, la próxima vez llevará tapones para los oídos.",
+            "de": "Die Legende besagt, dass Feuerwerkskörper verwendet wurden, um es zu erschrecken und das Königreich zu schützen. Lächerlich! Sie hatte an diesem Tag nur sehr empfindliche Ohren und wurde überrascht, das nächste Mal wird sie Ohrenstöpsel tragen.",
+            "fr": "La légende raconte que des feux d'artifice ont été utilisés pour l'effrayer et protéger le royaume. Ridicule ! Ce jour-là, elle avait simplement les oreilles très sensibles et a été prise par surprise, la prochaine fois elle portera des bouchons d'oreille.",
+            "it": "La leggenda dice che i fuochi d'artificio venivano usati per spaventarla e proteggere il regno. Ridicolo! Quel giorno aveva solo le orecchie molto sensibili ed è stata colta di sorpresa, la prossima volta indosserà dei tappi per le orecchie.",
+            "nl": "De legende gaat dat vuurwerk werd gebruikt om haar weg te jagen en het koninkrijk te beschermen. Belachelijk! Ze had die dag gewoon heel gevoelige oren en werd verrast, de volgende keer zal ze oordopjes dragen.",
+            "pt": "A lenda diz que fogos de artifício foram usados para afugentá-la e proteger o reino. Ridículo! Ela apenas tinha ouvidos muito sensíveis naquele dia e foi apanhada de surpresa, na próxima vez ela usará tampões de ouvido.",
+            "ru": "Легенда гласит, что фейерверки использовались, чтобы напугать ее и защитить королевство. Смешно! У нее в тот день были очень чувствительные уши, и она была застигнута врасплох, в следующий раз она будет носить беруши.",
+            "ja": "伝説によると、花火が使われて彼女を怖がらせ、王国を守ったという。ばかげている！その日はただ耳がとても敏感だっただけで、驚かされたのですが、次回は耳栓をするつもりです。",
+            "zh": "傳說中煙火是用來嚇跑她並保護王國的。荒謬！那天她只是耳朵特別敏感，被突如其來的事情嚇到了，下次她會戴耳塞。",
+            "zh-CN": "传说烟火用来吓走她并保护王国。荒谬！那天她只是耳朵特别敏感，被突如其来的事情吓到了，下次她会戴耳塞。",
+            "ko": "전설에 따르면 불꽃놀이가 그녀를 겁주고 왕국을 보호하기 위해 사용되었다고 한다. 터무니없어! 그날 그녀는 귀가 매우 예민했을 뿐이고 놀라서 잡혔으니, 다음 번에는 귀마개를 낄 것이다."
+        },
+        "skill": {
+            "name": {
+                "en": "Dynasties End",
+                "es": "Fin de las Dinastías",
+                "de": "Ende der Dynastien",
+                "fr": "Fin des Dynasties",
+                "it": "Fine delle Dinastie",
+                "nl": "Einde van de Dynastieën",
+                "pt": "Fim das Dinastias",
+                "ru": "Конец Династий",
+                "ja": "王朝の終わり",
+                "zh": "朝代的終結",
+                "zh-CN": "朝代的终结",
+                "ko": "왕조의 종말"
+            },
+            "is_active_skill": false,
+            "cooldown": {
+                "min": 15,
+                "max": 9
+            },
+            "activation_conditions": [
+                "WhenDestroyingTowers"
+            ],
+            "increased_royal_appearence": false,
+            "increased_chest_appearence": false,
+            "increased_egg_appearence": false,
+            "increased_powerup_appearence": false,
+            "increased_portal_appearence": false,
+            "increased_donut_appearence": false,
+            "PRIMARY_VALUE": {
+                "min": 10,
+                "max": 100,
+                "prefix": null,
+                "suffix": "%"
+            },
+            "SECONDARY_VALUE": {
+                "min": 0,
+                "max": 0,
+                "prefix": null,
+                "suffix": null
+            },
+            "description": {
+                "en": "{[PRIMARY_VALUE]} of producing a frost nova when destroying an obstacle that is not already frozen.",
+                "es": "{[PRIMARY_VALUE]} de producir una nova de hielo al destruir un obstáculo que no esté ya congelado.",
+                "de": "{[PRIMARY_VALUE]} Frostnova-Produktion beim Zerstören eines nicht bereits gefrorenen Hindernisses.",
+                "fr": "{[PRIMARY_VALUE]} de produire une nova de givre en détruisant un obstacle non gelé.",
+                "it": "{[PRIMARY_VALUE]} di generare una nova di ghiaccio distruggendo un ostacolo non già congelato.",
+                "nl": "{[PRIMARY_VALUE]} om een vorstnova te produceren bij het vernietigen van een nog niet bevroren obstakel.",
+                "pt": "{[PRIMARY_VALUE]} de criar uma nova de gelo ao destruir um obstáculo que ainda não esteja congelado.",
+                "ru": "{[PRIMARY_VALUE]} создания ледяной новы при уничтожении не замороженного препятствия.",
+                "ja": "まだ凍っていない障害物を破壊すると、{[PRIMARY_VALUE]}でフロストノヴァを発生させる。",
+                "zh": "破壞尚未凍結的障礙物時，有{[PRIMARY_VALUE]}生成霜凍新星。",
+                "zh-CN": "摧毁尚未冻结的障碍物时，有{[PRIMARY_VALUE]}生成霜冻新星。",
+                "ko": "아직 얼지 않은 장애물을 파괴할 때 {[PRIMARY_VALUE]}로 서리 노바를 생성합니다."
             }
         }
     },
@@ -6581,7 +6893,7 @@
                 "en": "Shoot a barrage of missiles.",
                 "es": "Dispara una andanada de misiles.",
                 "de": "Schießen Sie ein Sperrfeuer von Raketen ab.",
-                "fr": "Tirer un barrage de missiles.",
+                "fr": "Tire un barrage de missiles.",
                 "it": "Sparare una raffica di missili.",
                 "nl": "Schiet een spervuur van raketten.",
                 "pt": "Disparar uma barragem de mísseis.",
@@ -7183,13 +7495,13 @@
                 "zh-CN": "有毒的",
                 "ko": "독성"
             },
-            "is_active_skill": true,
+            "is_active_skill": false,
             "cooldown": {
                 "min": 15,
                 "max": 9
             },
             "activation_conditions": [
-                "WhenFlapping"
+                "WhenScoring"
             ],
             "increased_royal_appearence": false,
             "increased_chest_appearence": false,
@@ -7198,10 +7510,10 @@
             "increased_portal_appearence": false,
             "increased_donut_appearence": false,
             "PRIMARY_VALUE": {
-                "min": 1,
-                "max": 1,
+                "min": 10,
+                "max": 100,
                 "prefix": null,
-                "suffix": null
+                "suffix": "%"
             },
             "SECONDARY_VALUE": {
                 "min": 0,
@@ -7210,18 +7522,18 @@
                 "suffix": null
             },
             "description": {
-                "en": "Release a gas that poisons aristocrats.",
-                "es": "Libera un gas que envenena a los aristócratas.",
-                "de": "Eine giftige Wolke freisetzen, die die Royals vergiftet.",
-                "fr": "Libérer un nuage toxique qui empoisonne les royaux.",
-                "it": "Rilasciare una nube tossica che avvelena i reali.",
-                "nl": "Laat een giftige wolk los die de koninklijken vergiftigt.",
-                "pt": "Liberta uma nuvem tóxica que envenena os reais.",
-                "ru": "Выпустить токсичное облако, отравляющее королевских особ.",
-                "ja": "王族を毒する有毒な雲を放出",
-                "zh": "釋放毒藥皇家隊的有毒雲",
-                "zh-CN": "释放毒云，毒害皇室成员",
-                "ko": "포이즌 로얄에 독성 구름을 방출하십시오"
+                "en": "{[PRIMARY_VALUE]} of releasing a gas that poisons aristocrats when scoring.",
+                "es": "{[PRIMARY_VALUE]} de liberar un gas que envenena a los aristócratas al puntuar.",
+                "de": "{[PRIMARY_VALUE]} ein Gas freizusetzen, das Aristokraten vergiftet, wenn sie ein Tor schießen.",
+                "fr": "{[PRIMARY_VALUE]} de libérer un gaz qui empoisonne les aristocrates lorsqu'ils marquent des points.",
+                "it": "{[PRIMARY_VALUE]} di rilasciare un gas che avvelena gli aristocratici quando si segna.",
+                "nl": "{[PRIMARY_VALUE]} van het vrijlaten van een gas dat aristocraten vergiftigt bij het scoren.",
+                "pt": "{[PRIMARY_VALUE]} de libertar um gás que envenena os aristocratas ao pontuar.",
+                "ru": "{[PRIMARY_VALUE]} выпускать газ, который отравляет аристократов, когда они набирают очки.",
+                "ja": "{[PRIMARY_VALUE]}は、得点時に貴族を毒殺するガスを放出すること",
+                "zh": "得分時釋放毒氣的{[PRIMARY_VALUE]}",
+                "zh-CN": "得分时释放毒气的{[PRIMARY_VALUE]}",
+                "ko": "득점 시 귀족을 독살시키는 가스를 방출하는 {[PRIMARY_VALUE]}"
             }
         }
     },
@@ -7441,8 +7753,8 @@
                 "suffix": "%"
             },
             "SECONDARY_VALUE": {
-                "min": 4,
-                "max": 4,
+                "min": 3,
+                "max": 3,
                 "prefix": null,
                 "suffix": null
             },
@@ -7649,7 +7961,7 @@
                 "it": "Aurora Borealis",
                 "nl": "Noorderlicht",
                 "pt": "Aurora Boreal",
-                "ru": "Аврора Бореалис",
+                "ru": "северное сияние",
                 "ja": "オーロラ",
                 "zh": "北極光",
                 "zh-CN": "北极光",
@@ -7850,6 +8162,83 @@
                 "zh": "{[PRIMARY_VALUE]}在底塔上吞噬貴族時，讓龍心臟",
                 "zh-CN": "吞噬底层塔楼上的贵族时获得龙心的概率为{[PRIMARY_VALUE]}",
                 "ko": "{[PRIMARY_VALUE]} 바닥 타워에 귀족을 먹을 때 용 마음을 얻는 것"
+            }
+        }
+    },
+    {
+        "name": "Pepaga",
+        "type": "Eastern",
+        "rarity": "Uncommon",
+        "control": "Tap",
+        "speed": 3.0650015,
+        "force": 4.826258,
+        "weight": 9.713636,
+        "description": {
+            "en": "They are only sighted at the beginning of the year, bringing fortune to those lucky enough to spot them.",
+            "es": "Solo se les ve al principio del año, trayendo fortuna a aquellos lo suficientemente afortunados para verlos.",
+            "de": "Sie werden nur zu Beginn des Jahres gesichtet und bringen denen Glück, die glücklich genug sind, sie zu entdecken.",
+            "fr": "Ils ne sont aperçus qu'au début de l'année, apportant fortune à ceux qui ont la chance de les repérer.",
+            "it": "Sono avvistati solo all'inizio dell'anno, portando fortuna a coloro che sono abbastanza fortunati da vederli.",
+            "nl": "Ze worden alleen aan het begin van het jaar gezien, en brengen geluk aan degenen die gelukkig genoeg zijn om ze te spotten.",
+            "pt": "Só são avistados no início do ano, trazendo fortuna àqueles com sorte suficiente para os encontrar.",
+            "ru": "Они видны только в начале года, принося удачу тем, кому достаточно повезло их заметить.",
+            "ja": "彼らは年の初めにのみ目撃され、幸運な人々に幸運をもたらします。",
+            "zh": "他們只在年初被看見，為幸運足以看見他們的人帶來好運。",
+            "zh-CN": "他们只在年初被见到，为幸运足以见到他们的人带来好运。",
+            "ko": "그들은 해가 바뀌며 처음에만 목격되며, 운이 좋아 그들을 발견한 사람들에게 행운을 가져다줍니다."
+        },
+        "skill": {
+            "name": {
+                "en": "Red envelope",
+                "es": "Sobre rojo",
+                "de": "Roter Umschlag",
+                "fr": "Enveloppe rouge",
+                "it": "Busta rossa",
+                "nl": "Rode envelop",
+                "pt": "Envelope vermelho",
+                "ru": "Красный конверт",
+                "ja": "紅包",
+                "zh": "紅包",
+                "zh-CN": "红包",
+                "ko": "홍바오"
+            },
+            "is_active_skill": false,
+            "cooldown": {
+                "min": 0,
+                "max": 0
+            },
+            "activation_conditions": [],
+            "increased_royal_appearence": false,
+            "increased_chest_appearence": false,
+            "increased_egg_appearence": false,
+            "increased_powerup_appearence": false,
+            "increased_portal_appearence": false,
+            "increased_donut_appearence": false,
+            "PRIMARY_VALUE": {
+                "min": 11,
+                "max": 20,
+                "prefix": null,
+                "suffix": null
+            },
+            "SECONDARY_VALUE": {
+                "min": 0,
+                "max": 0,
+                "prefix": null,
+                "suffix": null
+            },
+            "description": {
+                "en": "Earn {[PRIMARY_VALUE]} crowns by traversing a dimensional rift.",
+                "es": "Gana {[PRIMARY_VALUE]} coronas atravesando una grieta dimensional.",
+                "de": "Verdiene {[PRIMARY_VALUE]} Kronen, indem Sie einen dimensionalen Riss durchqueren.",
+                "fr": "Gagnez {[PRIMARY_VALUE]} couronnes en traversant une faille dimensionnelle.",
+                "it": "Guadagna {[PRIMARY_VALUE]} corone attraversando una faglia dimensionale.",
+                "nl": "Verdien {[PRIMARY_VALUE]} kronen door een dimensionale scheur te doorkruisen.",
+                "pt": "Ganha {[PRIMARY_VALUE]} coroas atravessando uma fenda dimensional.",
+                "ru": "Заработайте {[PRIMARY_VALUE]} корон, пересекая размерный разлом.",
+                "ja": "次元の裂け目を横断して{[PRIMARY_VALUE]}の王冠を獲得する。",
+                "zh": "穿越次元裂縫賺取{[PRIMARY_VALUE]}個冠冕。",
+                "zh-CN": "穿越维度裂缝赚取{[PRIMARY_VALUE]}个王冠。",
+                "ko": "차원의 균열을 통과하여 {[PRIMARY_VALUE]}개의 왕관을 획득하세요."
             }
         }
     },
@@ -8399,6 +8788,83 @@
                 "zh": "{[PRIMARY_VALUE]}貴族、寶箱、通電、神秘彩蛋和星星甜甜圈外觀",
                 "zh-CN": "{[PRIMARY_VALUE]}贵族、宝箱、通电、神秘彩蛋和星星甜甜圈外观",
                 "ko": "귀족 {[PRIMARY_VALUE]}, 보물상자, 파워업, 수수께끼의 알, 별도넛 등장"
+            }
+        }
+    },
+    {
+        "name": "Qui Brel",
+        "type": "Eastern",
+        "rarity": "Epic",
+        "control": "Follow",
+        "speed": 3.22,
+        "force": 0,
+        "weight": 0,
+        "description": {
+            "en": "Its orb contains the duality of all that exists in the universe. The wandering contradiction.",
+            "es": "Su orbe contiene la dualidad de todo lo que existe en el universo. La contradicción errante.",
+            "de": "Seine Kugel enthält die Dualität alles Existierenden im Universum. Der wandernde Widerspruch.",
+            "fr": "Son orbe contient la dualité de tout ce qui existe dans l'univers. La contradiction errante.",
+            "it": "La sua sfera contiene la dualità di tutto ciò che esiste nell'universo. La contraddizione vagante.",
+            "nl": "Zijn bol bevat de dualiteit van alles wat in het universum bestaat. De zwervende tegenstrijdigheid.",
+            "pt": "O seu orbe contém a dualidade de tudo o que existe no universo. A contradição errante.",
+            "ru": "Его сфера содержит дуализм всего существующего во вселенной. Блуждающее противоречие.",
+            "ja": "そのオーブは、宇宙に存在するすべての二重性を含んでいます。さまよう矛盾。",
+            "zh": "其球體包含宇宙中所有存在的二元性。流浪的矛盾。",
+            "zh-CN": "其球体包含宇宙中所有存在的二元性。徘徊的矛盾。",
+            "ko": "그것의 구슬은 우주에 존재하는 모든 것의 이중성을 담고 있습니다. 방황하는 모순."
+        },
+        "skill": {
+            "name": {
+                "en": "Yin Yang",
+                "es": "Yin Yang",
+                "de": "Yin Yang",
+                "fr": "Yin Yang",
+                "it": "Yin Yang",
+                "nl": "Yin Yang",
+                "pt": "Yin Yang",
+                "ru": "Инь-Ян",
+                "ja": "陰陽",
+                "zh": "陰陽",
+                "zh-CN": "阴阳",
+                "ko": "음양"
+            },
+            "is_active_skill": true,
+            "cooldown": {
+                "min": 12,
+                "max": 4
+            },
+            "activation_conditions": [],
+            "increased_royal_appearence": false,
+            "increased_chest_appearence": false,
+            "increased_egg_appearence": false,
+            "increased_powerup_appearence": false,
+            "increased_portal_appearence": false,
+            "increased_donut_appearence": false,
+            "PRIMARY_VALUE": {
+                "min": 10,
+                "max": 100,
+                "prefix": null,
+                "suffix": null
+            },
+            "SECONDARY_VALUE": {
+                "min": 0,
+                "max": 0,
+                "prefix": null,
+                "suffix": null
+            },
+            "description": {
+                "en": "Switch between yin and yang. In yin, your orb can freeze obstacles. In yang, your orb spins extremely fast.",
+                "es": "Cambia entre yin y yang. En yin, tu orbe puede congelar obstáculos. En yang, tu orbe gira extremadamente rápido.",
+                "de": "Wechsle zwischen Yin und Yang. Im Yin kann deine Kugel Hindernisse einfrieren. Im Yang dreht sich deine Kugel extrem schnell.",
+                "fr": "Passez du yin au yang. En yin, votre orbe peut geler des obstacles. En yang, votre orbe tourne extrêmement vite.",
+                "it": "Alterna tra yin e yang. In yin, la tua sfera può congelare gli ostacoli. In yang, la tua sfera gira estremamente veloce.",
+                "nl": "Wissel tussen yin en yang. In yin kan je bol obstakels bevriezen. In yang draait je bol extreem snel.",
+                "pt": "Alterna entre yin e yang. Em yin, a tua esfera pode congelar obstáculos. Em yang, a tua esfera gira extremamente rápido.",
+                "ru": "Переключайтесь между инь и ян. В инь ваш шар может замораживать препятствия. В ян ваш шар вращается чрезвычайно быстро.",
+                "ja": "陰と陽を切り替えてください。陰では、あなたのオーブが障害物を凍らせることができます。陽では、あなたのオーブが非常に速く回転します。",
+                "zh": "在陰陽之間切換。在陰，你的球體可以凍結障礙物。在陽，你的球體會極快地旋轉。",
+                "zh-CN": "在阴阳之间切换。在阴，你的球体可以冻结障碍物。在阳，你的球体会极快地旋转。",
+                "ko": "음과 양 사이를 전환하세요. 음에서는 구슬이 장애물을 얼릴 수 있습니다. 양에서는 구슬이 매우 빠르게 회전합니다."
             }
         }
     },
@@ -9323,8 +9789,8 @@
                 "suffix": "%"
             },
             "SECONDARY_VALUE": {
-                "min": 125,
-                "max": 125,
+                "min": 250,
+                "max": 250,
                 "prefix": null,
                 "suffix": null
             },
@@ -9800,7 +10266,7 @@
                 "en": "{[PRIMARY_VALUE]} of getting a crown when your crow picks something up.",
                 "es": "{[PRIMARY_VALUE]} de recibir una corona cuando tu cuervo recoge algo.",
                 "de": "{[PRIMARY_VALUE]} um eine Krone zu erhalten, wenn deine Krähe etwas aufhebt.",
-                "fr": "{[PRIMARY_VALUE]} pour recevoir une couronne lorsque votre corbeau ramasse quelque chose.",
+                "fr": "{[PRIMARY_VALUE]} de recevoir une couronne lorsque votre corbeau ramasse quelque chose.",
                 "it": "{[PRIMARY_VALUE]} per ricevere una corona quando il vostro corvo raccoglie qualcosa.",
                 "nl": "{[PRIMARY_VALUE]} om een kroon te ontvangen als je kraai iets oppakt.",
                 "pt": "{[PRIMARY_VALUE]} para receber uma coroa quando o seu corvo pega em algo.",
@@ -10052,7 +10518,7 @@
         "type": "Feathered",
         "rarity": "Uncommon",
         "control": "Tap",
-        "speed": 3.0202174,
+        "speed": 3.020217,
         "force": 4.6533427,
         "weight": 9.98573,
         "description": {
@@ -10546,7 +11012,7 @@
                 "it": "Caos elementare",
                 "nl": "Elementaire chaos",
                 "pt": "Caos elementar",
-                "ru": "Элементарный хаос",
+                "ru": "Элементальный хаос",
                 "ja": "エレメンタル・カオス",
                 "zh": "元素混亂",
                 "zh-CN": "元素混乱",
@@ -10584,7 +11050,7 @@
                 "it": "Ottenere un peperoncino del drago, un fiocco di neve magico o una nuvola di tuono con durata ridotta.",
                 "nl": "Krijg een drakenchili, magische sneeuwvlok of een donderwolk met verminderde duur.",
                 "pt": "Obter um chilli de dragão, um floco de neve mágico ou uma nuvem de trovoada com duração reduzida.",
-                "ru": "Получите драконий чилли, волшебную снежинку или грозовое облако с уменьшенной продолжительностью действия.",
+                "ru": "Получите драконий чили, волшебную снежинку или грозовую тучу с укороченной продолжительностью действия.",
                 "ja": "ドラゴンチリ、マジックスノーフレーク、持続時間短縮の雷雲を入手する。",
                 "zh": "獲取龍辣椒，魔術雪花或持續時間減少的雷雲",
                 "zh-CN": "获取龙辣椒，魔术雪花或持续时间减少的雷云",
@@ -11475,8 +11941,8 @@
             "pt": "A última da sua espécie. Ela usa os seus poderes para criar ilusões dos seus amigos e família para lhe fazerem companhia para sempre.",
             "ru": "Последняя представительница своего вида. С помощью своих способностей она создает иллюзии своих друзей и близких, чтобы они всегда составляли ей компанию.",
             "ja": "彼女の種の最後の一人だ。彼女は自分の力を使って友人や家族の幻影を作り出し、いつまでも一緒にいられるようにしている。",
-            "zh": "她的最後一個物種。她利用自己的力量來創造自己的朋友和家人的幻想，以永遠保持自己的公司。",
-            "zh-CN": "她的最后一个物种。她利用自己的力量来创造自己的朋友和家人的幻想，以永远保持自己的公司。",
+            "zh": "她的最後一個物種。她利用自己的力量來創造自己的朋友和家人的幻想，以永远保持自己有人陪伴",
+            "zh-CN": "她的最后一个物种。她利用自己的力量来创造自己的朋友和家人的幻想，以永远保持自己有人陪伴",
             "ko": "그녀의 마지막 종.그녀는 자신의 힘을 사용하여 친구와 가족의 환상을 만들어 회사를 영원히 유지합니다."
         },
         "skill": {
@@ -12524,8 +12990,8 @@
             "increased_portal_appearence": false,
             "increased_donut_appearence": false,
             "PRIMARY_VALUE": {
-                "min": 6,
-                "max": 6,
+                "min": 3,
+                "max": 3,
                 "prefix": null,
                 "suffix": null
             },
@@ -13015,8 +13481,8 @@
                 "pt": "{[PRIMARY_VALUE]} do aparecimento do powerup.",
                 "ru": "{[PRIMARY_VALUE]}  к появлению бустов.",
                 "ja": "パワーアップ時の表示の{[PRIMARY_VALUE]}について",
-                "zh": "{[PRIMARY_VALUE]}電力出現",
-                "zh-CN": "开机外观的{[PRIMARY_VALUE]}",
+                "zh": "强化出现概率{[PRIMARY_VALUE]}",
+                "zh-CN": "强化出现概率{[PRIMARY_VALUE]}",
                 "ko": "{[PRIMARY_VALUE]} 파워 업 외관"
             }
         }
@@ -13054,8 +13520,8 @@
                 "pt": "X Carga",
                 "ru": "X Заряд",
                 "ja": "Xチャージ",
-                "zh": "X費用",
-                "zh-CN": "X收费",
+                "zh": "X充能",
+                "zh-CN": "X充能",
                 "ko": "엑스 요금"
             },
             "is_active_skill": true,
@@ -13088,7 +13554,7 @@
                 "en": "Release an electric discharge. Each flap reduce the cooldown {[PRIMARY_VALUE]} second.",
                 "es": "Libera una descarga eléctrica. Cada solapa reduce el enfriamiento {[PRIMARY_VALUE]} segundo.",
                 "de": "Löse eine elektrische Entladung aus. Jede Klappe reduziert die Abklingzeit um {[PRIMARY_VALUE]} Sekunde.",
-                "fr": "Libère une décharge électrique. Chaque volet réduit le temps de recharge de {[PRIMARY_VALUE]} seconde.",
+                "fr": "Libère une décharge électrique. Chaque battement d'ailes réduit le temps de recharge de {[PRIMARY_VALUE]} seconde.",
                 "it": "Rilascia una scarica elettrica. Ogni lembo riduce il cooldown di {[PRIMARY_VALUE]} secondo.",
                 "nl": "Laat een elektrische ontlading los. Elke flap vermindert de cooldown {[PRIMARY_VALUE]} seconde.",
                 "pt": "Libertar uma descarga eléctrica. Cada aba reduz o arrefecimento {[PRIMARY_VALUE]} segundo.",
@@ -14151,7 +14617,7 @@
         },
         "skill": {
             "name": {
-                "en": "Lighting rod",
+                "en": "Lightning rod",
                 "es": "Pararrayos",
                 "de": "Beleuchtungsstab",
                 "fr": "Barre d'éclairage",
