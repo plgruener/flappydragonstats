@@ -4,6 +4,10 @@
         "type": "Mountain",
         "rarity": "Epic",
         "control": "Hold",
+        "breeding_eggs": [
+            "Golem",
+            "Tetric"
+        ],
         "speed": 3.03,
         "force": 4.75,
         "weight": 10.99,
@@ -83,6 +87,11 @@
         "type": "Leviathan",
         "rarity": "Legendary",
         "control": "RTap",
+        "breeding_eggs": [
+            "Oceanic",
+            "Abyssal",
+            "Spectral"
+        ],
         "speed": 3.2,
         "force": 3.97,
         "weight": 6.5333333,
@@ -162,6 +171,9 @@
         "type": "Western",
         "rarity": "Rare",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic"
+        ],
         "speed": 2.7800305,
         "force": 4.733177,
         "weight": 9.690686,
@@ -241,6 +253,11 @@
         "type": "Mountain",
         "rarity": "Uncommon",
         "control": "Hold",
+        "breeding_eggs": [
+            "Golem",
+            "Stormy",
+            "Tetric"
+        ],
         "speed": 3.1254787,
         "force": 5.2092443,
         "weight": 9.725746,
@@ -320,6 +337,9 @@
         "type": "Western",
         "rarity": "Legendary",
         "control": "Tap",
+        "breeding_eggs": [
+            "Wyvern"
+        ],
         "speed": 2.8320737,
         "force": 5.249508,
         "weight": 9.491578,
@@ -399,6 +419,11 @@
         "type": "Western",
         "rarity": "Epic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic",
+            "Plant",
+            "Love"
+        ],
         "speed": 2.7936933,
         "force": 4.974963,
         "weight": 9.649852,
@@ -478,6 +503,10 @@
         "type": "Feathered",
         "rarity": "Rare",
         "control": "Tap",
+        "breeding_eggs": [
+            "Gryphon",
+            "Frost"
+        ],
         "speed": 3.309279,
         "force": 4.683709,
         "weight": 9.650021,
@@ -557,6 +586,10 @@
         "type": "Fairy",
         "rarity": "Epic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Chrysalis",
+            "Tetric"
+        ],
         "speed": 2.9907289,
         "force": 4.8569455,
         "weight": 9.480357,
@@ -634,6 +667,10 @@
         "type": "Feathered",
         "rarity": "Common",
         "control": "Tap",
+        "breeding_eggs": [
+            "Gryphon",
+            "Optical"
+        ],
         "speed": 2.9158545,
         "force": 5.0175734,
         "weight": 9.547264,
@@ -711,6 +748,9 @@
         "type": "Eastern",
         "rarity": "Legendary",
         "control": "Tap",
+        "breeding_eggs": [
+            "Behemoth"
+        ],
         "speed": 2.7430592,
         "force": 5.1840625,
         "weight": 9.953726,
@@ -790,6 +830,11 @@
         "type": "Mountain",
         "rarity": "Legendary",
         "control": "Follow",
+        "breeding_eggs": [
+            "Golem",
+            "Stormy",
+            "Boreal"
+        ],
         "speed": 3.42,
         "force": 0,
         "weight": 0,
@@ -869,6 +914,10 @@
         "type": "Leviathan",
         "rarity": "Rare",
         "control": "RTap",
+        "breeding_eggs": [
+            "Oceanic",
+            "Abyssal"
+        ],
         "speed": 3.21,
         "force": 3.93,
         "weight": 6.5333333,
@@ -948,6 +997,11 @@
         "type": "Feathered",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Cockatrice",
+            "Marine",
+            "Anniversary"
+        ],
         "speed": 3.3182836,
         "force": 4.8007116,
         "weight": 9.466517,
@@ -1027,6 +1081,9 @@
         "type": "Western",
         "rarity": "Rare",
         "control": "Tap",
+        "breeding_eggs": [
+            "Behemoth"
+        ],
         "speed": 3.193678,
         "force": 4.754333,
         "weight": 9.605738,
@@ -1106,6 +1163,10 @@
         "type": "Fairy",
         "rarity": "Common",
         "control": "Tap",
+        "breeding_eggs": [
+            "Chrysalis",
+            "Optical"
+        ],
         "speed": 2.9699907,
         "force": 3.95,
         "weight": 9.858187,
@@ -1185,6 +1246,9 @@
         "type": "Fairy",
         "rarity": "Rare",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pyrausta"
+        ],
         "speed": 3.15,
         "force": 3.65,
         "weight": 10.15,
@@ -1262,6 +1326,10 @@
         "type": "Leviathan",
         "rarity": "Rare",
         "control": "RTap",
+        "breeding_eggs": [
+            "Oceanic",
+            "Abyssal"
+        ],
         "speed": 3.07,
         "force": 3.91,
         "weight": 6.5333333,
@@ -1341,6 +1409,11 @@
         "type": "Mountain",
         "rarity": "Legendary",
         "control": "Hold",
+        "breeding_eggs": [
+            "Drake",
+            "Heart",
+            "Anniversary"
+        ],
         "speed": 2.75,
         "force": 5,
         "weight": 10,
@@ -1418,6 +1491,11 @@
         "type": "Eastern",
         "rarity": "Uncommon",
         "control": "Follow",
+        "breeding_eggs": [
+            "Drake",
+            "Glitter",
+            "Tetric"
+        ],
         "speed": 2.7611942,
         "force": 0,
         "weight": 0,
@@ -1497,6 +1575,13 @@
         "type": "Eastern",
         "rarity": "Rare",
         "control": "Follow",
+        "breeding_eggs": [
+            "Drake",
+            "Glitter",
+            "Spectral",
+            "Lunar",
+            "Tetric"
+        ],
         "speed": 3.2995367,
         "force": 0,
         "weight": 0,
@@ -1576,6 +1661,11 @@
         "type": "Feathered",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pterodactyl",
+            "Desert",
+            "Plant"
+        ],
         "speed": 3.0610113,
         "force": 4.933096,
         "weight": 10.135007,
@@ -1655,6 +1745,10 @@
         "type": "Mountain",
         "rarity": "Uncommon",
         "control": "Hold",
+        "breeding_eggs": [
+            "Golem",
+            "Suspicious"
+        ],
         "speed": 3,
         "force": 5.221592,
         "weight": 12.3,
@@ -1734,6 +1828,11 @@
         "type": "Feathered",
         "rarity": "Epic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Gryphon",
+            "Heart",
+            "Desert"
+        ],
         "speed": 2.89,
         "force": 4.7511773,
         "weight": 9.937551,
@@ -1813,6 +1912,11 @@
         "type": "Western",
         "rarity": "Mythic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Tattered",
+            "Heart",
+            "Undead"
+        ],
         "speed": 3.5,
         "force": 4.910657,
         "weight": 10.049055,
@@ -1892,6 +1996,10 @@
         "type": "Mountain",
         "rarity": "Uncommon",
         "control": "Hold",
+        "breeding_eggs": [
+            "Golem",
+            "Boreal"
+        ],
         "speed": 2.85,
         "force": 4.65,
         "weight": 11.88,
@@ -1969,6 +2077,11 @@
         "type": "Leviathan",
         "rarity": "Rare",
         "control": "RHold",
+        "breeding_eggs": [
+            "Sea Serpent",
+            "Heart",
+            "Love"
+        ],
         "speed": 2.9663997,
         "force": 4.780038,
         "weight": 10.125167,
@@ -2048,6 +2161,10 @@
         "type": "Western",
         "rarity": "Mythic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Wyvern",
+            "Tetric"
+        ],
         "speed": 3.0762415,
         "force": 5.334715,
         "weight": 10.021029,
@@ -2127,6 +2244,10 @@
         "type": "Fairy",
         "rarity": "Mythic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Unknown",
+            "Anniversary"
+        ],
         "speed": 3.168335,
         "force": 5.213132,
         "weight": 10.116108,
@@ -2206,6 +2327,11 @@
         "type": "Eastern",
         "rarity": "Legendary",
         "control": "Follow",
+        "breeding_eggs": [
+            "Lung",
+            "Artificial",
+            "Synth"
+        ],
         "speed": 3.25,
         "force": 0,
         "weight": 0,
@@ -2283,6 +2409,11 @@
         "type": "Leviathan",
         "rarity": "Rare",
         "control": "RHold",
+        "breeding_eggs": [
+            "Oceanic",
+            "Hydra",
+            "Optical"
+        ],
         "speed": 2.8728733,
         "force": 5.006258,
         "weight": 6.533333,
@@ -2362,6 +2493,11 @@
         "type": "Leviathan",
         "rarity": "Rare",
         "control": "Follow",
+        "breeding_eggs": [
+            "Sea Serpent",
+            "Undead",
+            "Tetric"
+        ],
         "speed": 2.66,
         "force": 0,
         "weight": 0,
@@ -2441,6 +2577,9 @@
         "type": "Feathered",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Gryphon"
+        ],
         "speed": 2.986476,
         "force": 4.708492,
         "weight": 9.783178,
@@ -2520,6 +2659,11 @@
         "type": "Western",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Tattered",
+            "Suspicious",
+            "Tetric"
+        ],
         "speed": 2.946497,
         "force": 5.2699547,
         "weight": 9.632095,
@@ -2599,6 +2743,9 @@
         "type": "Leviathan",
         "rarity": "Epic",
         "control": "RHold",
+        "breeding_eggs": [
+            "Sea Serpent"
+        ],
         "speed": 2.93,
         "force": 4.07,
         "weight": 6.5333333,
@@ -2676,6 +2823,11 @@
         "type": "Western",
         "rarity": "Rare",
         "control": "Tap",
+        "breeding_eggs": [
+            "Tattered",
+            "Tetric",
+            "Undead"
+        ],
         "speed": 2.962079,
         "force": 4.7612576,
         "weight": 9.764408,
@@ -2753,6 +2905,10 @@
         "type": "Leviathan",
         "rarity": "Rare",
         "control": "Follow",
+        "breeding_eggs": [
+            "Oceanic",
+            "Synth"
+        ],
         "speed": 3.0383558,
         "force": 0,
         "weight": 0,
@@ -2830,6 +2986,12 @@
         "type": "Feathered",
         "rarity": "Common",
         "control": "Tap",
+        "breeding_eggs": [
+            "Gryphon",
+            "Celestial",
+            "Heart",
+            "Love"
+        ],
         "speed": 2.769959,
         "force": 5.212009,
         "weight": 9.681389,
@@ -2909,6 +3071,12 @@
         "type": "Feathered",
         "rarity": "Legendary",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic",
+            "Celestial",
+            "Heart",
+            "Love"
+        ],
         "speed": 3.1174173,
         "force": 4.825644,
         "weight": 9.6741085,
@@ -2988,6 +3156,10 @@
         "type": "Mountain",
         "rarity": "Epic",
         "control": "Hold",
+        "breeding_eggs": [
+            "Golem",
+            "Frost"
+        ],
         "speed": 2.915236,
         "force": 5.064985,
         "weight": 12.6,
@@ -3065,6 +3237,10 @@
         "type": "Fairy",
         "rarity": "Rare",
         "control": "Tap",
+        "breeding_eggs": [
+            "Chrysalis",
+            "Heart"
+        ],
         "speed": 2.9,
         "force": 3.9,
         "weight": 9.9,
@@ -3144,6 +3320,10 @@
         "type": "Eastern",
         "rarity": "Epic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic",
+            "Lunar"
+        ],
         "speed": 2.7906342,
         "force": 4.9031487,
         "weight": 9.937693,
@@ -3223,6 +3403,10 @@
         "type": "Western",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic",
+            "Tetric"
+        ],
         "speed": 2.716902,
         "force": 4.719148,
         "weight": 9.815714,
@@ -3300,6 +3484,9 @@
         "type": "Feathered",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pterodactyl"
+        ],
         "speed": 2.6619081,
         "force": 5.13386,
         "weight": 9.705339,
@@ -3379,6 +3566,9 @@
         "type": "Western",
         "rarity": "Common",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic"
+        ],
         "speed": 3,
         "force": 5,
         "weight": 9.8,
@@ -3458,6 +3648,10 @@
         "type": "Fairy",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pyrausta",
+            "Boreal"
+        ],
         "speed": 3.29,
         "force": 3.23,
         "weight": 8.29,
@@ -3537,6 +3731,9 @@
         "type": "Western",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Tattered"
+        ],
         "speed": 2.9140692,
         "force": 5.0105057,
         "weight": 10.049525,
@@ -3616,6 +3813,11 @@
         "type": "Fairy",
         "rarity": "Epic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pyrausta",
+            "Hydra",
+            "Plant"
+        ],
         "speed": 3.2667153,
         "force": 4.717638,
         "weight": 9.600224,
@@ -3693,6 +3895,11 @@
         "type": "Fairy",
         "rarity": "Common",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pyrausta",
+            "Sweet",
+            "Love"
+        ],
         "speed": 3.086063,
         "force": 5.133955,
         "weight": 9.454531,
@@ -3770,6 +3977,10 @@
         "type": "Feathered",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pterodactyl",
+            "Glitter"
+        ],
         "speed": 3.15,
         "force": 4.8962736,
         "weight": 9.936974,
@@ -3849,6 +4060,11 @@
         "type": "Leviathan",
         "rarity": "Epic",
         "control": "RTap",
+        "breeding_eggs": [
+            "Oceanic",
+            "Frost",
+            "Boreal"
+        ],
         "speed": 2.9,
         "force": 4.4,
         "weight": 6.533333,
@@ -3902,8 +4118,8 @@
                 "suffix": "%"
             },
             "SECONDARY_VALUE": {
-                "min": 0,
-                "max": 0,
+                "min": 4,
+                "max": 4,
                 "prefix": null,
                 "suffix": null
             },
@@ -3928,6 +4144,11 @@
         "type": "Western",
         "rarity": "Epic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic",
+            "Spicy",
+            "Frost"
+        ],
         "speed": 2.9892406,
         "force": 5.1920443,
         "weight": 9.658555,
@@ -4007,6 +4228,11 @@
         "type": "Fairy",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Chrysalis",
+            "Spectral",
+            "Sacred"
+        ],
         "speed": 2.8,
         "force": 4.25,
         "weight": 10.10406,
@@ -4086,6 +4312,10 @@
         "type": "Fairy",
         "rarity": "Epic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pyrausta",
+            "Glitter"
+        ],
         "speed": 2.9600334,
         "force": 5.3102875,
         "weight": 9.816603,
@@ -4165,6 +4395,11 @@
         "type": "Mountain",
         "rarity": "Rare",
         "control": "Hold",
+        "breeding_eggs": [
+            "Golem",
+            "Sweet",
+            "Boreal"
+        ],
         "speed": 3.04,
         "force": 4.5,
         "weight": 11.14,
@@ -4242,6 +4477,11 @@
         "type": "Eastern",
         "rarity": "Epic",
         "control": "Follow",
+        "breeding_eggs": [
+            "Lung",
+            "Spectral",
+            "Tetric"
+        ],
         "speed": 3.238108,
         "force": 0,
         "weight": 0,
@@ -4321,6 +4561,9 @@
         "type": "Western",
         "rarity": "Legendary",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic"
+        ],
         "speed": 2.7443395,
         "force": 5,
         "weight": 9.50259,
@@ -4400,6 +4643,12 @@
         "type": "Western",
         "rarity": "Legendary",
         "control": "Tap",
+        "breeding_eggs": [
+            "Tattered",
+            "Heart",
+            "Undead",
+            "Tetric"
+        ],
         "speed": 2.7504594,
         "force": 4.9544373,
         "weight": 9.937517,
@@ -4477,6 +4726,10 @@
         "type": "Feathered",
         "rarity": "Common",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pterodactyl",
+            "Primal"
+        ],
         "speed": 2.9180255,
         "force": 4.9152284,
         "weight": 9.782801,
@@ -4554,6 +4807,11 @@
         "type": "Mountain",
         "rarity": "Rare",
         "control": "Hold",
+        "breeding_eggs": [
+            "Golem",
+            "Plant",
+            "Tetric"
+        ],
         "speed": 2.88,
         "force": 4.54,
         "weight": 11.45,
@@ -4633,6 +4891,11 @@
         "type": "Feathered",
         "rarity": "Rare",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pterodactyl",
+            "Marine",
+            "Boreal"
+        ],
         "speed": 3.43,
         "force": 5.1,
         "weight": 10.1,
@@ -4712,6 +4975,10 @@
         "type": "Feathered",
         "rarity": "Epic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pterodactyl",
+            "Frost"
+        ],
         "speed": 3.25,
         "force": 5.054077,
         "weight": 9.563821,
@@ -4791,6 +5058,10 @@
         "type": "Eastern",
         "rarity": "Legendary",
         "control": "Hold",
+        "breeding_eggs": [
+            "Lyndwurm",
+            "Pyrotechnic"
+        ],
         "speed": 2.7760105,
         "force": 4.960434,
         "weight": 9.450284,
@@ -4870,6 +5141,11 @@
         "type": "Mountain",
         "rarity": "Epic",
         "control": "Hold",
+        "breeding_eggs": [
+            "Golem",
+            "Spicy",
+            "Boreal"
+        ],
         "speed": 3.34,
         "force": 4.27,
         "weight": 11.44,
@@ -4949,6 +5225,10 @@
         "type": "Western",
         "rarity": "Mythic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic",
+            "Spectral"
+        ],
         "speed": 3.15,
         "force": 5.15,
         "weight": 9.847921,
@@ -5028,6 +5308,10 @@
         "type": "Eastern",
         "rarity": "Uncommon",
         "control": "Hold",
+        "breeding_eggs": [
+            "Drake",
+            "Optical"
+        ],
         "speed": 2.9534292,
         "force": 4.9098034,
         "weight": 9.941057,
@@ -5107,6 +5391,10 @@
         "type": "Eastern",
         "rarity": "Rare",
         "control": "Hold",
+        "breeding_eggs": [
+            "Lung",
+            "Pyrotechnic"
+        ],
         "speed": 3.2517376,
         "force": 4.881935,
         "weight": 9.528424,
@@ -5144,7 +5432,9 @@
                 "min": 45,
                 "max": 18
             },
-            "activation_conditions": [],
+            "activation_conditions": [
+                "WhenPickingUpPowerupUp"
+            ],
             "increased_royal_appearence": false,
             "increased_chest_appearence": false,
             "increased_egg_appearence": false,
@@ -5184,6 +5474,11 @@
         "type": "Western",
         "rarity": "Common",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic",
+            "Primal",
+            "Heart"
+        ],
         "speed": 3.2590723,
         "force": 4.7293735,
         "weight": 9.836338,
@@ -5263,6 +5558,10 @@
         "type": "Fairy",
         "rarity": "Legendary",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic",
+            "Primal"
+        ],
         "speed": 2.8979554,
         "force": 5.268949,
         "weight": 9.485727,
@@ -5342,6 +5641,9 @@
         "type": "Fairy",
         "rarity": "Mythic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic"
+        ],
         "speed": 3,
         "force": 5.3102875,
         "weight": 9.816603,
@@ -5419,6 +5721,11 @@
         "type": "Fairy",
         "rarity": "Common",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pyrausta",
+            "Plant",
+            "Tetric"
+        ],
         "speed": 2.8012738,
         "force": 3.68,
         "weight": 9.493787,
@@ -5496,6 +5803,10 @@
         "type": "Western",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Wyvern",
+            "Marine"
+        ],
         "speed": 3.347059,
         "force": 5.201789,
         "weight": 9.67768,
@@ -5575,6 +5886,10 @@
         "type": "Feathered",
         "rarity": "Common",
         "control": "Tap",
+        "breeding_eggs": [
+            "Cockatrice",
+            "Pyrotechnic"
+        ],
         "speed": 2.6607523,
         "force": 5.048148,
         "weight": 10.001744,
@@ -5612,7 +5927,9 @@
                 "min": 0,
                 "max": 0
             },
-            "activation_conditions": [],
+            "activation_conditions": [
+                "WhenGettingMysteryEgg"
+            ],
             "increased_royal_appearence": false,
             "increased_chest_appearence": false,
             "increased_egg_appearence": false,
@@ -5652,6 +5969,9 @@
         "type": "Fairy",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Chrysalis"
+        ],
         "speed": 2.824538,
         "force": 4.8825245,
         "weight": 9.679403,
@@ -5731,6 +6051,10 @@
         "type": "Feathered",
         "rarity": "Mythic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Qilin",
+            "Rainbow"
+        ],
         "speed": 3.15,
         "force": 4.821769,
         "weight": 9.476638,
@@ -5810,6 +6134,11 @@
         "type": "Leviathan",
         "rarity": "Common",
         "control": "RTap",
+        "breeding_eggs": [
+            "Drake",
+            "Psychic",
+            "Abyssal"
+        ],
         "speed": 3,
         "force": 4,
         "weight": 6.533333,
@@ -5889,6 +6218,10 @@
         "type": "Western",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic",
+            "Hydra"
+        ],
         "speed": 3.043025,
         "force": 4.8633747,
         "weight": 9.892456,
@@ -5966,6 +6299,10 @@
         "type": "Leviathan",
         "rarity": "Legendary",
         "control": "RTap",
+        "breeding_eggs": [
+            "Oceanic",
+            "Primal"
+        ],
         "speed": 3,
         "force": 4,
         "weight": 6.5333333,
@@ -6045,6 +6382,11 @@
         "type": "Western",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Wyvern",
+            "Optical",
+            "Tetric"
+        ],
         "speed": 2.773652,
         "force": 5.1747093,
         "weight": 9.839775,
@@ -6124,6 +6466,11 @@
         "type": "Fairy",
         "rarity": "Rare",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pyrausta",
+            "Rainbow",
+            "Tetric"
+        ],
         "speed": 3.1491332,
         "force": 4.848219,
         "weight": 9.921121,
@@ -6203,6 +6550,9 @@
         "type": "Western",
         "rarity": "Common",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic"
+        ],
         "speed": 2.9012103,
         "force": 5.1269364,
         "weight": 10.034415,
@@ -6282,6 +6632,10 @@
         "type": "Eastern",
         "rarity": "Mythic",
         "control": "Hold",
+        "breeding_eggs": [
+            "Behemoth",
+            "Pyrotechnic"
+        ],
         "speed": 3.56789,
         "force": 5.1618004,
         "weight": 9.611142,
@@ -6361,6 +6715,11 @@
         "type": "Leviathan",
         "rarity": "Mythic",
         "control": "Follow",
+        "breeding_eggs": [
+            "Oceanic",
+            "Abyssal",
+            "Hydra"
+        ],
         "speed": 2.75,
         "force": 0,
         "weight": 0,
@@ -6440,6 +6799,11 @@
         "type": "Fairy",
         "rarity": "Epic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pyrausta",
+            "Synth",
+            "Rainbow"
+        ],
         "speed": 2.924899,
         "force": 4.7300754,
         "weight": 9.530998,
@@ -6517,6 +6881,10 @@
         "type": "Leviathan",
         "rarity": "Mythic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Behemoth",
+            "Abyssal"
+        ],
         "speed": 3,
         "force": 4,
         "weight": 6.5333333,
@@ -6596,6 +6964,9 @@
         "type": "Fairy",
         "rarity": "Epic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pyrausta"
+        ],
         "speed": 3.1,
         "force": 4.3,
         "weight": 9.7,
@@ -6675,6 +7046,11 @@
         "type": "Leviathan",
         "rarity": "Epic",
         "control": "RTap",
+        "breeding_eggs": [
+            "Oceanic",
+            "Rainbow",
+            "Boreal"
+        ],
         "speed": 3.1237583,
         "force": 3.92248,
         "weight": 6.533333,
@@ -6754,6 +7130,11 @@
         "type": "Feathered",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pterodactyl",
+            "Marine",
+            "Optical"
+        ],
         "speed": 2.8844748,
         "force": 5.0315933,
         "weight": 9.492855,
@@ -6833,6 +7214,11 @@
         "type": "Feathered",
         "rarity": "Rare",
         "control": "Tap",
+        "breeding_eggs": [
+            "Gryphon",
+            "Time",
+            "Desert"
+        ],
         "speed": 3.3322315,
         "force": 5.2768683,
         "weight": 9.522257,
@@ -6912,6 +7298,11 @@
         "type": "Western",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Tattered",
+            "Artificial",
+            "Synth"
+        ],
         "speed": 3.1633692,
         "force": 4.8555174,
         "weight": 10.145099,
@@ -6989,6 +7380,10 @@
         "type": "Mountain",
         "rarity": "Legendary",
         "control": "Hold",
+        "breeding_eggs": [
+            "Golem",
+            "Suspicious"
+        ],
         "speed": 2.915236,
         "force": 5.064985,
         "weight": 11.75,
@@ -7068,6 +7463,9 @@
         "type": "Fairy",
         "rarity": "Common",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pyrausta"
+        ],
         "speed": 3,
         "force": 4,
         "weight": 9.8,
@@ -7147,6 +7545,11 @@
         "type": "Feathered",
         "rarity": "Rare",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pterodactyl",
+            "Psychic",
+            "Desert"
+        ],
         "speed": 2.979814,
         "force": 4.931316,
         "weight": 9.874092,
@@ -7226,6 +7629,10 @@
         "type": "Western",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Wyvern",
+            "Desert"
+        ],
         "speed": 2.6746044,
         "force": 5.1383123,
         "weight": 9.832998,
@@ -7305,6 +7712,9 @@
         "type": "Western",
         "rarity": "Epic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Behemoth"
+        ],
         "speed": 2.9169397,
         "force": 4.924682,
         "weight": 9.709972,
@@ -7384,6 +7794,10 @@
         "type": "Mountain",
         "rarity": "Mythic",
         "control": "Follow",
+        "breeding_eggs": [
+            "Golem",
+            "Boreal"
+        ],
         "speed": 3.101,
         "force": 0,
         "weight": 0,
@@ -7463,6 +7877,13 @@
         "type": "Feathered",
         "rarity": "Common",
         "control": "Tap",
+        "breeding_eggs": [
+            "Gryphon",
+            "Celestial",
+            "Heart",
+            "Stormy",
+            "Love"
+        ],
         "speed": 3.1903663,
         "force": 5.225259,
         "weight": 10.142017,
@@ -7540,6 +7961,11 @@
         "type": "Eastern",
         "rarity": "Legendary",
         "control": "Follow",
+        "breeding_eggs": [
+            "Lung",
+            "Celestial",
+            "Boreal"
+        ],
         "speed": 3.33,
         "force": 0,
         "weight": 0,
@@ -7619,6 +8045,10 @@
         "type": "Fairy",
         "rarity": "Rare",
         "control": "RHold",
+        "breeding_eggs": [
+            "Drake",
+            "Undead"
+        ],
         "speed": 2.8979554,
         "force": 5.268949,
         "weight": 9.485727,
@@ -7698,6 +8128,11 @@
         "type": "Western",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic",
+            "Lunar",
+            "Tetric"
+        ],
         "speed": 2.8012443,
         "force": 4.8279037,
         "weight": 9.639923,
@@ -7777,6 +8212,9 @@
         "type": "Mountain",
         "rarity": "Common",
         "control": "Hold",
+        "breeding_eggs": [
+            "Golem"
+        ],
         "speed": 2.7653773,
         "force": 4.7710934,
         "weight": 11.45,
@@ -7856,6 +8294,11 @@
         "type": "Feathered",
         "rarity": "Rare",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pterodactyl",
+            "Desert",
+            "Time"
+        ],
         "speed": 2.8126526,
         "force": 5.290673,
         "weight": 10.119093,
@@ -7935,6 +8378,11 @@
         "type": "Eastern",
         "rarity": "Epic",
         "control": "Follow",
+        "breeding_eggs": [
+            "Drake",
+            "Optical",
+            "Tetric"
+        ],
         "speed": 3.174535,
         "force": 0,
         "weight": 0,
@@ -8012,6 +8460,10 @@
         "type": "Leviathan",
         "rarity": "Rare",
         "control": "Tap",
+        "breeding_eggs": [
+            "Wyvern",
+            "Abyssal"
+        ],
         "speed": 3,
         "force": 4,
         "weight": 6.5333333,
@@ -8091,6 +8543,10 @@
         "type": "Eastern",
         "rarity": "Legendary",
         "control": "Follow",
+        "breeding_eggs": [
+            "Drake",
+            "Boreal"
+        ],
         "speed": 3.19,
         "force": 0,
         "weight": 0,
@@ -8168,6 +8624,10 @@
         "type": "Mountain",
         "rarity": "Mythic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Golem",
+            "Primal"
+        ],
         "speed": 2.9125,
         "force": 5.064985,
         "weight": 13,
@@ -8247,6 +8707,11 @@
         "type": "Leviathan",
         "rarity": "Epic",
         "control": "RTap",
+        "breeding_eggs": [
+            "Oceanic",
+            "Undead",
+            "Heart"
+        ],
         "speed": 3.1,
         "force": 3.91,
         "weight": 6.5333333,
@@ -8326,6 +8791,11 @@
         "type": "Eastern",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Wyvern",
+            "Artificial",
+            "Pyrotechnic"
+        ],
         "speed": 3.0650015,
         "force": 4.826258,
         "weight": 9.713636,
@@ -8363,7 +8833,9 @@
                 "min": 0,
                 "max": 0
             },
-            "activation_conditions": [],
+            "activation_conditions": [
+                "WhenEnteringRift"
+            ],
             "increased_royal_appearence": false,
             "increased_chest_appearence": false,
             "increased_egg_appearence": false,
@@ -8403,6 +8875,11 @@
         "type": "Western",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic",
+            "Spicy",
+            "Tetric"
+        ],
         "speed": 3.2625115,
         "force": 5.0694695,
         "weight": 9.991308,
@@ -8482,6 +8959,10 @@
         "type": "Fairy",
         "rarity": "Legendary",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pyrausta",
+            "Glitter"
+        ],
         "speed": 2.85,
         "force": 4.85,
         "weight": 9.85,
@@ -8561,6 +9042,10 @@
         "type": "Western",
         "rarity": "Rare",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic",
+            "Synth"
+        ],
         "speed": 3.2478902,
         "force": 5.2383122,
         "weight": 9.694594,
@@ -8640,6 +9125,10 @@
         "type": "Fairy",
         "rarity": "Common",
         "control": "Tap",
+        "breeding_eggs": [
+            "Chrysalis",
+            "Glitter"
+        ],
         "speed": 3.1417122,
         "force": 3.5,
         "weight": 8,
@@ -8717,6 +9206,10 @@
         "type": "Feathered",
         "rarity": "Epic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Gryphon",
+            "Tetric"
+        ],
         "speed": 3.1936731,
         "force": 4.716975,
         "weight": 9.794395,
@@ -8794,6 +9287,10 @@
         "type": "Feathered",
         "rarity": "Epic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Cockatrice",
+            "Primal"
+        ],
         "speed": 3,
         "force": 5,
         "weight": 9.8,
@@ -8873,6 +9370,10 @@
         "type": "Feathered",
         "rarity": "Legendary",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic",
+            "Sacred"
+        ],
         "speed": 3.0174913,
         "force": 5.0206404,
         "weight": 9.984726,
@@ -8952,6 +9453,10 @@
         "type": "Eastern",
         "rarity": "Epic",
         "control": "Follow",
+        "breeding_eggs": [
+            "Lyndwurm",
+            "Pyrotechnic"
+        ],
         "speed": 3.22,
         "force": 0,
         "weight": 0,
@@ -9029,6 +9534,9 @@
         "type": "Fairy",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Chrysalis"
+        ],
         "speed": 3.3,
         "force": 4.6,
         "weight": 9.6,
@@ -9106,6 +9614,9 @@
         "type": "Fairy",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Chrysalis"
+        ],
         "speed": 3.2,
         "force": 3.7,
         "weight": 10,
@@ -9185,6 +9696,11 @@
         "type": "Cosmic",
         "rarity": "Legendary",
         "control": "Follow",
+        "breeding_eggs": [
+            "Drake",
+            "Stellar",
+            "Sweet"
+        ],
         "speed": 3.33,
         "force": 0,
         "weight": 0,
@@ -9264,6 +9780,9 @@
         "type": "Fairy",
         "rarity": "Common",
         "control": "Tap",
+        "breeding_eggs": [
+            "Chrysalis"
+        ],
         "speed": 2.7992482,
         "force": 3.9,
         "weight": 10.147578,
@@ -9341,6 +9860,11 @@
         "type": "Mountain",
         "rarity": "Uncommon",
         "control": "Hold",
+        "breeding_eggs": [
+            "Golem",
+            "Frost",
+            "Boreal"
+        ],
         "speed": 2.95,
         "force": 4.96,
         "weight": 11.23,
@@ -9420,6 +9944,11 @@
         "type": "Feathered",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Gryphon",
+            "Heart",
+            "Love"
+        ],
         "speed": 2.738917,
         "force": 4.851482,
         "weight": 10.118369,
@@ -9499,6 +10028,10 @@
         "type": "Western",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic",
+            "Boreal"
+        ],
         "speed": 2.678722,
         "force": 5.2529035,
         "weight": 9.607339,
@@ -9576,6 +10109,11 @@
         "type": "Western",
         "rarity": "Rare",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic",
+            "Marine",
+            "Spicy"
+        ],
         "speed": 3.0929446,
         "force": 5.3344874,
         "weight": 9.880485,
@@ -9655,6 +10193,11 @@
         "type": "Western",
         "rarity": "Rare",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic",
+            "Marine",
+            "Psychic"
+        ],
         "speed": 3.1973174,
         "force": 5.1134825,
         "weight": 9.810488,
@@ -9734,6 +10277,10 @@
         "type": "Leviathan",
         "rarity": "Uncommon",
         "control": "RTap",
+        "breeding_eggs": [
+            "Drake",
+            "Spicy"
+        ],
         "speed": 2.8,
         "force": 4,
         "weight": 6.5333333,
@@ -9813,6 +10360,12 @@
         "type": "Eastern",
         "rarity": "Epic",
         "control": "Follow",
+        "breeding_eggs": [
+            "Lung",
+            "Celestial",
+            "Heart",
+            "Love"
+        ],
         "speed": 3.44,
         "force": 0,
         "weight": 0,
@@ -9892,6 +10445,10 @@
         "type": "Feathered",
         "rarity": "Common",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pterodactyl",
+            "Marine"
+        ],
         "speed": 2.821993,
         "force": 5.184866,
         "weight": 9.784044,
@@ -9971,6 +10528,10 @@
         "type": "Feathered",
         "rarity": "Mythic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Gryphon",
+            "Synth"
+        ],
         "speed": 3.2687101,
         "force": 4.876979,
         "weight": 9.475666,
@@ -10050,6 +10611,11 @@
         "type": "Fairy",
         "rarity": "Epic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pyrausta",
+            "Stellar",
+            "Lunar"
+        ],
         "speed": 2.85,
         "force": 4.15,
         "weight": 9.85,
@@ -10129,6 +10695,10 @@
         "type": "Western",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Wyvern",
+            "Frost"
+        ],
         "speed": 2.9010005,
         "force": 4.921509,
         "weight": 9.695175,
@@ -10206,6 +10776,12 @@
         "type": "Feathered",
         "rarity": "Legendary",
         "control": "Tap",
+        "breeding_eggs": [
+            "Cockatrice",
+            "Sacred",
+            "Spectral",
+            "Tetric"
+        ],
         "speed": 3.3266408,
         "force": 4.820983,
         "weight": 9.47782,
@@ -10283,6 +10859,12 @@
         "type": "Leviathan",
         "rarity": "Uncommon",
         "control": "RTap",
+        "breeding_eggs": [
+            "Oceanic",
+            "Primal",
+            "Frost",
+            "Boreal"
+        ],
         "speed": 2.66,
         "force": 4.48,
         "weight": 7.13,
@@ -10362,6 +10944,10 @@
         "type": "Western",
         "rarity": "Rare",
         "control": "Tap",
+        "breeding_eggs": [
+            "Wyvern",
+            "Tetric"
+        ],
         "speed": 3,
         "force": 5,
         "weight": 9.8,
@@ -10439,6 +11025,10 @@
         "type": "Western",
         "rarity": "Common",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic",
+            "Marine"
+        ],
         "speed": 3.2,
         "force": 4.8286924,
         "weight": 9.593062,
@@ -10516,6 +11106,11 @@
         "type": "Fairy",
         "rarity": "Epic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Wyvern",
+            "Plant",
+            "Suspicious"
+        ],
         "speed": 3.133484,
         "force": 4.8188734,
         "weight": 9.600722,
@@ -10595,6 +11190,10 @@
         "type": "Fairy",
         "rarity": "Common",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pyrausta",
+            "Glitter"
+        ],
         "speed": 3.0890925,
         "force": 4.1,
         "weight": 9.67783,
@@ -10674,6 +11273,10 @@
         "type": "Feathered",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Gryphon",
+            "Suspicious"
+        ],
         "speed": 3.020217,
         "force": 4.6533427,
         "weight": 9.98573,
@@ -10751,6 +11354,9 @@
         "type": "Western",
         "rarity": "Epic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Behemoth"
+        ],
         "speed": 2.9331684,
         "force": 5.2455297,
         "weight": 9.483511,
@@ -10830,6 +11436,10 @@
         "type": "Fairy",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pyrausta",
+            "Plant"
+        ],
         "speed": 3.17,
         "force": 3.67,
         "weight": 9.99,
@@ -10909,6 +11519,10 @@
         "type": "Leviathan",
         "rarity": "Uncommon",
         "control": "RTap",
+        "breeding_eggs": [
+            "Drake",
+            "Psychic"
+        ],
         "speed": 3.17,
         "force": 3.93,
         "weight": 6.5333333,
@@ -10986,6 +11600,10 @@
         "type": "Mountain",
         "rarity": "Rare",
         "control": "Hold",
+        "breeding_eggs": [
+            "Golem",
+            "Spicy"
+        ],
         "speed": 2.915236,
         "force": 5.064985,
         "weight": 11.8,
@@ -11063,6 +11681,10 @@
         "type": "Mountain",
         "rarity": "Uncommon",
         "control": "Hold",
+        "breeding_eggs": [
+            "Golem",
+            "Synth"
+        ],
         "speed": 2.9075136,
         "force": 4.7267313,
         "weight": 12,
@@ -11142,6 +11764,13 @@
         "type": "Western",
         "rarity": "Rare",
         "control": "Tap",
+        "breeding_eggs": [
+            "Tattered",
+            "Spicy",
+            "Stormy",
+            "Frost",
+            "Hydra"
+        ],
         "speed": 3.305114,
         "force": 5.0751066,
         "weight": 9.509615,
@@ -11219,6 +11848,10 @@
         "type": "Leviathan",
         "rarity": "Uncommon",
         "control": "Follow",
+        "breeding_eggs": [
+            "Oceanic",
+            "Synth"
+        ],
         "speed": 3.167591,
         "force": 0,
         "weight": 0,
@@ -11296,6 +11929,13 @@
         "type": "Mountain",
         "rarity": "Rare",
         "control": "Tap",
+        "breeding_eggs": [
+            "Golem",
+            "Primal",
+            "Heart",
+            "Frost",
+            "Boreal"
+        ],
         "speed": 2.89,
         "force": 5.1,
         "weight": 12.5,
@@ -11375,6 +12015,11 @@
         "type": "Western",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Wyvern",
+            "Primal",
+            "Desert"
+        ],
         "speed": 2.9069505,
         "force": 4.798941,
         "weight": 9.614716,
@@ -11454,6 +12099,10 @@
         "type": "Feathered",
         "rarity": "Common",
         "control": "Tap",
+        "breeding_eggs": [
+            "Cockatrice",
+            "Hydra"
+        ],
         "speed": 3.1243012,
         "force": 4.917107,
         "weight": 9.850547,
@@ -11533,6 +12182,10 @@
         "type": "Feathered",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Behemoth",
+            "Hydra"
+        ],
         "speed": 3.2865725,
         "force": 5.108184,
         "weight": 9.753513,
@@ -11610,6 +12263,10 @@
         "type": "Leviathan",
         "rarity": "Epic",
         "control": "RTap",
+        "breeding_eggs": [
+            "Sea Serpent",
+            "Heart"
+        ],
         "speed": 3.19,
         "force": 4.24,
         "weight": 6.5333333,
@@ -11689,6 +12346,11 @@
         "type": "Eastern",
         "rarity": "Rare",
         "control": "Hold",
+        "breeding_eggs": [
+            "Drake",
+            "Spicy",
+            "Anniversary"
+        ],
         "speed": 2.703145,
         "force": 5.0776234,
         "weight": 10.07,
@@ -11768,6 +12430,10 @@
         "type": "Feathered",
         "rarity": "Epic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pterodactyl",
+            "Tetric"
+        ],
         "speed": 3.0138273,
         "force": 5.095995,
         "weight": 10.034138,
@@ -11847,6 +12513,10 @@
         "type": "Mountain",
         "rarity": "Epic",
         "control": "Hold",
+        "breeding_eggs": [
+            "Undead",
+            "Hydra"
+        ],
         "speed": 2.75,
         "force": 4.75,
         "weight": 9.25,
@@ -11926,6 +12596,10 @@
         "type": "Feathered",
         "rarity": "Legendary",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pterodactyl",
+            "Spicy"
+        ],
         "speed": 3.166193,
         "force": 5.209609,
         "weight": 9.786282,
@@ -12005,6 +12679,10 @@
         "type": "Leviathan",
         "rarity": "Legendary",
         "control": "Follow",
+        "breeding_eggs": [
+            "Oceanic",
+            "Boreal"
+        ],
         "speed": 2.5,
         "force": 0,
         "weight": 0,
@@ -12084,6 +12762,10 @@
         "type": "Eastern",
         "rarity": "Mythic",
         "control": "Follow",
+        "breeding_eggs": [
+            "Lyndwurm",
+            "Boreal"
+        ],
         "speed": 3.33,
         "force": 0,
         "weight": 0,
@@ -12163,6 +12845,10 @@
         "type": "Fairy",
         "rarity": "Common",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pyrausta",
+            "Anniversary"
+        ],
         "speed": 2.5,
         "force": 4.25,
         "weight": 9.25,
@@ -12242,6 +12928,9 @@
         "type": "Cosmic",
         "rarity": "Legendary",
         "control": "Follow",
+        "breeding_eggs": [
+            "Unknown"
+        ],
         "speed": 3.5,
         "force": 0,
         "weight": 0,
@@ -12321,6 +13010,9 @@
         "type": "Cosmic",
         "rarity": "Common",
         "control": "Follow",
+        "breeding_eggs": [
+            "Drake"
+        ],
         "speed": 3,
         "force": 0,
         "weight": 0,
@@ -12400,6 +13092,9 @@
         "type": "Cosmic",
         "rarity": "Uncommon",
         "control": "Follow",
+        "breeding_eggs": [
+            "Artificial"
+        ],
         "speed": 2.88,
         "force": 0,
         "weight": 0,
@@ -12479,6 +13174,9 @@
         "type": "Cosmic",
         "rarity": "Epic",
         "control": "Follow",
+        "breeding_eggs": [
+            "Unknown"
+        ],
         "speed": 3.75,
         "force": 0,
         "weight": 0,
@@ -12558,6 +13256,9 @@
         "type": "Cosmic",
         "rarity": "Rare",
         "control": "Follow",
+        "breeding_eggs": [
+            "Unknown"
+        ],
         "speed": 3,
         "force": 0,
         "weight": 0,
@@ -12635,6 +13336,10 @@
         "type": "Cosmic",
         "rarity": "Common",
         "control": "Follow",
+        "breeding_eggs": [
+            "Drake",
+            "Stellar"
+        ],
         "speed": 2.9,
         "force": 0,
         "weight": 0,
@@ -12714,6 +13419,11 @@
         "type": "Cosmic",
         "rarity": "Epic",
         "control": "Follow",
+        "breeding_eggs": [
+            "Lung",
+            "Artificial",
+            "Synth"
+        ],
         "speed": 3.2478902,
         "force": 0,
         "weight": 0,
@@ -12791,6 +13501,10 @@
         "type": "Cosmic",
         "rarity": "Epic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic",
+            "Stellar"
+        ],
         "speed": 2.9600334,
         "force": 5.3102875,
         "weight": 9.816603,
@@ -12870,6 +13584,10 @@
         "type": "Cosmic",
         "rarity": "Mythic",
         "control": "Follow",
+        "breeding_eggs": [
+            "Drake",
+            "Artificial"
+        ],
         "speed": 4.25,
         "force": 0,
         "weight": 0,
@@ -12947,6 +13665,12 @@
         "type": "Cosmic",
         "rarity": "Epic",
         "control": "Follow",
+        "breeding_eggs": [
+            "Qilin",
+            "Artificial",
+            "Rainbow",
+            "Anniversary"
+        ],
         "speed": 3.15,
         "force": 0,
         "weight": 0,
@@ -13024,6 +13748,10 @@
         "type": "Cosmic",
         "rarity": "Epic",
         "control": "Follow",
+        "breeding_eggs": [
+            "Artificial",
+            "Synth"
+        ],
         "speed": 3,
         "force": 0,
         "weight": 0,
@@ -13101,6 +13829,12 @@
         "type": "Cosmic",
         "rarity": "Common",
         "control": "Follow",
+        "breeding_eggs": [
+            "Classic",
+            "Artificial",
+            "Time",
+            "Synth"
+        ],
         "speed": 2.98765,
         "force": 0,
         "weight": 0,
@@ -13178,6 +13912,9 @@
         "type": "Cosmic",
         "rarity": "Rare",
         "control": "Follow",
+        "breeding_eggs": [
+            "Behemoth"
+        ],
         "speed": 3.25,
         "force": 0,
         "weight": 0,
@@ -13257,6 +13994,10 @@
         "type": "Cosmic",
         "rarity": "Rare",
         "control": "Tap",
+        "breeding_eggs": [
+            "Tattered",
+            "Hydra"
+        ],
         "speed": 3.170641,
         "force": 4.9984922,
         "weight": 9.8355665,
@@ -13336,6 +14077,11 @@
         "type": "Cosmic",
         "rarity": "Epic",
         "control": "Follow",
+        "breeding_eggs": [
+            "Unknown",
+            "Undead",
+            "Hydra"
+        ],
         "speed": 3.75,
         "force": 0,
         "weight": 0,
@@ -13413,6 +14159,10 @@
         "type": "Cosmic",
         "rarity": "Legendary",
         "control": "Tap",
+        "breeding_eggs": [
+            "Wyvern",
+            "Stellar"
+        ],
         "speed": 2.8,
         "force": 4.2,
         "weight": 6.533333,
@@ -13492,6 +14242,10 @@
         "type": "Cosmic",
         "rarity": "Epic",
         "control": "RHold",
+        "breeding_eggs": [
+            "Lung",
+            "Spectral"
+        ],
         "speed": 2.7264378,
         "force": 5.186934,
         "weight": 9.5569315,
@@ -13569,6 +14323,9 @@
         "type": "Eastern",
         "rarity": "Rare",
         "control": "Hold",
+        "breeding_eggs": [
+            "Lung"
+        ],
         "speed": 3.070005,
         "force": 5.071222,
         "weight": 9.948628,
@@ -13648,6 +14405,10 @@
         "type": "Western",
         "rarity": "Rare",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic",
+            "Sacred"
+        ],
         "speed": 3.3371363,
         "force": 4.830953,
         "weight": 10.032238,
@@ -13707,7 +14468,7 @@
                 "suffix": null
             },
             "description": {
-                "en": "Release an electric discharge. Each flap reduce the cooldown {[PRIMARY_VALUE]} second.",
+                "en": "Release an electric discharge. Each flap reduces the cooldown by {[PRIMARY_VALUE]} second.",
                 "es": "Libera una descarga eléctrica. Cada solapa reduce el enfriamiento {[PRIMARY_VALUE]} segundo.",
                 "de": "Löse eine elektrische Entladung aus. Jede Klappe reduziert die Abklingzeit um {[PRIMARY_VALUE]} Sekunde.",
                 "fr": "Libère une décharge électrique. Chaque battement d'ailes réduit le temps de recharge de {[PRIMARY_VALUE]} seconde.",
@@ -13727,6 +14488,10 @@
         "type": "Fairy",
         "rarity": "Rare",
         "control": "Tap",
+        "breeding_eggs": [
+            "Chrysalis",
+            "Desert"
+        ],
         "speed": 2.9,
         "force": 3.8,
         "weight": 10.15,
@@ -13806,6 +14571,11 @@
         "type": "Eastern",
         "rarity": "Legendary",
         "control": "Follow",
+        "breeding_eggs": [
+            "Lung",
+            "Undead",
+            "Tetric"
+        ],
         "speed": 3.3340166,
         "force": 0,
         "weight": 0,
@@ -13885,6 +14655,11 @@
         "type": "Feathered",
         "rarity": "Common",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pterodactyl",
+            "Sacred",
+            "Rainbow"
+        ],
         "speed": 3.328026,
         "force": 5.3409867,
         "weight": 9.479305,
@@ -13964,6 +14739,12 @@
         "type": "Leviathan",
         "rarity": "Uncommon",
         "control": "Tap",
+        "breeding_eggs": [
+            "Tattered",
+            "Sacred",
+            "Heart",
+            "Love"
+        ],
         "speed": 3.2617354,
         "force": 5.2639017,
         "weight": 9.571764,
@@ -14043,6 +14824,10 @@
         "type": "Cosmic",
         "rarity": "Mythic",
         "control": "Tap",
+        "breeding_eggs": [
+            "Pterodactyl",
+            "Artificial"
+        ],
         "speed": 3.15,
         "force": 5.15,
         "weight": 10,
@@ -14122,6 +14907,11 @@
         "type": "Western",
         "rarity": "Legendary",
         "control": "Tap",
+        "breeding_eggs": [
+            "Tattered",
+            "Undead",
+            "Heart"
+        ],
         "speed": 2.8,
         "force": 4.8768272,
         "weight": 10.095843,
@@ -14201,6 +14991,9 @@
         "type": "Eastern",
         "rarity": "Rare",
         "control": "Hold",
+        "breeding_eggs": [
+            "Lung"
+        ],
         "speed": 3.1847625,
         "force": 4.8585114,
         "weight": 9.9367285,
@@ -14280,6 +15073,10 @@
         "type": "Eastern",
         "rarity": "Legendary",
         "control": "Hold",
+        "breeding_eggs": [
+            "Oceanic",
+            "Hydra"
+        ],
         "speed": 2.7441275,
         "force": 5.20806,
         "weight": 9.558893,
@@ -14359,6 +15156,11 @@
         "type": "Mountain",
         "rarity": "Epic",
         "control": "Follow",
+        "breeding_eggs": [
+            "Golem",
+            "Artificial",
+            "Boreal"
+        ],
         "speed": 2.1,
         "force": 0,
         "weight": 0,
@@ -14438,6 +15240,9 @@
         "type": "Eastern",
         "rarity": "Common",
         "control": "Hold",
+        "breeding_eggs": [
+            "Drake"
+        ],
         "speed": 3.225714,
         "force": 4.7742567,
         "weight": 9.959803,
@@ -14517,6 +15322,12 @@
         "type": "Eastern",
         "rarity": "Epic",
         "control": "Follow",
+        "breeding_eggs": [
+            "Qilin",
+            "Frost",
+            "Spectral",
+            "Boreal"
+        ],
         "speed": 3.6666,
         "force": 0,
         "weight": 0,
@@ -14596,6 +15407,10 @@
         "type": "Cosmic",
         "rarity": "Mythic",
         "control": "Follow",
+        "breeding_eggs": [
+            "Drake",
+            "Love"
+        ],
         "speed": 4,
         "force": 0,
         "weight": 0,
@@ -14675,6 +15490,10 @@
         "type": "Eastern",
         "rarity": "Mythic",
         "control": "Hold",
+        "breeding_eggs": [
+            "Lung",
+            "Stormy"
+        ],
         "speed": 3.2766051,
         "force": 4.993117,
         "weight": 9.5670395,
@@ -14754,6 +15573,10 @@
         "type": "Western",
         "rarity": "Common",
         "control": "Tap",
+        "breeding_eggs": [
+            "Classic",
+            "Stormy"
+        ],
         "speed": 2.7446032,
         "force": 4.780766,
         "weight": 9.533936,
@@ -14831,6 +15654,12 @@
         "type": "Eastern",
         "rarity": "Rare",
         "control": "Follow",
+        "breeding_eggs": [
+            "Lung",
+            "Artificial",
+            "Synth",
+            "Spectral"
+        ],
         "speed": 2.8101804,
         "force": 0,
         "weight": 0,
