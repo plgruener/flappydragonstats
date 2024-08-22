@@ -2826,6 +2826,85 @@
         }
     },
     {
+        "name": "Ebenu",
+        "type": "Feathered",
+        "rarity": "Common",
+        "control": "Tap",
+        "speed": 2.769959,
+        "force": 5.212009,
+        "weight": 9.681389,
+        "description": {
+            "en": "Their cloud-like wings allow them to contain heat, helping them to reach dizzying heights and withstand freezing temperatures.",
+            "es": "Sus alas similares a nubes les permiten retener calor, ayudándoles a alcanzar alturas vertiginosas y resistir temperaturas de congelación.",
+            "de": "Ihre wolkenähnlichen Flügel ermöglichen es ihnen, Wärme zu speichern, was ihnen hilft, schwindelerregende Höhen zu erreichen und eisigen Temperaturen standzuhalten.",
+            "fr": "Leurs ailes semblables à des nuages leur permettent de retenir la chaleur, les aidant à atteindre des hauteurs vertigineuses et à résister à des températures glaciales.",
+            "it": "Le loro ali simili a nuvole consentono loro di trattenere il calore, aiutandoli a raggiungere altezze vertiginose e a resistere a temperature gelide.",
+            "nl": "Hun wolkachtige vleugels stellen hen in staat warmte vast te houden, wat hen helpt duizelingwekkende hoogten te bereiken en vriestemperaturen te weerstaan.",
+            "pt": "As suas asas semelhantes a nuvens permitem-lhes reter calor, ajudando-os a alcançar alturas vertiginosas e a resistir a temperaturas de congelamento.",
+            "ru": "Их облачные крылья позволяют удерживать тепло, помогая достигать головокружительных высот и выдерживать замораживающие температуры.",
+            "ja": "彼らの雲のような翼は熱を保持することを可能にし、それによって彼らは目眩く高さに達し、凍結温度に耐えることを助けます。",
+            "zh": "他們的雲朵般的翅膀讓他們能夠保留熱量，幫助他們達到令人眩暈的高度並抵抗凍結溫度。",
+            "zh-CN": "他们的云朵般的翅膀使他们能够保留热量，帮助他们达到令人眩晕的高度并抵抗冰冻温度。",
+            "ko": "그들의 구름 같은 날개는 그들이 열을 유지할 수 있게 해주어, 어지러운 높이에 도달하고 동결 온도를 견딜 수 있게 도와줍니다."
+        },
+        "skill": {
+            "name": {
+                "en": "Devotion",
+                "es": "Devoción",
+                "de": "Hingabe",
+                "fr": "Dévotion",
+                "it": "Devozione",
+                "nl": "Toewijding",
+                "pt": "Devoção",
+                "ru": "Преданность",
+                "ja": "献身",
+                "zh": "奉獻",
+                "zh-CN": "奉献",
+                "ko": "헌신"
+            },
+            "is_active_skill": false,
+            "cooldown": {
+                "min": 15,
+                "max": 9
+            },
+            "activation_conditions": [
+                "WhenGettingPowerUp"
+            ],
+            "increased_royal_appearence": false,
+            "increased_chest_appearence": false,
+            "increased_egg_appearence": false,
+            "increased_powerup_appearence": false,
+            "increased_portal_appearence": false,
+            "increased_donut_appearence": false,
+            "PRIMARY_VALUE": {
+                "min": 10,
+                "max": 100,
+                "prefix": null,
+                "suffix": "%"
+            },
+            "SECONDARY_VALUE": {
+                "min": 0,
+                "max": 0,
+                "prefix": null,
+                "suffix": null
+            },
+            "description": {
+                "en": "{[PRIMARY_VALUE]} of getting a dragon heart when using a power-up.",
+                "es": "{[PRIMARY_VALUE]} de obtener un corazón de dragón al usar un potenciador.",
+                "de": "{[PRIMARY_VALUE]} Chance, ein Drachenherz zu erhalten, wenn ein Power-up verwendet wird.",
+                "fr": "{[PRIMARY_VALUE]} de chance d'obtenir un cœur de dragon en utilisant un power-up.",
+                "it": "{[PRIMARY_VALUE]} di ottenere un cuore di drago quando si usa un potenziamento.",
+                "nl": "{[PRIMARY_VALUE]} kans op het krijgen van een drakenhart bij het gebruiken van een power-up.",
+                "pt": "{[PRIMARY_VALUE]} de conseguir um coração de dragão ao usar um power-up.",
+                "ru": "{[PRIMARY_VALUE]} получить драконье сердце при использовании усиления.",
+                "ja": "パワーアップを使用するとき、ドラゴンの心を得る確率は{[PRIMARY_VALUE]}です。",
+                "zh": "使用增強道具時有{[PRIMARY_VALUE]}的機會獲得龍心。",
+                "zh-CN": "使用增强道具时有{[PRIMARY_VALUE]}的机会获得龙心。",
+                "ko": "파워업을 사용할 때 드래곤 하트를 얻을 확률이 {[PRIMARY_VALUE]}입니다."
+            }
+        }
+    },
+    {
         "name": "Eruspide",
         "type": "Feathered",
         "rarity": "Legendary",
@@ -7376,6 +7455,83 @@
                 "zh": "旋轉時扔掉禮物的 {[PRIMARY_VALUE]}。 您可以在擊中貴族時打開禮物，獲得皇冠、道具、神秘彩蛋或恆星甜甜圈",
                 "zh-CN": "旋转时扔掉礼物的 {[PRIMARY_VALUE]}。 您可以在击中贵族时打开礼物，获得皇冠、道具、神秘彩蛋或恒星甜甜圈",
                 "ko": "빙글빙글 돌 때 선물 던지기 {[PRIMARY_VALUE]}. 귀족을 때리거나 왕관, 파워업, 미스터리 에그 또는 별의 도넛을 얻을 때 선물을 열 수 있습니다."
+            }
+        }
+    },
+    {
+        "name": "Noxenu",
+        "type": "Feathered",
+        "rarity": "Common",
+        "control": "Tap",
+        "speed": 3.1903663,
+        "force": 5.225259,
+        "weight": 10.142017,
+        "description": {
+            "en": "Transformed by the storm, their wings contain a large amount of electrical energy.",
+            "es": "Transformadas por la tormenta, sus alas contienen una gran cantidad de energía eléctrica.",
+            "de": "Vom Sturm verwandelt, enthalten ihre Flügel eine große Menge an elektrischer Energie.",
+            "fr": "Transformés par la tempête, leurs ailes contiennent une grande quantité d'énergie électrique.",
+            "it": "Trasformati dalla tempesta, le loro ali contengono una grande quantità di energia elettrica.",
+            "nl": "Getransformeerd door de storm, bevatten hun vleugels een grote hoeveelheid elektrische energie.",
+            "pt": "Transformados pela tempestade, as suas asas contêm uma grande quantidade de energia elétrica.",
+            "ru": "Преобразованные бурей, их крылья содержат большое количество электрической энергии.",
+            "ja": "嵐によって変化し、彼らの翼は大量の電気エネルギーを含んでいます。",
+            "zh": "受到風暴的變化，他們的翅膀含有大量的電能。",
+            "zh-CN": "经过风暴的改变，他们的翅膀含有大量的电能。",
+            "ko": "폭풍에 의해 변형된 그들의 날개는 많은 양의 전기 에너지를 함유하고 있습니다."
+        },
+        "skill": {
+            "name": {
+                "en": "Dark cloud",
+                "es": "Nube oscura",
+                "de": "Dunkle Wolke",
+                "fr": "Nuage sombre",
+                "it": "Nuvola oscura",
+                "nl": "Donkere wolk",
+                "pt": "Nuvem escura",
+                "ru": "Темное облако",
+                "ja": "暗い雲",
+                "zh": "黑雲",
+                "zh-CN": "黑云",
+                "ko": "어두운 구름"
+            },
+            "is_active_skill": false,
+            "cooldown": {
+                "min": 15,
+                "max": 9
+            },
+            "activation_conditions": [],
+            "increased_royal_appearence": false,
+            "increased_chest_appearence": false,
+            "increased_egg_appearence": false,
+            "increased_powerup_appearence": false,
+            "increased_portal_appearence": false,
+            "increased_donut_appearence": false,
+            "PRIMARY_VALUE": {
+                "min": 10,
+                "max": 100,
+                "prefix": null,
+                "suffix": "%"
+            },
+            "SECONDARY_VALUE": {
+                "min": 0,
+                "max": 0,
+                "prefix": null,
+                "suffix": null
+            },
+            "description": {
+                "en": "{[PRIMARY_VALUE]} of getting a thundercloud when consuming a dragon heart.",
+                "es": "{[PRIMARY_VALUE]} de conseguir una nube de tormenta al consumir un corazón de dragón.",
+                "de": "{[PRIMARY_VALUE]} Chance, eine Gewitterwolke zu erhalten, wenn ein Drachenherz verzehrt wird.",
+                "fr": "{[PRIMARY_VALUE]} de chances d'obtenir un nuage d'orage en consommant un cœur de dragon.",
+                "it": "{[PRIMARY_VALUE]} di ottenere una nuvola di tuono consumando un cuore di drago.",
+                "nl": "{[PRIMARY_VALUE]} kans op het krijgen van een donderwolk bij het consumeren van een drakenhart.",
+                "pt": "{[PRIMARY_VALUE]} de obter uma nuvem de trovoada ao consumir um coração de dragão.",
+                "ru": "{[PRIMARY_VALUE]} получить грозовое облако, потребляя драконье сердце.",
+                "ja": "ドラゴンの心を消費すると、雷雲を得る確率は{[PRIMARY_VALUE]}です。",
+                "zh": "消耗龍心時有{[PRIMARY_VALUE]}的機會獲得雷雲。",
+                "zh-CN": "消耗龙心时有{[PRIMARY_VALUE]}的机会获得雷云。",
+                "ko": "용의 심장을 소비할 때 {[PRIMARY_VALUE]}의 확률로 천둥구름을 얻습니다."
             }
         }
     },
@@ -12748,8 +12904,8 @@
             },
             "is_active_skill": true,
             "cooldown": {
-                "min": 30,
-                "max": 18
+                "min": 60,
+                "max": 30
             },
             "activation_conditions": [],
             "increased_royal_appearence": false,
