@@ -158,7 +158,7 @@ def generate_lookup_table(p=p_shiny)->dict:
     lookup = dict()
     for d1 in dragon_names:
         for d2 in dragon_names:
-            lookup[(d1,d2)] = breeding_value(d1,d2,p_shiny)
+            lookup[(d1,d2)] = breeding_value(d1,d2,p)
     return lookup
 
 # lookup generation takes a minute, so we might want to save the table to file
