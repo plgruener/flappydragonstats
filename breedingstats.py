@@ -215,7 +215,7 @@ def print_result(list_or_pairing,p=p_shiny):
         print_result_pairing(list_or_pairing,p)
 
 def print_result_pairing(dragonpairing,p=p_shiny):
-    for val,pair in sorted([(breeding_value(d1,d2),(d1,d2)) for (d1,d2) in dragonpairing],reverse=True):
+    for val,pair in sorted([(breeding_value(d1,d2,p),(d1,d2)) for (d1,d2) in dragonpairing],reverse=True):
         print(f'{val:>9.4f}: {pair}')
     print(f'{breeding_sum_pairing(dragonpairing,p):.4f}  total mean' )
     print('='*80)
