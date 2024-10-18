@@ -256,7 +256,8 @@
         "breeding_eggs": [
             "Golem",
             "Stormy",
-            "Tetric"
+            "Tetric",
+            "Undead"
         ],
         "speed": 3.1254787,
         "force": 5.2092443,
@@ -3152,6 +3153,89 @@
         }
     },
     {
+        "name": "Espodrion",
+        "type": "Fairy",
+        "rarity": "Uncommon",
+        "control": "Tap",
+        "breeding_eggs": [
+            "Wild",
+            "Chrysalis"
+        ],
+        "speed": 3.0622802,
+        "force": 3.975,
+        "weight": 10.0023,
+        "description": {
+            "en": "They use pheromones to locate their prey, which they poison after making them feel safe (supposedly improves the taste).",
+            "es": "Usan feromonas para localizar a sus presas, a las cuales envenenan tras hacerles sentir seguras (supuestamente mejora el sabor).",
+            "de": "Sie verwenden Pheromone, um ihre Beute zu lokalisieren, die sie vergiften, nachdem sie sich sicher fühlt (angeblich verbessert es den Geschmack).",
+            "fr": "Ils utilisent des phéromones pour localiser leurs proies, qu'ils empoisonnent après les avoir mises en confiance (cela améliorerait supposément le goût).",
+            "it": "Usano feromoni per localizzare le loro prede, che avvelenano dopo averle fatte sentire al sicuro (presumibilmente migliora il sapore).",
+            "nl": "Ze gebruiken feromonen om hun prooi te lokaliseren, die ze vergiftigen nadat ze zich veilig voelen (dit verbetert zogenaamd de smaak).",
+            "pt": "Usam feromonas para localizar as suas presas, que envenenam depois de as fazerem sentir seguras (supostamente melhora o sabor).",
+            "ru": "Они используют феромоны для обнаружения своей добычи, которую отравляют после того, как заставляют её чувствовать себя в безопасности (предположительно улучшает вкус).",
+            "ja": "獲物を見つけるためにフェロモンを使用し、安心させた後に毒を与えます（味を良くするためだと言われています）。",
+            "zh": "他們使用費洛蒙來定位獵物，在讓獵物感到安全後將其毒害（據說這樣可以改善味道）。",
+            "zh-CN": "它们使用信息素来定位猎物，在让猎物感到安全后将其毒害（据说这样可以改善味道）。",
+            "ko": "그들은 페로몬을 사용하여 먹이를 찾고, 먹이가 안전하다고 느끼게 한 후 독을 주입합니다(이는 맛을 개선한다고 합니다)."
+        },
+        "skill": {
+            "name": {
+                "en": "Noxious intent",
+                "es": "Intención nociva",
+                "de": "Giftige Absicht",
+                "fr": "Intention nocive",
+                "it": "Intento nocivo",
+                "nl": "Schadelijke bedoeling",
+                "pt": "Intenção nociva",
+                "ru": "Ядовитое намерение",
+                "ja": "有害な意図",
+                "zh": "毒害意圖",
+                "zh-CN": "毒害意图",
+                "ko": "유해한 의도"
+            },
+            "is_active_skill": false,
+            "cooldown": {
+                "min": 15,
+                "max": 9
+            },
+            "activation_conditions": [
+                "WhenScoring"
+            ],
+            "increased_royal_appearence": false,
+            "increased_chest_appearence": false,
+            "increased_egg_appearence": false,
+            "increased_powerup_appearence": false,
+            "increased_portal_appearence": false,
+            "increased_donut_appearence": false,
+            "PRIMARY_VALUE": {
+                "min": 10,
+                "max": 100,
+                "prefix": null,
+                "suffix": "%"
+            },
+            "SECONDARY_VALUE": {
+                "min": 0,
+                "max": 0,
+                "prefix": null,
+                "suffix": null
+            },
+            "description": {
+                "en": "{[PRIMARY_VALUE]} of releasing a gas that poisons aristocrats when avoiding one.",
+                "es": "{[PRIMARY_VALUE]} de liberar un gas que envenena a los aristócratas al esquivar a uno.",
+                "de": "{[PRIMARY_VALUE]} beim Ausweichen vor einem Aristokraten ein Gas freizusetzen, das Aristokraten vergiftet.",
+                "fr": "{[PRIMARY_VALUE]} de libérer un gaz qui empoisonne les aristocrates en en évitant un.",
+                "it": "{[PRIMARY_VALUE]} di rilasciare un gas che avvelena gli aristocratici quando ne eviti uno.",
+                "nl": "{[PRIMARY_VALUE]} kans om een gas vrij te geven dat aristocraten vergiftigt bij het ontwijken van een aristocraat.",
+                "pt": "{[PRIMARY_VALUE]} de libertar um gás que envenena aristocratas ao evitar um.",
+                "ru": "{[PRIMARY_VALUE]} шанс выпустить газ, отравляющий аристократов, при уклонении от одного из них.",
+                "ja": "貴族を回避する際に{[PRIMARY_VALUE]}の確率で貴族を毒する気体を放出する。",
+                "zh": "避開一個貴族時，有{[PRIMARY_VALUE]}機率釋放出毒害貴族的氣體。",
+                "zh-CN": "避开一个贵族时，有{[PRIMARY_VALUE]}几率释放出毒害贵族的气体。",
+                "ko": "귀족을 회피할 때 {[PRIMARY_VALUE]}의 확률로 귀족을 중독시키는 가스를 방출합니다."
+            }
+        }
+    },
+    {
         "name": "Evererg",
         "type": "Mountain",
         "rarity": "Epic",
@@ -4134,7 +4218,7 @@
                 "ru": "{[PRIMARY_VALUE]} получения волшебной снежинки с уменьшенной продолжительностью действия после пожирания аристократа.",
                 "ja": "貴族を食べた後、持続時間が短縮された魔法の雪片を得る確率が{[PRIMARY_VALUE]}になりました",
                 "zh": "{[PRIMARY_VALUE]}吞噬貴族後的持續時間減少的魔法雪花",
-                "zh-CN": "吞噬了一个贵族后，获得持续时间减少的魔法雪花的概率为{[PRIMARY_VALUE]} ",
+                "zh-CN": "吞噬了一个贵族后，获得持续时间减少的魔法雪花的概率为{[PRIMARY_VALUE]}",
                 "ko": "{[PRIMARY_VALUE]} 귀족을 먹은 후 기간 감소 된 기간으로 마법의 눈송이를 얻는 것"
             }
         }
@@ -5304,6 +5388,90 @@
         }
     },
     {
+        "name": "Ilvy",
+        "type": "Feathered",
+        "rarity": "Uncommon",
+        "control": "Tap",
+        "breeding_eggs": [
+            "Wild",
+            "Heart",
+            "Cockatrice"
+        ],
+        "speed": 2.827628,
+        "force": 4.8300943,
+        "weight": 9.803041,
+        "description": {
+            "en": "They patiently wait for their prey to succumb to the heat, then feed on their remains, leaving only their bones.",
+            "es": "Esperan pacientemente a que sus presas caigan rendidas ante el calor, para posteriormente alimentarse de sus restos, dejando únicamente sus huesos.",
+            "de": "Sie warten geduldig darauf, dass ihre Beute der Hitze erliegt, um sich dann von ihren Überresten zu ernähren und nur die Knochen zurückzulassen.",
+            "fr": "Ils attendent patiemment que leurs proies succombent à la chaleur, pour ensuite se nourrir de leurs restes, ne laissant que leurs os.",
+            "it": "Aspettano pazientemente che le loro prede soccombano al calore, per poi nutrirsi dei loro resti, lasciando solo le loro ossa.",
+            "nl": "Ze wachten geduldig tot hun prooi bezwijkt aan de hitte, om vervolgens zich te voeden met hun overblijfselen, waarbij alleen hun botten overblijven.",
+            "pt": "Esperam pacientemente que as suas presas sucumbam ao calor, para depois se alimentarem dos seus restos, deixando apenas os seus ossos.",
+            "ru": "Они терпеливо ждут, пока их добыча не падет от жары, чтобы затем питаться ее останками, оставляя лишь кости.",
+            "ja": "獲物が熱で力尽きるのを辛抱強く待ち、その後残骸を餌にして、骨だけを残します。",
+            "zh": "他們耐心等待獵物因熱量而倒下，然後吞食其殘骸，只留下骨頭。",
+            "zh-CN": "它们耐心等待猎物因热量而倒下，然后吞食其残骸，只留下骨头。",
+            "ko": "그들은 먹이가 열기에 지쳐 쓰러질 때까지 인내심 있게 기다렸다가, 그 후에 먹이의 잔해를 먹고 뼈만 남깁니다."
+        },
+        "skill": {
+            "name": {
+                "en": "Visceral patience",
+                "es": "Paciencia visceral",
+                "de": "Viscerale Geduld",
+                "fr": "Patience viscérale",
+                "it": "Pazienza viscerale",
+                "nl": "Viscerale geduld",
+                "pt": "Paciência visceral",
+                "ru": "Нутряное терпение",
+                "ja": "本能的な忍耐",
+                "zh": "內臟般的耐心",
+                "zh-CN": "内脏般的耐心",
+                "ko": "본능적인 인내"
+            },
+            "is_active_skill": false,
+            "cooldown": {
+                "min": 15,
+                "max": 9
+            },
+            "activation_conditions": [
+                "WhenEatingRoyal"
+            ],
+            "increased_royal_appearence": false,
+            "increased_chest_appearence": false,
+            "increased_egg_appearence": false,
+            "increased_powerup_appearence": false,
+            "increased_portal_appearence": false,
+            "increased_donut_appearence": false,
+            "PRIMARY_VALUE": {
+                "min": 10,
+                "max": 100,
+                "prefix": null,
+                "suffix": "%"
+            },
+            "SECONDARY_VALUE": {
+                "min": 0,
+                "max": 0,
+                "prefix": null,
+                "suffix": null
+            },
+            "description": {
+                "en": "Aristocrats won't give crowns, but you have a {[PRIMARY_VALUE]} of getting a dragon heart when devouring one.",
+                "es": "Los aristócratas no darán coronas, pero tienes un {[PRIMARY_VALUE]} de obtener un corazón de dragón al devorar uno.",
+                "de": "Aristokraten geben keine Kronen, aber du hast {[PRIMARY_VALUE]}, beim Verschlingen eines Aristokraten ein Drachenherz zu erhalten.",
+                "fr": "Les aristocrates ne donneront pas de couronnes, mais vous avez {[PRIMARY_VALUE]} d'obtenir un cœur de dragon en en dévorant un.",
+                "it": "Gli aristocratici non daranno corone, ma hai il {[PRIMARY_VALUE]} di ottenere un cuore di drago quando ne divori uno.",
+                "nl": "Aristocraten geven geen kronen, maar je hebt {[PRIMARY_VALUE]} kans om een drakenhart te krijgen als je er een verslindt.",
+                "pt": "Os aristocratas não darão coroas, mas tens {[PRIMARY_VALUE]} de hipóteses de obter um coração de dragão ao devorar um.",
+                "ru": "Аристократы не дадут корон, но у вас есть {[PRIMARY_VALUE]} шанс получить сердце дракона при пожирании одного из них.",
+                "ja": "貴族は王冠を与えませんが、一人を捕食すると{[PRIMARY_VALUE]}の確率でドラゴンの心臓を手に入れられます。",
+                "zh": "貴族不會給予王冠，但你在吞噬一個貴族時有{[PRIMARY_VALUE]}的機會獲得龍心。",
+                "zh-CN": "贵族不会给予王冠，但你在吞噬一个贵族时有{[PRIMARY_VALUE]}的几率获得龙心。",
+                "ko": "귀족들은 왕관을 주지 않지만, 한 명을 포식할 때 {[PRIMARY_VALUE]}의 확률로 용의 심장을 얻을 수 있습니다."
+            }
+        }
+    },
+    {
         "name": "Iro",
         "type": "Eastern",
         "rarity": "Uncommon",
@@ -6039,10 +6207,10 @@
                 "nl": "{[PRIMARY_VALUE]} van het vrijgeven van een gas dat aristocraten vergiftigt als ze flapperen.",
                 "pt": "{[PRIMARY_VALUE]} de libertar um gás que envenena os aristocratas quando batem as asas.",
                 "ru": "{[PRIMARY_VALUE]} выпускать газ, отравляющий аристократов, когда они хлопают в ладоши.",
-                "ja": "はためくと貴族を毒殺するガスを放出することの{[PRIMARY_VALUE]} ",
+                "ja": "はためくと貴族を毒殺するガスを放出することの{[PRIMARY_VALUE]}",
                 "zh": "{[PRIMARY_VALUE]} 拍打時釋放毒氣毒化貴族",
                 "zh-CN": "{[PRIMARY_VALUE]} 拍打时释放毒气毒化贵族",
-                "ko": "펄럭일 때 귀족을 독살시키는 가스 방출의 {[PRIMARY_VALUE]} "
+                "ko": "펄럭일 때 귀족을 독살시키는 가스 방출의 {[PRIMARY_VALUE]}"
             }
         }
     },
@@ -6208,7 +6376,7 @@
                 "ru": "{[PRIMARY_VALUE]} получения изогнутой ложки с уменьшенным сроком действия при пожирании аристократа.",
                 "ja": "貴族を食べたとき、持続時間が短縮された曲がったスプーンを得る確率が{[PRIMARY_VALUE]}になりました",
                 "zh": "{[PRIMARY_VALUE]}在吞噬貴族時持續減少彎曲勺子",
-                "zh-CN": "吞噬一个贵族时，获得弯曲的勺子并减少持续时间的概率为{[PRIMARY_VALUE]} ",
+                "zh-CN": "吞噬一个贵族时，获得弯曲的勺子并减少持续时间的概率为{[PRIMARY_VALUE]}",
                 "ko": "{[PRIMARY_VALUE]} 귀족을 먹을 때 기간이 줄어들 때 곡선 숟가락을 얻는 것"
             }
         }
@@ -7702,7 +7870,7 @@
                 "ru": "{[PRIMARY_VALUE]} получения двойной короны под действием активного бонуса.",
                 "ja": "アクティブなパワーアップの効果を受けている間、ダブルクラウンを得る確率が{[PRIMARY_VALUE]}になりました",
                 "zh": "{[PRIMARY_VALUE]}在有效電力的影響下獲得雙冠",
-                "zh-CN": "在主动电源的作用下，获得双冠的几率为{[PRIMARY_VALUE]} ",
+                "zh-CN": "在主动电源的作用下，获得双冠的几率为{[PRIMARY_VALUE]}",
                 "ko": "{[PRIMARY_VALUE]} 활성 파워 업의 효과에있는 동안 이중 크라운을 얻는 중"
             }
         }
@@ -8366,10 +8534,10 @@
                 "nl": "{[PRIMARY_VALUE]} van het krijgen van zand van de tijd met verminderde duur wanneer het oppakken van iets.",
                 "pt": "{[PRIMARY_VALUE]} de obter areias de tempo com duração reduzida ao pegar em algo.",
                 "ru": "{[PRIMARY_VALUE]} случаев получения песков времени с уменьшенным сроком действия при поднятии чего-либо.",
-                "ja": "何かを拾った時、持続時間が短縮された時の砂を得ることができるようになる{[PRIMARY_VALUE]} ",
-                "zh": "撿東西時獲得時間減少的時間之沙 {[PRIMARY_VALUE]} ",
-                "zh-CN": "捡东西时获得时间减少的时间之沙 {[PRIMARY_VALUE]} ",
-                "ko": "무언가를 집어들 때 감소된 지속 시간으로 시간의 모래를 얻는 {[PRIMARY_VALUE]} "
+                "ja": "何かを拾った時、持続時間が短縮された時の砂を得ることができるようになる{[PRIMARY_VALUE]}",
+                "zh": "撿東西時獲得時間減少的時間之沙 {[PRIMARY_VALUE]}",
+                "zh-CN": "捡东西时获得时间减少的时间之沙 {[PRIMARY_VALUE]}",
+                "ko": "무언가를 집어들 때 감소된 지속 시간으로 시간의 모래를 얻는 {[PRIMARY_VALUE]}"
             }
         }
     },
@@ -8535,6 +8703,89 @@
                 "zh": "{[PRIMARY_VALUE]} 拍打時發出可怕的咆哮",
                 "zh-CN": "{[PRIMARY_VALUE]} 拍打时发出可怕的咆哮",
                 "ko": "펄럭일 때 무시무시한 포효{[PRIMARY_VALUE]}"
+            }
+        }
+    },
+    {
+        "name": "Orsonte",
+        "type": "Mountain",
+        "rarity": "Epic",
+        "control": "Hold",
+        "breeding_eggs": [
+            "Wild",
+            "Golem"
+        ],
+        "speed": 3.169975,
+        "force": 5.1087904,
+        "weight": 9.868421,
+        "description": {
+            "en": "They seek gold to coat their gigantic arches, which they use to regulate their temperature and attract the attention of other specimens.",
+            "es": "Buscan oro para revestir sus gigantescos arcos, los cuales utilizan para regular su temperatura y llamar la atención de otros ejemplares.",
+            "de": "Sie suchen nach Gold, um ihre gigantischen Bögen zu beschichten, die sie zur Regulierung ihrer Temperatur und zur Aufmerksamkeitsgewinnung anderer Exemplare nutzen.",
+            "fr": "Ils cherchent de l'or pour recouvrir leurs arcs gigantesques, qu'ils utilisent pour réguler leur température et attirer l'attention d'autres spécimens.",
+            "it": "Cercano oro per rivestire i loro archi giganteschi, che usano per regolare la loro temperatura e attirare l'attenzione di altri esemplari.",
+            "nl": "Ze zoeken goud om hun gigantische bogen te bekleden, die ze gebruiken om hun temperatuur te reguleren en de aandacht van andere exemplaren te trekken.",
+            "pt": "Procuram ouro para revestir os seus arcos gigantescos, que utilizam para regular a sua temperatura e chamar a atenção de outros exemplares.",
+            "ru": "Они ищут золото для покрытия своих гигантских дуг, которые используют для регулирования температуры и привлечения внимания других особей.",
+            "ja": "彼らは巨大なアーチを覆うために金を探し、それを体温調節や他の個体の注意を引くために使用します。",
+            "zh": "他們尋找黃金來塗覆他們的巨大拱形結構，用於調節體溫並吸引其他同類的注意。",
+            "zh-CN": "它们寻找黄金来涂覆它们的巨大拱形结构，用于调节体温并吸引其他同类的注意。",
+            "ko": "그들은 거대한 아치를 덮기 위해 금을 찾으며, 이를 체온 조절과 다른 개체의 주의를 끌기 위해 사용합니다."
+        },
+        "skill": {
+            "name": {
+                "en": "Golden pressure",
+                "es": "Presión dorada",
+                "de": "Goldener Druck",
+                "fr": "Pression dorée",
+                "it": "Pressione dorata",
+                "nl": "Gouden druk",
+                "pt": "Pressão dourada",
+                "ru": "Золотое давление",
+                "ja": "黄金の圧力",
+                "zh": "黃金壓力",
+                "zh-CN": "黄金压力",
+                "ko": "황금 압력"
+            },
+            "is_active_skill": false,
+            "cooldown": {
+                "min": 10,
+                "max": 0.5
+            },
+            "activation_conditions": [
+                "WhenCalculatingTileChances"
+            ],
+            "increased_royal_appearence": false,
+            "increased_chest_appearence": true,
+            "increased_egg_appearence": false,
+            "increased_powerup_appearence": false,
+            "increased_portal_appearence": false,
+            "increased_donut_appearence": false,
+            "PRIMARY_VALUE": {
+                "min": 20,
+                "max": 200,
+                "prefix": "+",
+                "suffix": "%"
+            },
+            "SECONDARY_VALUE": {
+                "min": 0,
+                "max": 0,
+                "prefix": null,
+                "suffix": null
+            },
+            "description": {
+                "en": "{[PRIMARY_VALUE]} of treasure chests appearance, but powerup appearance is reduced by 75%.",
+                "es": "{[PRIMARY_VALUE]} de aparición de cofres del tesoro, pero la aparición de potenciadores se reduce en un 75%.",
+                "de": "{[PRIMARY_VALUE]} Erscheinungshäufigkeit von Schatztruhen, aber die Erscheinungshäufigkeit von Power-ups wird um 75% reduziert.",
+                "fr": "{[PRIMARY_VALUE]} d'apparition de coffres au trésor, mais l'apparition de bonus est réduite de 75%.",
+                "it": "{[PRIMARY_VALUE]} di apparizione di forzieri del tesoro, ma l'apparizione di potenziamenti è ridotta del 75%.",
+                "nl": "{[PRIMARY_VALUE]} kans op verschijning van schatkisten, maar de kans op verschijning van power-ups wordt met 75% verminderd.",
+                "pt": "{[PRIMARY_VALUE]} de aparecimento de baús do tesouro, mas o aparecimento de power-ups é reduzido em 75%.",
+                "ru": "{[PRIMARY_VALUE]} появления сундуков с сокровищами, но появление усилений уменьшается на 75%.",
+                "ja": "宝箱の出現率が{[PRIMARY_VALUE]}になりますが、パワーアップの出現率が75%減少します。",
+                "zh": "寶箱出現機率{[PRIMARY_VALUE]}，但強化道具出現機率減少75%。",
+                "zh-CN": "宝箱出现几率{[PRIMARY_VALUE]}，但强化道具出现几率降低75%。",
+                "ko": "보물 상자 출현률 {[PRIMARY_VALUE]}, 하지만 파워업 출현률이 75% 감소합니다."
             }
         }
     },
@@ -9856,6 +10107,87 @@
         }
     },
     {
+        "name": "Raonaron",
+        "type": "Leviathan",
+        "rarity": "Common",
+        "control": "Follow",
+        "breeding_eggs": [
+            "Desert",
+            "Wild"
+        ],
+        "speed": 2.830163,
+        "force": 0,
+        "weight": 0,
+        "description": {
+            "en": "They move at incredible speed beneath the sands and are often seen sunbathing on their backs atop the dunes.",
+            "es": "Se desplazan a una velocidad increíble por debajo de las arenas y se les suele ver tomando el sol boca arriba sobre las dunas.",
+            "de": "Sie bewegen sich mit unglaublicher Geschwindigkeit unter dem Sand und werden oft auf dem Rücken liegend auf den Dünen sonnenbadend gesehen.",
+            "fr": "Ils se déplacent à une vitesse incroyable sous le sable et on les voit souvent prendre des bains de soleil sur le dos au sommet des dunes.",
+            "it": "Si muovono a una velocità incredibile sotto la sabbia e spesso li si vede prendere il sole a pancia in su sulle dune.",
+            "nl": "Ze bewegen zich met ongelooflijke snelheid onder het zand en worden vaak gezien terwijl ze op hun rug zonnebaden bovenop de duinen.",
+            "pt": "Movem-se a uma velocidade incrível por baixo das areias e costumam ser vistos a apanhar sol de barriga para cima no topo das dunas.",
+            "ru": "Они передвигаются с невероятной скоростью под песком и их часто можно увидеть загорающими на спине на вершинах дюн.",
+            "ja": "彼らは砂の下を信じられない速さで移動し、砂丘の上で仰向けに日光浴をしているのがよく見られます。",
+            "zh": "他們在沙下以驚人的速度移動，常常可以看到他們仰臥在沙丘頂上曬太陽。",
+            "zh-CN": "它们在沙下以惊人的速度移动，常常可以看到它们仰卧在沙丘顶上晒太阳。",
+            "ko": "그들은 모래 아래에서 믿을 수 없는 속도로 이동하며 종종 모래 언덕 위에서 등을 대고 일광욕을 하는 모습을 볼 수 있습니다."
+        },
+        "skill": {
+            "name": {
+                "en": "Dune dweller",
+                "es": "Morador de las dunas",
+                "de": "Dünenbewohner",
+                "fr": "Habitant des dunes",
+                "it": "Abitante delle dune",
+                "nl": "Duinbewoner",
+                "pt": "Habitante das dunas",
+                "ru": "Обитатель дюн",
+                "ja": "砂丘の住人",
+                "zh": "沙丘居民",
+                "zh-CN": "沙丘居民",
+                "ko": "사구 거주자"
+            },
+            "is_active_skill": false,
+            "cooldown": {
+                "min": 15,
+                "max": 9
+            },
+            "activation_conditions": [],
+            "increased_royal_appearence": false,
+            "increased_chest_appearence": false,
+            "increased_egg_appearence": false,
+            "increased_powerup_appearence": false,
+            "increased_portal_appearence": false,
+            "increased_donut_appearence": false,
+            "PRIMARY_VALUE": {
+                "min": 10,
+                "max": 100,
+                "prefix": null,
+                "suffix": "%"
+            },
+            "SECONDARY_VALUE": {
+                "min": 0,
+                "max": 0,
+                "prefix": null,
+                "suffix": null
+            },
+            "description": {
+                "en": "Gain movement speed (up to {[PRIMARY_VALUE]}) while flying in the bottom part of the zone.",
+                "es": "Gana velocidad de movimiento (hasta un {[PRIMARY_VALUE]}) mientras vuelas en la parte inferior de la zona.",
+                "de": "Erhöhe die Bewegungsgeschwindigkeit (bis zu {[PRIMARY_VALUE]}), während du im unteren Bereich der Zone fliegst.",
+                "fr": "Gagne de la vitesse de déplacement (jusqu'à {[PRIMARY_VALUE]}) en volant dans la partie inférieure de la zone.",
+                "it": "Guadagna velocità di movimento (fino al {[PRIMARY_VALUE]}) mentre voli nella parte inferiore della zona.",
+                "nl": "Krijg bewegingssnelheid (tot {[PRIMARY_VALUE]}) terwijl je in het onderste deel van de zone vliegt.",
+                "pt": "Ganha velocidade de movimento (até {[PRIMARY_VALUE]}) enquanto voas na parte inferior da zona.",
+                "ru": "Увеличивай скорость движения (до {[PRIMARY_VALUE]}) при полете в нижней части зоны.",
+                "ja": "ゾーンの下部を飛行中、移動速度が上昇します（最大{[PRIMARY_VALUE]}まで）。",
+                "zh": "在區域底部飛行時獲得移動速度（最多{[PRIMARY_VALUE]}）。",
+                "zh-CN": "在区域底部飞行时获得移动速度（最多{[PRIMARY_VALUE]}）。",
+                "ko": "구역 하단에서 비행하는 동안 이동 속도가 증가합니다(최대 {[PRIMARY_VALUE]}까지)."
+            }
+        }
+    },
+    {
         "name": "Rarcha",
         "type": "Mountain",
         "rarity": "Uncommon",
@@ -9936,6 +10268,172 @@
                 "zh": "死亡時有 {[PRIMARY_VALUE]} 的存活率並獲得持續時間縮短的魔法雪花",
                 "zh-CN": "死亡时有 {[PRIMARY_VALUE]} 的存活率并获得持续时间缩短的魔法雪花",
                 "ko": "사망 시 생존율 {[PRIMARY_VALUE]}, 지속시간 감소 마법의 눈꽃 획득"
+            }
+        }
+    },
+    {
+        "name": "Riffallua",
+        "type": "Feathered",
+        "rarity": "Legendary",
+        "control": "Tap",
+        "breeding_eggs": [
+            "Qilin",
+            "Wild"
+        ],
+        "speed": 3.162439,
+        "force": 4.7751827,
+        "weight": 9.897941,
+        "description": {
+            "en": "No criminal (or aristocrat) can escape the law, except for a swift and mischievous roadrunner.",
+            "es": "Ningún criminal (o aristócrata) puede escapar de la ley, excepto un veloz y travieso correcaminos.",
+            "de": "Kein Verbrecher (oder Aristokrat) kann dem Gesetz entkommen, außer einem flinken und schelmischen Roadrunner.",
+            "fr": "Aucun criminel (ou aristocrate) ne peut échapper à la loi, sauf un grand géocoucou rapide et espiègle.",
+            "it": "Nessun criminale (o aristocratico) può sfuggire alla legge, tranne un veloce e dispettoso roadrunner.",
+            "nl": "Geen enkele crimineel (of aristocraat) kan aan de wet ontsnappen, behalve een snelle en ondeugende renkoekoek.",
+            "pt": "Nenhum criminoso (ou aristocrata) pode escapar à lei, excepto um veloz e travesso papa-léguas.",
+            "ru": "Ни один преступник (или аристократ) не может избежать закона, кроме быстрой и озорной кукушки-подорожника.",
+            "ja": "素早くていたずら好きなロードランナー以外、どんな犯罪者（または貴族）も法から逃れることはできません。",
+            "zh": "沒有罪犯（或貴族）能逃脫法律，除了一隻敏捷又淘氣的走鵑。",
+            "zh-CN": "没有罪犯（或贵族）能逃脱法律，除了一只敏捷又淘气的走鹃。",
+            "ko": "빠르고 장난스러운 로드러너를 제외하고는 어떤 범죄자(또는 귀족)도 법을 피할 수 없습니다."
+        },
+        "skill": {
+            "name": {
+                "en": "Bounty hunter",
+                "es": "Cazarrecompensas",
+                "de": "Kopfgeldjäger",
+                "fr": "Chasseur de primes",
+                "it": "Cacciatore di taglie",
+                "nl": "Premiejager",
+                "pt": "Caçador de recompensas",
+                "ru": "Охотник за головами",
+                "ja": "賞金稼ぎ",
+                "zh": "賞金獵人",
+                "zh-CN": "赏金猎人",
+                "ko": "현상금 사냥꾼"
+            },
+            "is_active_skill": false,
+            "cooldown": {
+                "min": 10,
+                "max": 0.5
+            },
+            "activation_conditions": [
+                "WhenEatingRoyal"
+            ],
+            "increased_royal_appearence": false,
+            "increased_chest_appearence": false,
+            "increased_egg_appearence": false,
+            "increased_powerup_appearence": false,
+            "increased_portal_appearence": false,
+            "increased_donut_appearence": false,
+            "PRIMARY_VALUE": {
+                "min": 10,
+                "max": 100,
+                "prefix": null,
+                "suffix": null
+            },
+            "SECONDARY_VALUE": {
+                "min": 0,
+                "max": 0,
+                "prefix": null,
+                "suffix": null
+            },
+            "description": {
+                "en": "Devouring aristocrats gives bounties of up to {[PRIMARY_VALUE]} crowns, but their appearance is reduced by 95%.",
+                "es": "Devorar aristócratas otorga recompensas de hasta {[PRIMARY_VALUE]} coronas, pero su aparición se reduce en un 95%.",
+                "de": "Das Verschlingen von Aristokraten bringt Kopfgelder von bis zu {[PRIMARY_VALUE]} Kronen ein, aber ihr Erscheinen ist um 95% reduziert.",
+                "fr": "Dévorer des aristocrates donne des primes allant jusqu'à {[PRIMARY_VALUE]} couronnes, mais leur apparition est réduite de 95%.",
+                "it": "Divorare gli aristocratici fornisce taglie fino a {[PRIMARY_VALUE]} corone, ma la loro apparizione è ridotta del 95%.",
+                "nl": "Het verslinden van aristocraten geeft beloningen tot {[PRIMARY_VALUE]} kronen, maar hun verschijning is met 95% verminderd.",
+                "pt": "Devorar aristocratas oferece recompensas de até {[PRIMARY_VALUE]} coroas, mas a sua aparição é reduzida em 95%.",
+                "ru": "Пожирание аристократов дает награды до {[PRIMARY_VALUE]} крон, но их появление уменьшено на 95%.",
+                "ja": "貴族を捕食すると最大{[PRIMARY_VALUE]}クラウンの賞金が得られますが、出現率が95%減少します。",
+                "zh": "吞噬貴族提供最高{[PRIMARY_VALUE]}皇冠的賞金，但其出現機率降低95%。",
+                "zh-CN": "吞噬贵族提供最高{[PRIMARY_VALUE]}皇冠的赏金，但其出现几率降低95%。",
+                "ko": "귀족을 포식하면 최대 {[PRIMARY_VALUE]} 크라운의 현상금을 얻지만, 그들의 출현 확률은 95% 감소합니다."
+            }
+        }
+    },
+    {
+        "name": "Rodascabel",
+        "type": "Eastern",
+        "rarity": "Rare",
+        "control": "Follow",
+        "breeding_eggs": [
+            "Lyndwurm",
+            "Wild"
+        ],
+        "speed": 3,
+        "force": 0,
+        "weight": 0,
+        "description": {
+            "en": "They travel alone, but on the rare occasions when they encounter another specimen they compete to see who can spin faster.",
+            "es": "Viajan en solitario, pero en las pocas ocasiones en las que se encuentran con otro ejemplar compiten por ver quién puede girar más rápido.",
+            "de": "Sie reisen allein, aber bei den seltenen Gelegenheiten, wenn sie auf ein anderes Exemplar treffen, wetteifern sie darum, wer sich schneller drehen kann.",
+            "fr": "Ils voyagent seuls, mais dans les rares occasions où ils rencontrent un autre spécimen, ils se lancent dans une compétition pour voir qui peut tournoyer le plus vite.",
+            "it": "Viaggiano da soli, ma nelle rare occasioni in cui incontrano un altro esemplare competono per vedere chi può girare più velocemente.",
+            "nl": "Ze reizen alleen, maar bij de zeldzame gelegenheden dat ze een ander exemplaar tegenkomen wedijveren ze om te zien wie het snelst kan draaien.",
+            "pt": "Viajam sozinhos, mas nas raras ocasiões em que encontram outro exemplar competem para ver quem consegue girar mais rápido.",
+            "ru": "Они путешествуют в одиночку, но в редких случаях, когда встречаются с другим экземпляром, соревнуются, чтобы узнать, кто может вращаться быстрее.",
+            "ja": "彼らは単独で旅をしますが、稀に他の個体と出会うと、誰がより速く回転できるかを競います。",
+            "zh": "他們獨自旅行，但在少數遇到另一個同類的情況下，他們會競爭看誰能旋轉得更快。",
+            "zh-CN": "它们独自旅行，但在少数遇到另一个同类的情况下，它们会竞争看谁能旋转得更快。",
+            "ko": "그들은 홀로 여행하지만, 드물게 다른 개체를 만나면 누가 더 빨리 회전할 수 있는지 경쟁합니다."
+        },
+        "skill": {
+            "name": {
+                "en": "Tumbleweed",
+                "es": "Estepicursor",
+                "de": "Steppenläufer",
+                "fr": "Virevoltant",
+                "it": "Cespuglio rotolante",
+                "nl": "Tuimelkruid",
+                "pt": "Erva-rolante",
+                "ru": "Перекати-поле",
+                "ja": "タンブルウィード",
+                "zh": "風滾草",
+                "zh-CN": "风滚草",
+                "ko": "회전초"
+            },
+            "is_active_skill": false,
+            "cooldown": {
+                "min": 10,
+                "max": 0.5
+            },
+            "activation_conditions": [
+                "WhenSpinning"
+            ],
+            "increased_royal_appearence": false,
+            "increased_chest_appearence": false,
+            "increased_egg_appearence": false,
+            "increased_powerup_appearence": false,
+            "increased_portal_appearence": false,
+            "increased_donut_appearence": false,
+            "PRIMARY_VALUE": {
+                "min": 10,
+                "max": 100,
+                "prefix": null,
+                "suffix": "%"
+            },
+            "SECONDARY_VALUE": {
+                "min": 0,
+                "max": 0,
+                "prefix": null,
+                "suffix": null
+            },
+            "description": {
+                "en": "Gain a {[PRIMARY_VALUE]} movement speed boost when spinning.",
+                "es": "Gana un {[PRIMARY_VALUE]} de aumento de velocidad de movimiento al girar.",
+                "de": "Erhalte {[PRIMARY_VALUE]} Bewegungsgeschwindigkeitsschub beim Drehen.",
+                "fr": "Gagne {[PRIMARY_VALUE]} de vitesse de déplacement en tournoyant.",
+                "it": "Ottieni un aumento del {[PRIMARY_VALUE]} della velocità di movimento quando giri.",
+                "nl": "Krijg {[PRIMARY_VALUE]} bewegingssnelheidsboost tijdens het draaien.",
+                "pt": "Ganha um aumento de {[PRIMARY_VALUE]} na velocidade de movimento ao girar.",
+                "ru": "Получи {[PRIMARY_VALUE]} увеличения скорости передвижения при вращении.",
+                "ja": "回転時に{[PRIMARY_VALUE]}の移動速度上昇を獲得します。",
+                "zh": "旋轉時獲得{[PRIMARY_VALUE]}的移動速度提升。",
+                "zh-CN": "旋转时获得{[PRIMARY_VALUE]}的移动速度提升。",
+                "ko": "회전할 때 {[PRIMARY_VALUE]}의 이동 속도 증가를 얻습니다."
             }
         }
     },
@@ -10350,7 +10848,7 @@
                 "ru": "{[PRIMARY_VALUE]} получения драконьего чили с уменьшенной продолжительностью действия при пожирании аристократа.",
                 "ja": "貴族を食べたときに、持続時間が短縮されたドラゴンチリを得る確率が{[PRIMARY_VALUE]}になりました",
                 "zh": "{[PRIMARY_VALUE]}在吞噬貴族時，獲得龍辣椒的持續時間降低",
-                "zh-CN": "吞噬贵族时，获得持续时间减少的龙形辣椒的几率为{[PRIMARY_VALUE]} ",
+                "zh-CN": "吞噬贵族时，获得持续时间减少的龙形辣椒的几率为{[PRIMARY_VALUE]}",
                 "ko": "{[PRIMARY_VALUE]} 귀족을 먹을 때 기간이 줄어들면서 드래곤 칠리를 얻는 것"
             }
         }
@@ -10850,7 +11348,7 @@
                 "ja": "血の涙を流す（毎秒{[PRIMARY_VALUE]}回）。その涙が貴族に触れると、持続時間が短縮された不気味な幽霊になる",
                 "zh": "哭泣的流淚（每秒{[PRIMARY_VALUE]}隻眼淚）。如果眼淚碰到貴族，您會得到一個怪異的幽靈，持續時間減少",
                 "zh-CN": "哭泣的流泪（每秒{[PRIMARY_VALUE]}只眼泪）。如果眼泪碰到贵族，您会得到一个怪异的幽灵，持续时间减少",
-                "ko": " 피 묻은 눈물 (초당 {[PRIMARY_VALUE]} 개의 눈물).눈물이 귀족에 닿으면 지속 시간이 줄어든 으스스한 유령을 얻습니다"
+                "ko": "피 묻은 눈물 (초당 {[PRIMARY_VALUE]} 개의 눈물).눈물이 귀족에 닿으면 지속 시간이 줄어든 으스스한 유령을 얻습니다"
             }
         }
     },
@@ -12670,7 +13168,90 @@
                 "ja": "はばたくと持続時間が短くなるドラゴンチリを{[PRIMARY_VALUE]}個入手できる",
                 "zh": "{[PRIMARY_VALUE]} 獲得一個減少持續時間的龍辣椒在拍打時",
                 "zh-CN": "{[PRIMARY_VALUE]} 獲得一個減少持續時間的龍辣椒在拍打時",
-                "ko": "펄럭일 때 지속 시간이 감소된 드래곤 칠리 획득 중 {[PRIMARY_VALUE]} "
+                "ko": "펄럭일 때 지속 시간이 감소된 드래곤 칠리 획득 중 {[PRIMARY_VALUE]}"
+            }
+        }
+    },
+    {
+        "name": "Volrrina",
+        "type": "Feathered",
+        "rarity": "Mythic",
+        "control": "Tap",
+        "breeding_eggs": [
+            "Wild",
+            "Cockatrice"
+        ],
+        "speed": 4,
+        "force": 4.85773,
+        "weight": 10.073505,
+        "description": {
+            "en": "Generates ghostly claws to increase its speed, which is very convenient if you're dedicated to disorganized crime.",
+            "es": "Genera zarpas fantasmales para incrementar su velocidad, lo cual resulta muy conveniente si te dedicas al crimen desorganizado.",
+            "de": "Erzeugt geisterhafte Klauen, um seine Geschwindigkeit zu erhöhen, was sehr praktisch ist, wenn du dich unorganisiertem Verbrechen widmest.",
+            "fr": "Génère des griffes fantomatiques pour augmenter sa vitesse, ce qui est très pratique si vous vous consacrez au crime désorganisé.",
+            "it": "Genera artigli spettrali per aumentare la sua velocità, il che è molto conveniente se ti dedichi al crimine disorganizzato.",
+            "nl": "Genereert spookachtige klauwen om zijn snelheid te verhogen, wat erg handig is als je je bezighoudt met ongeorganiseerde misdaad.",
+            "pt": "Gera garras fantasmagóricas para aumentar a sua velocidade, o que é muito conveniente se te dedicas ao crime desorganizado.",
+            "ru": "Создает призрачные когти для увеличения скорости, что очень удобно, если вы посвятили себя неорганизованной преступности.",
+            "ja": "速度を上げるために幽霊のような爪を生み出します。無秩序な犯罪に従事しているなら、とても便利です。",
+            "zh": "生成幽靈爪子來增加速度，如果你從事非組織性犯罪的話，這非常方便。",
+            "zh-CN": "生成幽灵爪子来增加速度，如果你从事非组织性犯罪的话，这非常方便。",
+            "ko": "속도를 높이기 위해 유령 발톱을 생성합니다. 무질서한 범죄에 종사한다면 매우 편리합니다."
+        },
+        "skill": {
+            "name": {
+                "en": "Roadrunner",
+                "es": "Correcaminos",
+                "de": "Roadrunner",
+                "fr": "Grand Géocoucou",
+                "it": "Roadrunner",
+                "nl": "Renkoekoek",
+                "pt": "Papa-léguas",
+                "ru": "Кукушка-подорожник",
+                "ja": "ロードランナー",
+                "zh": "走鵑",
+                "zh-CN": "走鹃",
+                "ko": "로드러너"
+            },
+            "is_active_skill": false,
+            "cooldown": {
+                "min": 10,
+                "max": 0.5
+            },
+            "activation_conditions": [
+                "WhenScoring"
+            ],
+            "increased_royal_appearence": false,
+            "increased_chest_appearence": false,
+            "increased_egg_appearence": false,
+            "increased_powerup_appearence": false,
+            "increased_portal_appearence": false,
+            "increased_donut_appearence": false,
+            "PRIMARY_VALUE": {
+                "min": 10,
+                "max": 100,
+                "prefix": null,
+                "suffix": "%"
+            },
+            "SECONDARY_VALUE": {
+                "min": 0,
+                "max": 0,
+                "prefix": null,
+                "suffix": null
+            },
+            "description": {
+                "en": "Powerup movement speed bonuses are increased by {[PRIMARY_VALUE]}. Avoiding aristocrats grants crowns based on your movement speed.",
+                "es": "Los bonos de velocidad de movimiento de los potenciadores aumentan un {[PRIMARY_VALUE]}. Evitar aristócratas otorga coronas basadas en tu velocidad de movimiento.",
+                "de": "Bewegungsgeschwindigkeitsboni von Power-ups werden um {[PRIMARY_VALUE]} erhöht. Das Ausweichen von Aristokraten gewährt Kronen basierend auf deiner Bewegungsgeschwindigkeit.",
+                "fr": "Les bonus de vitesse de déplacement des power-ups sont augmentés de {[PRIMARY_VALUE]}. Éviter les aristocrates accorde des couronnes en fonction de votre vitesse de déplacement.",
+                "it": "I bonus di velocità di movimento dei potenziamenti sono aumentati del {[PRIMARY_VALUE]}. Evitare gli aristocratici concede corone in base alla tua velocità di movimento.",
+                "nl": "Bewegingssnelheidsbonussen van power-ups worden met {[PRIMARY_VALUE]} verhoogd. Het vermijden van aristocraten levert kronen op gebaseerd op je bewegingssnelheid.",
+                "pt": "Os bónus de velocidade de movimento dos power-ups são aumentados em {[PRIMARY_VALUE]}. Evitar aristocratas concede coroas com base na sua velocidade de movimento.",
+                "ru": "Бонусы к скорости движения от усилений увеличены на {[PRIMARY_VALUE]}. Уклонение от аристократов дает короны в зависимости от вашей скорости движения.",
+                "ja": "パワーアップの移動速度ボーナスが{[PRIMARY_VALUE]}増加します。貴族を回避すると、移動速度に応じてクラウンが与えられます。",
+                "zh": "強化道具的移動速度加成提高{[PRIMARY_VALUE]}。避開貴族根據你的移動速度獲得皇冠。",
+                "zh-CN": "强化道具的移动速度加成提高{[PRIMARY_VALUE]}。避开贵族根据你的移动速度获得皇冠。",
+                "ko": "파워업의 이동 속도 보너스가 {[PRIMARY_VALUE]} 증가합니다. 귀족을 피하면 당신의 이동 속도에 따라 크라운을 획득합니다."
             }
         }
     },
@@ -12994,14 +13575,14 @@
                 "es": "{[PRIMARY_VALUE]} de generar un orbe de energía al girar.",
                 "de": "{[PRIMARY_VALUE]} eine Energiekugel zu erzeugen, wenn sie sich im Kreis dreht.",
                 "fr": "{[PRIMARY_VALUE]} de générer un orbe d'énergie en tournant sur lui-même.",
-                "it": "{[PRIMARY_VALUE]} di generare una sfera di energia durante la rotazione .",
+                "it": "{[PRIMARY_VALUE]} di generare una sfera di energia durante la rotazione.",
                 "nl": "{[PRIMARY_VALUE]} van het genereren van een energie orb als je ronddraait.",
                 "pt": "{[PRIMARY_VALUE]} de gerar uma esfera de energia ao girar em torno.",
                 "ru": "{[PRIMARY_VALUE]} генерировать энергетическую сферу при вращении вокруг себя.",
                 "ja": "回転時にエナジーオーブ生成率{[PRIMARY_VALUE]}アップ",
                 "zh": "旋转时 {[PRIMARY_VALUE]}产生一个能量球",
                 "zh-CN": "旋转时 {[PRIMARY_VALUE]} 产生一个能量球",
-                "ko": "빙글빙글 돌 때 에너지 오브 생성의 {[PRIMARY_VALUE]} "
+                "ko": "빙글빙글 돌 때 에너지 오브 생성의 {[PRIMARY_VALUE]}"
             }
         }
     },
@@ -14895,10 +15476,10 @@
                 "nl": "{[PRIMARY_VALUE]} van het lanceren van een raket tijdens het flapperen.",
                 "pt": "{[PRIMARY_VALUE]} de lançamento de um míssil quando se lança um flapping.",
                 "ru": "{[PRIMARY_VALUE]} запуска ракеты при махании руками.",
-                "ja": "はばたくとミサイルが発射されるの {[PRIMARY_VALUE]} ",
-                "zh": "拍打時發射導彈的 {[PRIMARY_VALUE]} ",
-                "zh-CN": "拍打时发射导弹的 {[PRIMARY_VALUE]} ",
-                "ko": "펄럭일 때 미사일 발사의 {[PRIMARY_VALUE]} "
+                "ja": "はばたくとミサイルが発射されるの {[PRIMARY_VALUE]}",
+                "zh": "拍打時發射導彈的 {[PRIMARY_VALUE]}",
+                "zh-CN": "拍打时发射导弹的 {[PRIMARY_VALUE]}",
+                "ko": "펄럭일 때 미사일 발사의 {[PRIMARY_VALUE]}"
             }
         }
     },
@@ -14971,7 +15552,7 @@
                 "suffix": "%"
             },
             "description": {
-                "en": "{[PRIMARY_VALUE]} of getting a dragon heart when devouring an aristocrat. Increase your speed by {[SECONDARY_VALUE]} when having a dragon heart .",
+                "en": "{[PRIMARY_VALUE]} of getting a dragon heart when devouring an aristocrat. Increase your speed by {[SECONDARY_VALUE]} when having a dragon heart.",
                 "es": "Un {[PRIMARY_VALUE]} de obtener un corazón de dragón al devorar a un aristócrata. Aumenta tu velocidad en un {[SECONDARY_VALUE]} al tener un corazón de dragón.",
                 "de": "{[PRIMARY_VALUE]} Wahrscheinlichkeit, ein Drachenherz zu erhalten, wenn du einen Aristokraten verschlingst. Erhöhe deine Geschwindigkeit um {[SECONDARY_VALUE]}, wenn du ein Drachenherz hast.",
                 "fr": "{[PRIMARY_VALUE]} de chances d'obtenir un cœur de dragon en dévorant un aristocrate. Augmentez votre vitesse de {[SECONDARY_VALUE]} lorsque vous avez un cœur de dragon.",
@@ -15482,6 +16063,90 @@
                 "zh": "進入次元裂縫時編織宇宙卷鬚（最多 5 個）。 每個卷鬚將提供 {[PRIMARY_VALUE]} 的通電持續時間",
                 "zh-CN": "进入次元裂缝时编织宇宙卷须（最多 5 个）。 每个卷须将提供 {[PRIMARY_VALUE]} 的通电持续时间",
                 "ko": "차원 균열에 들어갈 때 우주 촉수(최대 5개)를 엮습니다. 각 촉수는 파워업 지속 시간의 {[PRIMARY_VALUE]}를 부여합니다."
+            }
+        }
+    },
+    {
+        "name": "Zaguilza",
+        "type": "Feathered",
+        "rarity": "Common",
+        "control": "Tap",
+        "breeding_eggs": [
+            "Wild",
+            "Cockatrice",
+            "Optical"
+        ],
+        "speed": 3.314756,
+        "force": 5.1758995,
+        "weight": 10.0303755,
+        "description": {
+            "en": "Their main feather never stops growing, eventually surpassing their enormous wingspan.",
+            "es": "Su pluma principal no deja nunca de crecer, llegando a superar su enorme envergadura.",
+            "de": "Ihre Hauptfeder wächst unaufhörlich weiter und übertrifft schließlich ihre enorme Flügelspannweite.",
+            "fr": "Leur plume principale ne cesse jamais de croître, finissant par dépasser leur énorme envergure.",
+            "it": "La loro piuma principale non smette mai di crescere, arrivando a superare la loro enorme apertura alare.",
+            "nl": "Hun hoofdveer blijft onophoudelijk groeien, tot deze uiteindelijk hun enorme spanwijdte overtreft.",
+            "pt": "A sua pena principal nunca para de crescer, chegando a superar a sua enorme envergadura.",
+            "ru": "Их главное перо никогда не прекращает расти, в конечном итоге превосходя их огромный размах крыльев.",
+            "ja": "主羽は成長し続け、最終的には巨大な翼幅を超えるまでに至ります。",
+            "zh": "他們的主要羽毛永不停止生長，最終超過其巨大的翼展。",
+            "zh-CN": "它们的主要羽毛永不停止生长，最终超过其巨大的翼展。",
+            "ko": "그들의 주요 깃털은 결코 자라기를 멈추지 않으며, 결국 그들의 거대한 날개 폭을 능가하게 됩니다."
+        },
+        "skill": {
+            "name": {
+                "en": "Perfect vision",
+                "es": "Visión perfecta",
+                "de": "Perfekte Sicht",
+                "fr": "Vision parfaite",
+                "it": "Visione perfetta",
+                "nl": "Perfect zicht",
+                "pt": "Visão perfeita",
+                "ru": "Идеальное зрение",
+                "ja": "完璧な視力",
+                "zh": "完美視力",
+                "zh-CN": "完美视力",
+                "ko": "완벽한 시력"
+            },
+            "is_active_skill": false,
+            "cooldown": {
+                "min": 15,
+                "max": 9
+            },
+            "activation_conditions": [
+                "WhenEatingRoyal"
+            ],
+            "increased_royal_appearence": false,
+            "increased_chest_appearence": false,
+            "increased_egg_appearence": false,
+            "increased_powerup_appearence": false,
+            "increased_portal_appearence": false,
+            "increased_donut_appearence": false,
+            "PRIMARY_VALUE": {
+                "min": 10,
+                "max": 100,
+                "prefix": null,
+                "suffix": "%"
+            },
+            "SECONDARY_VALUE": {
+                "min": 0,
+                "max": 0,
+                "prefix": null,
+                "suffix": null
+            },
+            "description": {
+                "en": "You can only find dragon eyes, but devouring an aristocrat has a {[PRIMARY_VALUE]} of refreshing its duration.",
+                "es": "Solo puedes encontrar ojos de dragón, pero devorar a un aristócrata tiene un {[PRIMARY_VALUE]} de renovar su duración.",
+                "de": "Du kannst nur Drachenaugen finden, aber das Verschlingen eines Aristokraten hat {[PRIMARY_VALUE]}, deren Dauer zu erneuern.",
+                "fr": "Vous ne pouvez trouver que des yeux de dragon, mais dévorer un aristocrate a {[PRIMARY_VALUE]} de rafraîchir leur durée.",
+                "it": "Puoi trovare solo occhi di drago, ma divorare un aristocratico ha il {[PRIMARY_VALUE]} di rinnovarne la durata.",
+                "nl": "Je kunt alleen drakenogen vinden, maar het verslinden van een aristocraat heeft {[PRIMARY_VALUE]} om de duur ervan te vernieuwen.",
+                "pt": "Só podes encontrar olhos de dragão, mas devorar um aristocrata tem {[PRIMARY_VALUE]} de renovar a sua duração.",
+                "ru": "Вы можете найти только глаза дракона, но пожирание аристократа имеет {[PRIMARY_VALUE]} обновить их длительность.",
+                "ja": "ドラゴンの目しか見つけられませんが、貴族を捕食すると{[PRIMARY_VALUE]}でその持続時間が更新されます。",
+                "zh": "你只能找到龍眼，但吞噬一位貴族有{[PRIMARY_VALUE]}刷新其持續時間。",
+                "zh-CN": "你只能找到龙眼，但吞噬一位贵族有{[PRIMARY_VALUE]}刷新其持续时间。",
+                "ko": "당신은 용의 눈만 찾을 수 있지만, 귀족을 포식하면 {[PRIMARY_VALUE]}로 그 지속 시간이 갱신됩니다."
             }
         }
     },

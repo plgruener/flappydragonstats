@@ -153,6 +153,100 @@
     },
     {
         "name": {
+            "en": "Cactus Canyon",
+            "es": "Cañón Cactus",
+            "de": "Kaktus-Canyon",
+            "fr": "Canyon Cactus",
+            "it": "Canyon Cactus",
+            "nl": "Cactuskloof",
+            "pt": "Cânion Cactus",
+            "ru": "Каньон Кактусов",
+            "ja": "カクタスキャニオン",
+            "zh": "仙人掌峽谷",
+            "zh-CN": "仙人掌峡谷",
+            "ko": "선인장 캐니언"
+        },
+        "description": {
+            "en": "Trains transport valuable dragonite through this arid and thorny canyon.",
+            "es": "Los trenes transportan valiosa dragonita por este árido y espinoso cañón.",
+            "de": "Züge transportieren wertvolles Dragonit durch diese trockene und dornige Schlucht.",
+            "fr": "Les trains transportent de précieuse dragonite à travers ce canyon aride et épineux.",
+            "it": "I treni trasportano preziosa dragonite attraverso questo canyon arido e spinoso.",
+            "nl": "Treinen vervoeren waardevolle dragoniet door deze dorre en doornige canyon.",
+            "pt": "Os comboios transportam valiosa dragonita por este árido e espinhoso desfiladeiro.",
+            "ru": "Поезда перевозят ценный драгонит через этот засушливый и колючий каньон.",
+            "ja": "列車がこの乾燥した棘だらけの峡谷を通って貴重なドラゴナイトを運んでいます。",
+            "zh": "列車運送珍貴的龍晶礦穿越這個乾旱多刺的峽谷。",
+            "zh-CN": "列车运送珍贵的龙晶矿穿越这个干旱多刺的峡谷。",
+            "ko": "열차가 이 건조하고 가시 돋친 협곡을 통해 귀중한 드래고나이트를 운반합니다."
+        },
+        "aristocrats": [
+            {
+                "name": "Driver",
+                "can_sleep": true
+            },
+            {
+                "name": "Sheriff",
+                "can_sleep": true
+            },
+            {
+                "name": "Bard",
+                "can_sleep": true
+            }
+        ],
+        "themes": [
+            {
+                "name": "Cactus Canyon Sunset",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Cactus Canyon Dawn",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Cactus Canyon Day",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Cactus Canyon Twillight",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Cactus Canyon Night",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Cactus Canyon Rain",
+                "is_night": false,
+                "has_rain": true,
+                "has_snow": false
+            },
+            {
+                "name": "Cactus Canyon Snow",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": true
+            },
+            {
+                "name": "Cactus Canyon Scorch",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            }
+        ]
+    },
+    {
+        "name": {
             "en": "Cake peaks",
             "es": "Picos pastel",
             "de": "Tortenspitzen",

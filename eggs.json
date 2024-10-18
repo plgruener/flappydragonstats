@@ -387,7 +387,8 @@
             "Quolmeena",
             "Rakles",
             "Xexarga",
-            "Archideon"
+            "Archideon",
+            "Espodrion"
         ],
         "contains_dragon_heart": false,
         "contains_evil_mushroom": false,
@@ -514,7 +515,10 @@
             "Unsire",
             "Banjo",
             "Kri Kri",
-            "Solloma"
+            "Solloma",
+            "Zaguilza",
+            "Ilvy",
+            "Volrrina"
         ],
         "contains_dragon_heart": false,
         "contains_evil_mushroom": false,
@@ -664,7 +668,8 @@
             "Cactuno",
             "Mozalysta",
             "Ohamuyrex",
-            "Xexarga"
+            "Xexarga",
+            "Raonaron"
         ],
         "contains_dragon_heart": false,
         "contains_evil_mushroom": false,
@@ -1078,7 +1083,8 @@
             "Gussmimo",
             "Abtum",
             "Ayoniible",
-            "Hurbom"
+            "Hurbom",
+            "Orsonte"
         ],
         "contains_dragon_heart": false,
         "contains_evil_mushroom": false,
@@ -1558,7 +1564,8 @@
         "custom_pool": [
             "Wokura",
             "Huooo",
-            "Qui Brel"
+            "Qui Brel",
+            "Rodascabel"
         ],
         "contains_dragon_heart": false,
         "contains_evil_mushroom": false,
@@ -2036,7 +2043,8 @@
             "Volcanovva",
             "Y-M4K0",
             "Cactuno",
-            "Vetrece"
+            "Vetrece",
+            "Gwyngora"
         ],
         "contains_dragon_heart": false,
         "contains_evil_mushroom": false,
@@ -2204,7 +2212,8 @@
         "custom_pool": [
             "Kyrnyan",
             "X-KYRNY4N",
-            "Yu Yinna"
+            "Yu Yinna",
+            "Riffallua"
         ],
         "contains_dragon_heart": false,
         "contains_evil_mushroom": false,
@@ -3134,6 +3143,62 @@
         "rarity_pool": "All",
         "type_pool": "Western",
         "custom_pool": [],
+        "contains_dragon_heart": false,
+        "contains_evil_mushroom": false,
+        "contains_fairy_dust": false,
+        "contains_dragon_eye": false,
+        "contains_dragon_chilli": false,
+        "contains_thunder_cloud": false,
+        "contains_sands_of_time": false,
+        "contains_cosmic_stars": false,
+        "contains_lucky_charm": false,
+        "contains_curved_spoon": false,
+        "contains_magic_snowflake": false,
+        "contains_spooky_ghost": false
+    },
+    {
+        "name": {
+            "en": "Wild egg",
+            "es": "Huevo salvaje",
+            "de": "Wildes Ei",
+            "fr": "Œuf sauvage",
+            "it": "Uovo selvaggio",
+            "nl": "Wild ei",
+            "pt": "Ovo selvagem",
+            "ru": "Дикое яйцо",
+            "ja": "野生の卵",
+            "zh": "野生蛋",
+            "zh-CN": "野生蛋",
+            "ko": "야생 알"
+        },
+        "description": {
+            "en": "Contains dragons of wild subtype",
+            "es": "Contiene dragones del subtipo salvaje",
+            "de": "Enthält Drachen des wilden Untertyps",
+            "fr": "Contient des dragons du sous-type sauvage",
+            "it": "Contiene draghi del sottotipo selvaggio",
+            "nl": "Bevat draken van het wilde subtype",
+            "pt": "Contém dragões do subtipo selvagem",
+            "ru": "Содержит драконов дикого подтипа",
+            "ja": "野生のサブタイプのドラゴンを含む",
+            "zh": "包含野生亞型的龍",
+            "zh-CN": "包含野生亚型的龙",
+            "ko": "야생 하위 유형의 드래곤 포함"
+        },
+        "incubation_time": 8,
+        "egg_subtype": "Subtype",
+        "rarity_pool": "All",
+        "type_pool": "All",
+        "custom_pool": [
+            "Raonaron",
+            "Volrrina",
+            "Espodrion",
+            "Ilvy",
+            "Orsonte",
+            "Riffallua",
+            "Rodascabel",
+            "Zaguilza"
+        ],
         "contains_dragon_heart": false,
         "contains_evil_mushroom": false,
         "contains_fairy_dust": false,
