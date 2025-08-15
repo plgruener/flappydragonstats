@@ -16,7 +16,7 @@
         },
         "incubation_time": 8,
         "rarity_pool": "All",
-        "type_pool": "Fairy",
+        "type_pool": "All",
         "custom_pool": [
             "Posaleja",
             "Belbelulo",
@@ -302,7 +302,7 @@
         },
         "incubation_time": 8,
         "rarity_pool": "All",
-        "type_pool": "Feathered",
+        "type_pool": "All",
         "custom_pool": [
             "Hastalak",
             "Gurgunterox",
@@ -336,7 +336,7 @@
         },
         "incubation_time": 8,
         "rarity_pool": "All",
-        "type_pool": "Fairy",
+        "type_pool": "All",
         "custom_pool": [
             "Addiustein",
             "Archideon",
