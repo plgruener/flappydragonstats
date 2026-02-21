@@ -190,7 +190,7 @@ def breeding_sum_lookup(name_pairs,lookup=lookup):
 #
 
 #TODO unify lookup- and p- parameter usage
-def search_all(dragonlist,lookup=lookup,max_iterations=math.inf,p=p_shiny):
+def search_all(dragonlist,lookup=lookup,p=p_shiny):
     print(f'{len(dragonlist)=} {dragonlist=}')
     num=number_pairings(len(dragonlist)) # == 654_729_075 = 6.5E8 for n=20
     bestval=0
