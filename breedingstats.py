@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+from dataclasses import dataclass
+import inspect
 import math
 import json
 import itertools
@@ -90,6 +92,35 @@ def sorted_tuplelist(l,i,reverse=True):
 
 ################################################################################
 
+@dataclass(frozen=True)
+class Dragon:
+    name: str
+    type: str
+    rarity: str
+    breeding_eggs: list[str]
+
+    # to simplify instanciating from the JSON object
+    # stolen from https://stackoverflow.com/a/55096964
+    @classmethod
+    def from_dict(cls, env) -> Dragon:
+        return cls(**{
+            k: v for k, v in env.items()
+            if k in inspect.signature(cls).parameters
+        })
+
+    # just an alias for less typing
+    @property
+    def eggs(self) -> list[str]:
+        return self.breeding_eggs
+
+    @property
+    def value(self) -> int:
+        return 40*2**rarities.index(self.rarity)
+
+    @property
+    def time(self) -> int:
+        return hatchtimes[rarities.index(self.rarity)]
+
 ### DRAGON DATA ################################################################
 VERSION='4.4.1'
 print(f"{VERSION=}")
@@ -117,6 +148,8 @@ def dragon_eggs(dragon:str)->list:
 rarities = ['Common','Uncommon','Rare','Epic','Legendary','Mythic']
 def dragon_value(dragon: str) -> int:
     return 40*2**rarities.index(dragon_rarity(dragon))
+
+hatchtimes = [1,2,4,8,12,24]
 
 ### EGG DATA ###################################################################
 # generate the list of eggs one can get from breeding and the dragons they hatch into
