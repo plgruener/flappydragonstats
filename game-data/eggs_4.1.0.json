@@ -706,7 +706,7 @@
             "ru": "Яйцо дрейка",
             "ja": "ドレイクの卵",
             "zh": "德雷克蛋",
-            "zh-CN": "德雷克蛋\r",
+            "zh-CN": "德雷克蛋",
             "ko": "드레이크 알"
         },
         "description": {
@@ -1934,7 +1934,7 @@
             "en": "Contains dragons of plant subtype",
             "es": "Contiene dragones del subtipo planta",
             "de": "Enthält Drachen des Pflanzen-Subtyps",
-            "fr": "Contient des dragons du sous-type plante\r",
+            "fr": "Contient des dragons du sous-type plante",
             "it": "Contiene draghi del sottotipo pianta",
             "nl": "Bevat draken van het plant-subtype",
             "pt": "Contém dragões do subtipo planta",
@@ -2084,7 +2084,7 @@
             "it": "Uovo di Pterodattilo",
             "nl": "Pterodactylus Ei",
             "pt": "Ovo de Pterodáctilo",
-            "ru": "Яйцо Птеродактиля\r",
+            "ru": "Яйцо Птеродактиля",
             "ja": "プテラダクティルの卵",
             "zh": "翼手龍蛋",
             "zh-CN": "翼手龙蛋",
@@ -2270,7 +2270,7 @@
             "ru": "Яйцо Цилина",
             "ja": "キリンの卵",
             "zh": "麒麟蛋",
-            "zh-CN": "麒麟蛋\r",
+            "zh-CN": "麒麟蛋",
             "ko": "기린 알"
         },
         "description": {
@@ -2280,7 +2280,7 @@
             "fr": "Contient des dragons du sous-type qilin",
             "it": "Contiene draghi del sottotipo qilin",
             "nl": "Bevat draken van het Qilin-subtype",
-            "pt": "Contém dragões do subtipo qilin\r",
+            "pt": "Contém dragões do subtipo qilin",
             "ru": "Содержит драконов подтипа Цилин",
             "ja": "キリンのサブタイプのドラゴンを含む",
             "zh": "包含麒麟亚型的龙",
@@ -2462,7 +2462,7 @@
     {
         "name": {
             "en": "Sea Serpent Egg",
-            "es": "Huevo de Serpiente Marina\r",
+            "es": "Huevo de Serpiente Marina",
             "de": "See-Schlange-Ei",
             "fr": "Œuf de Serpent de Mer",
             "it": "Uovo di Serpente Marino",
