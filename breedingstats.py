@@ -288,6 +288,8 @@ def selection_4(n=20):
     selection = [name for (score,name) in sorted([(dragon_sums[d],d) for d in dragon_sums],reverse=True)]
     return selection[:n]
 
+search_all(selection_2())
+
 ################################################################################
 
 ### FUTURE WORK ################################################################
