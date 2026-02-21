@@ -242,61 +242,47 @@ def dragon_score_1(dragon:str,p=p_shiny)->float:
     eggs = dragon_eggs(dragon)
     return p*0.5*dragon_value(dragon) + (1-p)*sum([egg_value(e) for e in eggs])/len(eggs)
 
-selection1 = dragons_by_score(dragon_score_1)[:20]
-assert selection1 == ['Wokura', 'Huooo', 'Qui Brel', 'Mareatan', 'Kyrnyan', 'X-0RB', 'X-C13N', 'Axoximbo', 'X-FR4CT8R3', 'Munestra', 'Sunestro', 'Behalis', 'X-N3B8L4', 'Curelm', 'Malian', 'X-KYRNY4N', 'Abymonio', 'Bacellote', 'Bolgula', 'Malodan']
-result1 = [('Malodan', 'X-KYRNY4N'), ('Bolgula', 'Bacellote'), ('Abymonio', 'Curelm'), ('Malian', 'Qui Brel'), ('X-N3B8L4', 'Behalis'), ('Sunestro', 'X-FR4CT8R3'), ('Munestra', 'Huooo'), ('Axoximbo', 'Wokura'), ('X-C13N', 'X-0RB'), ('Kyrnyan', 'Mareatan')]
-print('=== Option 1 ===')
-print_result(result1)
-## with total value 5282.3250681767495
+def selection_1(n=20):
+    return dragons_by_score(dragon_score_1)[:n]
 
 ### Option 2 ###
 # order all possible pairs of dragons by their value (we already computed those),
 # then pick the dragons of the first "free" n/2 pairs from the top
 
-# [ (score,(d1,d2)),… ]
-pair_values = list(map(lambda pair: (lookup[pair],pair),itertools.combinations(dragon_names,2)))
-
-sl=[]
-for (v,(d1,d2)) in sorted(pair_values,reverse=True):
-    if (d1 not in sl) and (d2 not in sl):
-        sl.append(d1)
-        sl.append(d2)
-
-selection2 = sl[:20]
-assert selection2 == ['Mareatan', 'Wokura', 'Huooo', 'Malian', 'Kyrnyan', 'Qui Brel', 'Axoximbo', 'X-0RB', 'X-C13N', 'X-FR4CT8R3', 'Curelm', 'Sunestro', 'Munestra', 'X-N3B8L4', 'Malodan', 'X-P4R4S1T3', 'X-KYRNY4N', 'Zinkireno', 'Abymonio', 'Behalis']
-result2 = [('Huooo', 'Malian'), ('Wokura', 'Axoximbo'), ('Mareatan', 'Kyrnyan'), ('Qui Brel', 'Sunestro'), ('X-0RB', 'X-C13N'), ('X-FR4CT8R3', 'Munestra'), ('Curelm', 'X-KYRNY4N'), ('X-N3B8L4', 'Behalis'), ('Malodan', 'X-P4R4S1T3'), ('Zinkireno', 'Abymonio')]
-print('=== Option 2 ===')
-print_result(result2)
+def selection_2(n=20):
+    # [ (score,(d1,d2)),… ]
+    pair_values = list(map(lambda pair: (lookup[pair],pair),itertools.combinations(dragon_names,2)))
+    sl=[]
+    for (v,(d1,d2)) in sorted(pair_values,reverse=True):
+        if (d1 not in sl) and (d2 not in sl):
+            sl.append(d1)
+            sl.append(d2)
+    return sl[:n]
 
 ### Option 3 ###
 # almost the same as Option 2, but use the first n dragon from the top,
 # even if that specific pair is not "free"
-sl2=[]
-for (v,(d1,d2)) in sorted(pair_values,reverse=True):
-    if (d1 not in sl2):
-        sl2.append(d1)
-    if (d2 not in sl2):
-        sl2.append(d2)
-
-selection3 = sl2[:20]
-assert selection3 == ['Mareatan', 'Wokura', 'Kyrnyan', 'Huooo', 'Malian', 'X-0RB', 'Axoximbo', 'Qui Brel', 'X-C13N', 'Curelm', 'Sunestro', 'Munestra', 'X-FR4CT8R3', 'X-N3B8L4', 'Behalis', 'Noelyx', 'Voralaz', 'Zinkireno', 'Yon Lu', 'Xen Lu']
-result3 = [('Mareatan', 'Yon Lu'), ('Wokura', 'Voralaz'), ('Kyrnyan', 'Curelm'), ('Huooo', 'Malian'), ('X-0RB', 'Axoximbo'), ('Qui Brel', 'Xen Lu'), ('X-C13N', 'Sunestro'), ('Munestra', 'X-FR4CT8R3'), ('X-N3B8L4', 'Behalis'), ('Noelyx', 'Zinkireno')]
-print('=== Option 3 ===')
-print_result(result3)
+def selection_3(n=20):
+    pair_values = list(map(lambda pair: (lookup[pair],pair),itertools.combinations(dragon_names,2)))
+    sl=[]
+    for (v,(d1,d2)) in sorted(pair_values,reverse=True):
+        if (d1 not in sl):
+            sl.append(d1)
+        if (d2 not in sl):
+            sl.append(d2)
+    return sl[:n]
 
 ### Option 4 ###
 # assign dragon score based on sum of all breeding values of pairs this dragon is part of
+def selection_4(n=20):
+    dragon_sums = {d:0 for d in dragon_names}
+    pair_values = list(map(lambda pair: (lookup[pair],pair),itertools.combinations(dragon_names,2)))
+    for (v,(d1,d2)) in pair_values:
+        dragon_sums[d1]+=v
+        dragon_sums[d2]+=v
 
-dragon_sums = {d:0 for d in dragon_names}
-for (v,(d1,d2)) in pair_values:
-    dragon_sums[d1]+=v
-    dragon_sums[d2]+=v
-
-selection4 = [name for (score,name) in sorted([(dragon_sums[d],d) for d in dragon_sums],reverse=True)  ][:20]
-assert selection4 == ['Wokura', 'Huooo', 'Mareatan', 'Kyrnyan', 'Qui Brel', 'Curelm', 'Malian', 'X-KYRNY4N', 'Malodan', 'Abymonio', 'X-0RB', 'Axoximbo', 'Zinkireno', 'X-P4R4S1T3', 'X-C13N', 'Cenizvesa', 'Sunestro', 'Munestra', 'Yu Yinna', 'X-FR4CT8R3']
-result4 = [('Wokura', 'Sunestro'), ('Huooo', 'Malian'), ('Mareatan', 'Kyrnyan'), ('Qui Brel', 'Axoximbo'), ('Curelm', 'X-KYRNY4N'), ('Malodan', 'X-P4R4S1T3'), ('Abymonio', 'Zinkireno'), ('X-0RB', 'X-FR4CT8R3'), ('X-C13N', 'Munestra'), ('Cenizvesa', 'Yu Yinna')]
-print('=== Option 4 ===')
-print_result(result4)
+    selection = [name for (score,name) in sorted([(dragon_sums[d],d) for d in dragon_sums],reverse=True)]
+    return selection[:n]
 
 ################################################################################
 
