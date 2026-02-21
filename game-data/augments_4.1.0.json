@@ -256,9 +256,9 @@
             "pt": "Constellibur",
             "ru": "Констеллибур",
             "ja": "コンステリバー",
-            "zh": "星座之劍 ",
-            "zh-CN": "星座之剑 ",
-            "ko": "콘스텔리버 "
+            "zh": "星座之劍",
+            "zh-CN": "星座之剑",
+            "ko": "콘스텔리버"
         },
         "is_stackable": false,
         "PRIMARY_VALUE": {
@@ -297,8 +297,8 @@
             "pt": "Constellibur",
             "ru": "Констеллибур",
             "ja": "コンステリバー",
-            "zh": "星座之劍 ",
-            "zh-CN": "星座之剑 ",
+            "zh": "星座之劍",
+            "zh-CN": "星座之剑",
             "ko": "콘스텔리버"
         },
         "is_stackable": false,
