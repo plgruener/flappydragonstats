@@ -1,0 +1,2052 @@
+[
+    {
+        "name": {
+            "en": "Aristocrat alignment",
+            "es": "Alineación aristocrática",
+            "de": "Aristokratische Ausrichtung",
+            "fr": "Alignement aristocratique",
+            "it": "Allineamento aristocratico",
+            "nl": "Aristocratische uitlijning",
+            "pt": "Alinhamento aristocrático",
+            "ru": "Аристократическое выравнивание",
+            "ja": "貴族のアライメント",
+            "zh": "貴族排列",
+            "zh-CN": "贵族排列",
+            "ko": "귀족 정렬"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 100,
+            "prefix": "+",
+            "suffix": "%"
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "{[PRIMARY_VALUE]} of aristocrats appearance.",
+            "es": "{[PRIMARY_VALUE]} de aparición de aristócratas.",
+            "de": "{[PRIMARY_VALUE]} der Aristokraten erscheinen.",
+            "fr": "{[PRIMARY_VALUE]} de l'apparence des aristocrates.",
+            "it": "{[PRIMARY_VALUE]} dell'apparizione degli aristocratici.",
+            "nl": "{[PRIMARY_VALUE]} van de aristocraten verschijnen.",
+            "pt": "{[PRIMARY_VALUE]} dos aristocratas aparecem.",
+            "ru": "{[PRIMARY_VALUE]} аристократов.",
+            "ja": "貴族の出現率{[PRIMARY_VALUE]}パーセント",
+            "zh": "{[PRIMARY_VALUE]}貴族似乎",
+            "zh-CN": "{[PRIMARY_VALUE]}的贵族出现了",
+            "ko": "{[PRIMARY_VALUE]} 귀족의 외관"
+        }
+    },
+    {
+        "name": {
+            "en": "Black hole",
+            "es": "Agujero negro",
+            "de": "Schwarzes Loch",
+            "fr": "Trou noir",
+            "it": "Buco nero",
+            "nl": "Zwart gat",
+            "pt": "Buraco negro",
+            "ru": "Чёрная дыра",
+            "ja": "ブラックホール",
+            "zh": "黑洞",
+            "zh-CN": "黑洞",
+            "ko": "블랙홀"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 5,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Gain a magnetic aura.",
+            "es": "Gana un aura magnética.",
+            "de": "Erhalte eine magnetische Aura.",
+            "fr": "Obtenez une aura magnétique.",
+            "it": "Ottieni un'aura magnetica.",
+            "nl": "Krijg een magnetische aura.",
+            "pt": "Ganha uma aura magnética.",
+            "ru": "Получите магнитную ауру.",
+            "ja": "磁気オーラを獲得します",
+            "zh": "獲得磁場光環",
+            "zh-CN": "获得磁场光环",
+            "ko": "자기장 오라를 획득합니다"
+        }
+    },
+    {
+        "name": {
+            "en": "C.U.R.E.L.M.",
+            "es": "C.U.R.E.L.M.",
+            "de": "C.U.R.E.L.M.",
+            "fr": "C.U.R.E.L.M.",
+            "it": "C.U.R.E.L.M.",
+            "nl": "C.U.R.E.L.M.",
+            "pt": "C.U.R.E.L.M.",
+            "ru": "C.U.R.E.L.M.",
+            "ja": "C.U.R.E.L.M.",
+            "zh": "C.U.R.E.L.M.",
+            "zh-CN": "C.U.R.E.L.M.",
+            "ko": "C.U.R.E.L.M."
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 10,
+            "prefix": null,
+            "suffix": "%"
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "{[PRIMARY_VALUE]} of generating equally random content.",
+            "es": "{[PRIMARY_VALUE]} de generar contenido igualmente aleatorio.",
+            "de": "{[PRIMARY_VALUE]} Chance, gleichmäßig zufälligen Inhalt zu generieren.",
+            "fr": "{[PRIMARY_VALUE]} de générer du contenu également aléatoire.",
+            "it": "{[PRIMARY_VALUE]} di generare contenuto ugualmente casuale.",
+            "nl": "{[PRIMARY_VALUE]} kans om gelijkmatig willekeurige inhoud te genereren.",
+            "pt": "{[PRIMARY_VALUE]} de gerar conteúdo igualmente aleatório.",
+            "ru": "{[PRIMARY_VALUE]} шанс генерации равномерно случайного контента.",
+            "ja": "{[PRIMARY_VALUE]}の確率で均等にランダムなコンテンツを生成します",
+            "zh": "{[PRIMARY_VALUE]}機率生成同等隨機的內容",
+            "zh-CN": "{[PRIMARY_VALUE]}几率生成同等随机的内容",
+            "ko": "{[PRIMARY_VALUE]}의 확률로 동등하게 무작위 콘텐츠를 생성합니다"
+        }
+    },
+    {
+        "name": {
+            "en": "Chain reaction",
+            "es": "Reacción en cadena",
+            "de": "Kettenreaktion",
+            "fr": "Réaction en chaîne",
+            "it": "Reazione a catena",
+            "nl": "Kettingreactie",
+            "pt": "Reação em cadeia",
+            "ru": "Цепная реакция",
+            "ja": "連鎖反応",
+            "zh": "連鎖反應",
+            "zh-CN": "连锁反应",
+            "ko": "연쇄 반응"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 10,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Get extra crowns based on the amount of eaten aristocrats (up to {[PRIMARY_VALUE]}) when devouring aristocrats. Avoiding an aristocrat resets the counter.",
+            "es": "Consigue coronas extra en función de la cantidad de aristócratas comidos (hasta {[PRIMARY_VALUE]}) al devorar aristócratas. Evitar un aristócrata reinicia el contador.",
+            "de": "Beim Verschlingen von Aristokraten erhält man zusätzliche Kronen, die von der Anzahl der verschlungenen Aristokraten abhängen (bis zu {[PRIMARY_VALUE]}). Das Vermeiden eines Aristokraten setzt den Zähler zurück.",
+            "fr": "Obtenez des couronnes supplémentaires en fonction du nombre d'aristocrates mangés (jusqu'à {[PRIMARY_VALUE]}) lorsque vous dévorez des aristocrates. Éviter un aristocrate remet le compteur à zéro.",
+            "it": "Ottenere corone extra in base alla quantità di aristocratici mangiati (fino a {[PRIMARY_VALUE]}) quando si divorano aristocratici. Evitare un aristocratico azzera il contatore.",
+            "nl": "Krijg extra kronen gebaseerd op het aantal opgegeten aristocraten (tot {[PRIMARY_VALUE]}) bij het verslinden van aristocraten. Het vermijden van een aristocraat zet de teller weer op nul.",
+            "pt": "Obter coroas extra com base na quantidade de aristocratas comidos (até {[PRIMARY_VALUE]}) ao devorar aristocratas. Evitar um aristocrata repõe o contador.",
+            "ru": "При пожирании аристократов получайте дополнительные короны в зависимости от количества съеденных аристократов (до {[PRIMARY_VALUE]}). При избегании аристократа счетчик сбрасывается.",
+            "ja": "貴族を食らうと、食らった貴族の量に応じた王冠を追加で入手できる（最大{[PRIMARY_VALUE]}個）。貴族を避けるとカウンターがリセットされる",
+            "zh": "吞噬貴族時，根據吃掉的貴族數量（最多{[PRIMARY_VALUE]}個）獲得額外的皇冠。 避開貴族會重置計數器",
+            "zh-CN": "吞噬贵族时，根据吃掉的贵族数量（最多{[PRIMARY_VALUE]}个）获得额外的皇冠。 避开贵族会重置计数器",
+            "ko": "귀족을 포식할 때 먹은 귀족의 양에 따라 추가 왕관을 얻습니다(최대 {[PRIMARY_VALUE]}개). 귀족을 피하면 카운터가 재설정됩니다."
+        }
+    },
+    {
+        "name": {
+            "en": "Chaomancy",
+            "es": "Caomancia",
+            "de": "Chaomantie",
+            "fr": "Chaomancie",
+            "it": "Caomanzia",
+            "nl": "Chaomantie",
+            "pt": "Caomancia",
+            "ru": "Хаомантия",
+            "ja": "カオマンシー",
+            "zh": "混沌占術",
+            "zh-CN": "混沌占术",
+            "ko": "카오맨시"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 60,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Remove powerups, but get a random one at random intervals (up to {[PRIMARY_VALUE]} seconds).",
+            "es": "Elimina los potenciadores, pero obtén uno aleatorio a intervalos aleatorios (hasta {[PRIMARY_VALUE]} segundos).",
+            "de": "Entferne Power-ups, aber erhalte ein zufälliges in zufälligen Abständen (bis zu {[PRIMARY_VALUE]} Sekunden).",
+            "fr": "Supprime les bonus, mais obtenez-en un aléatoire à intervalles aléatoires (jusqu'à {[PRIMARY_VALUE]} secondes).",
+            "it": "Rimuovi i potenziamenti, ma ottieni uno casuale a intervalli casuali (fino a {[PRIMARY_VALUE]} secondi).",
+            "nl": "Verwijder power-ups, maar krijg een willekeurige op willekeurige intervallen (tot {[PRIMARY_VALUE]} seconden).",
+            "pt": "Remove os power-ups, mas ganha um aleatório em intervalos aleatórios (até {[PRIMARY_VALUE]} segundos).",
+            "ru": "Убирает усиления, но дает случайное через случайные интервалы (до {[PRIMARY_VALUE]} секунд).",
+            "ja": "パワーアップを削除しますが、ランダムな間隔（最大{[PRIMARY_VALUE]}秒）でランダムなものを獲得します",
+            "zh": "移除強化道具，但以隨機間隔（最多{[PRIMARY_VALUE]}秒）獲得隨機強化",
+            "zh-CN": "移除强化道具，但以随机间隔（最多{[PRIMARY_VALUE]}秒）获得随机强化",
+            "ko": "파워업을 제거하지만, 무작위 간격(최대 {[PRIMARY_VALUE]}초)으로 무작위 파워업을 획득합니다"
+        }
+    },
+    {
+        "name": {
+            "en": "Chronoloop",
+            "es": "Cronobucle",
+            "de": "Chronoschleife",
+            "fr": "Chronoboucle",
+            "it": "Cronoanello",
+            "nl": "Chronolus",
+            "pt": "Cronoloop",
+            "ru": "Хронопетля",
+            "ja": "クロノループ",
+            "zh": "時間迴圈",
+            "zh-CN": "时间回环",
+            "ko": "크로노루프"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 50,
+            "prefix": null,
+            "suffix": "%"
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Reduce active skill cooldown by {[PRIMARY_VALUE]}.",
+            "es": "Reduce el tiempo de recarga de la habilidad activa en {[PRIMARY_VALUE]}.",
+            "de": "Reduziere die Abklingzeit der aktiven Fähigkeit um {[PRIMARY_VALUE]}.",
+            "fr": "Réduit le temps de recharge de la compétence active de {[PRIMARY_VALUE]}.",
+            "it": "Riduci il tempo di recupero dell'abilità attiva di {[PRIMARY_VALUE]}.",
+            "nl": "Verminder de afkoeltijd van actieve vaardigheid met {[PRIMARY_VALUE]}.",
+            "pt": "Reduz o tempo de recarga da habilidade ativa em {[PRIMARY_VALUE]}.",
+            "ru": "Уменьшает время восстановления активного навыка на {[PRIMARY_VALUE]}.",
+            "ja": "アクティブスキルのクールダウンを{[PRIMARY_VALUE]}短縮します",
+            "zh": "主動技能冷卻時間減少{[PRIMARY_VALUE]}",
+            "zh-CN": "主动技能冷却时间减少{[PRIMARY_VALUE]}",
+            "ko": "액티브 스킬 쿨다운을 {[PRIMARY_VALUE]} 감소시킵니다"
+        }
+    },
+    {
+        "name": {
+            "en": "Constellibur",
+            "es": "Constellibur",
+            "de": "Constellibur",
+            "fr": "Constellibur",
+            "it": "Constellibur",
+            "nl": "Constellibur",
+            "pt": "Constellibur",
+            "ru": "Констеллибур",
+            "ja": "コンステリバー",
+            "zh": "星座之劍 ",
+            "zh-CN": "星座之剑 ",
+            "ko": "콘스텔리버 "
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 0.1,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "You control a cosmic blade. Having both versions improves them.",
+            "es": "Controlas una hoja cósmica. Tener ambas versiones las mejora.",
+            "de": "Du kontrollierst eine kosmische Klinge. Beide Versionen zu haben verbessert sie.",
+            "fr": "Vous contrôlez une lame cosmique. Avoir les deux versions les améliore.",
+            "it": "Controlli una lama cosmica. Avere entrambe le versioni le migliora.",
+            "nl": "Je bestuurt een kosmisch zwaard. Beide versies hebben verbetert ze.",
+            "pt": "Controlas uma lâmina cósmica. Ter ambas as versões melhora-as.",
+            "ru": "Вы управляете космическим клинком. Наличие обеих версий улучшает их.",
+            "ja": "宇宙の刃を操ります。両方のバージョンを持つとそれらが強化されます。",
+            "zh": "你控制一把宇宙之刃。擁有兩個版本會改善它們。",
+            "zh-CN": "你控制一把宇宙之刃。拥有两个版本会改善它们。",
+            "ko": "우주 검을 조종합니다. 두 버전을 모두 가지면 향상됩니다."
+        }
+    },
+    {
+        "name": {
+            "en": "Constellibur",
+            "es": "Constellibur",
+            "de": "Constellibur",
+            "fr": "Constellibur",
+            "it": "Constellibur",
+            "nl": "Constellibur",
+            "pt": "Constellibur",
+            "ru": "Констеллибур",
+            "ja": "コンステリバー",
+            "zh": "星座之劍 ",
+            "zh-CN": "星座之剑 ",
+            "ko": "콘스텔리버"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 0.1,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "You control a cosmic blade. Having both versions improves them.",
+            "es": "Controlas una hoja cósmica. Tener ambas versiones las mejora.",
+            "de": "Du kontrollierst eine kosmische Klinge. Beide Versionen zu haben verbessert sie.",
+            "fr": "Vous contrôlez une lame cosmique. Avoir les deux versions les améliore.",
+            "it": "Controlli una lama cosmica. Avere entrambe le versioni le migliora.",
+            "nl": "Je bestuurt een kosmisch zwaard. Beide versies hebben verbetert ze.",
+            "pt": "Controlas uma lâmina cósmica. Ter ambas as versões melhora-as.",
+            "ru": "Вы управляете космическим клинком. Наличие обеих версий улучшает их.",
+            "ja": "宇宙の刃を操ります。両方のバージョンを持つとそれらが強化されます。",
+            "zh": "你控制一把宇宙之刃。擁有兩個版本會改善它們。",
+            "zh-CN": "你控制一把宇宙之刃。拥有两个版本会改善它们。",
+            "ko": "우주 검을 조종합니다. 두 버전을 모두 가지면 향상됩니다."
+        }
+    },
+    {
+        "name": {
+            "en": "Cosmic cat",
+            "es": "Gato cósmico",
+            "de": "Kosmische Katze",
+            "fr": "Chat cosmique",
+            "it": "Gatto cosmico",
+            "nl": "Kosmische kat",
+            "pt": "Gato cósmico",
+            "ru": "Космический кот",
+            "ja": "宇宙猫",
+            "zh": "宇宙貓",
+            "zh-CN": "宇宙猫",
+            "ko": "우주 고양이"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 2,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 100,
+            "prefix": null,
+            "suffix": "%"
+        },
+        "description": {
+            "en": "Mystery eggs summons a cosmic cat (up to {[PRIMARY_VALUE]}) that increases stellar donuts appearance by {[SECONDARY_VALUE]} each.",
+            "es": "Los huevos misteriosos invocan un gato cósmico (hasta {[PRIMARY_VALUE]}) que aumenta la aparición de donuts estelares en un {[SECONDARY_VALUE]} cada uno.",
+            "de": "Mysteriöse Eier beschwören eine kosmische Katze (bis zu {[PRIMARY_VALUE]}), die das Erscheinen von Sternendonuts um jeweils {[SECONDARY_VALUE]} erhöht.",
+            "fr": "Les œufs mystérieux invoquent un chat cosmique (jusqu'à {[PRIMARY_VALUE]}) qui augmente l'apparition des beignets stellaires de {[SECONDARY_VALUE]} chacun.",
+            "it": "Le uova misteriose evocano un gatto cosmico (fino a {[PRIMARY_VALUE]}) che aumenta l'apparizione delle ciambelle stellari del {[SECONDARY_VALUE]} ciascuno.",
+            "nl": "Mysterieuze eieren roepen een kosmische kat op (tot {[PRIMARY_VALUE]}) die de verschijning van sterrendonuts met {[SECONDARY_VALUE]} elk verhoogt.",
+            "pt": "Os ovos misteriosos invocam um gato cósmico (até {[PRIMARY_VALUE]}) que aumenta o aparecimento de donuts estelares em {[SECONDARY_VALUE]} cada um.",
+            "ru": "Загадочные яйца призывают космического кота (до {[PRIMARY_VALUE]}), который увеличивает появление звездных пончиков на {[SECONDARY_VALUE]} каждый.",
+            "ja": "神秘の卵が宇宙猫を召喚し（最大{[PRIMARY_VALUE]}匹）、それぞれが星のドーナツの出現率を{[SECONDARY_VALUE]}増加させます",
+            "zh": "神秘蛋召喚宇宙貓（最多{[PRIMARY_VALUE]}隻），每隻使星際甜甜圈出現機率增加{[SECONDARY_VALUE]}",
+            "zh-CN": "神秘蛋召唤宇宙猫（最多{[PRIMARY_VALUE]}只），每只使星际甜甜圈出现几率增加{[SECONDARY_VALUE]}",
+            "ko": "신비한 알이 우주 고양이를 소환하며(최대 {[PRIMARY_VALUE]}마리), 각각이 스텔라 도넛 출현률을 {[SECONDARY_VALUE]}씩 증가시킵니다"
+        }
+    },
+    {
+        "name": {
+            "en": "Cosmic tide",
+            "es": "Marea cósmica",
+            "de": "Kosmische Gezeiten",
+            "fr": "Marée cosmique",
+            "it": "Marea cosmica",
+            "nl": "Kosmisch getij",
+            "pt": "Maré cósmica",
+            "ru": "Космический прилив",
+            "ja": "宇宙の潮流",
+            "zh": "宇宙潮汐",
+            "zh-CN": "宇宙潮汐",
+            "ko": "우주 조류"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Devouring an aristocrat refreshes the powerup duration.",
+            "es": "Devorar un aristócrata renueva la duración del potenciador.",
+            "de": "Das Verschlingen eines Aristokraten erneuert die Power-up-Dauer.",
+            "fr": "Dévorer un aristocrate rafraîchit la durée du bonus.",
+            "it": "Divorare un aristocratico rinnova la durata del potenziamento.",
+            "nl": "Het verslinden van een aristocraat vernieuwt de power-up duur.",
+            "pt": "Devorar um aristocrata renova a duração do power-up.",
+            "ru": "Пожирание аристократа обновляет длительность усиления.",
+            "ja": "貴族を捕食するとパワーアップの持続時間が更新されます。",
+            "zh": "吞噬貴族會刷新強化道具持續時間。",
+            "zh-CN": "吞噬贵族会刷新强化道具持续时间。",
+            "ko": "귀족을 포식하면 파워업 지속시간이 갱신됩니다."
+        }
+    },
+    {
+        "name": {
+            "en": "Cryoheart",
+            "es": "Criocorazón",
+            "de": "Kryoherz",
+            "fr": "Cryocœur",
+            "it": "Criocuore",
+            "nl": "Cryohart",
+            "pt": "Criocoração",
+            "ru": "Криосердце",
+            "ja": "クライオハート",
+            "zh": "冰心",
+            "zh-CN": "冰心",
+            "ko": "크라이오하트"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 10,
+            "prefix": null,
+            "suffix": "%"
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Dragon hearts slow you down by {[PRIMARY_VALUE]} each.",
+            "es": "Los corazones de dragón te ralentizan un {[PRIMARY_VALUE]} cada uno.",
+            "de": "Drachenherzen verlangsamen dich um jeweils {[PRIMARY_VALUE]}.",
+            "fr": "Les cœurs de dragon vous ralentissent de {[PRIMARY_VALUE]} chacun.",
+            "it": "I cuori di drago ti rallentano del {[PRIMARY_VALUE]} ciascuno.",
+            "nl": "Drakenharten vertragen je met {[PRIMARY_VALUE]} elk.",
+            "pt": "Os corações de dragão tornam-te mais lento em {[PRIMARY_VALUE]} cada um.",
+            "ru": "Сердца драконов замедляют вас на {[PRIMARY_VALUE]} каждое.",
+            "ja": "ドラゴンの心臓はそれぞれ{[PRIMARY_VALUE]}の速度低下を与えます",
+            "zh": "龍心各自減慢你{[PRIMARY_VALUE]}的速度",
+            "zh-CN": "龙心各自减慢你{[PRIMARY_VALUE]}的速度",
+            "ko": "용의 심장은 각각 {[PRIMARY_VALUE]}씩 속도를 늦춥니다"
+        }
+    },
+    {
+        "name": {
+            "en": "Cryosuspension",
+            "es": "Criosuspensión",
+            "de": "Kryosuspension",
+            "fr": "Cryosuspension",
+            "it": "Criosospensione",
+            "nl": "Cryosuspensie",
+            "pt": "Criosuspensão",
+            "ru": "Криосуспензия",
+            "ja": "冷凍睡眠",
+            "zh": "低溫懸浮",
+            "zh-CN": "低温悬浮",
+            "ko": "극저온 동결"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 50,
+            "prefix": null,
+            "suffix": "%"
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Reduce dimensional rifts speed penalty by {[PRIMARY_VALUE]}.",
+            "es": "Reduce la penalización de velocidad de las grietas dimensionales en un {[PRIMARY_VALUE]}.",
+            "de": "Reduziere die Geschwindigkeitsstrafe von dimensionalen Rissen um {[PRIMARY_VALUE]}.",
+            "fr": "Réduit la pénalité de vitesse des failles dimensionnelles de {[PRIMARY_VALUE]}.",
+            "it": "Riduci la penalità di velocità delle fenditure dimensionali del {[PRIMARY_VALUE]}.",
+            "nl": "Verminder de snelheidsboete van dimensionale scheuren met {[PRIMARY_VALUE]}.",
+            "pt": "Reduz a penalização de velocidade das fendas dimensionais em {[PRIMARY_VALUE]}.",
+            "ru": "Уменьшает штраф к скорости от пространственных разломов на {[PRIMARY_VALUE]}.",
+            "ja": "次元の裂け目の速度ペナルティを{[PRIMARY_VALUE]}軽減します",
+            "zh": "減少次元裂隙速度懲罰{[PRIMARY_VALUE]}",
+            "zh-CN": "减少次元裂隙速度惩罚{[PRIMARY_VALUE]}",
+            "ko": "차원 균열의 속도 패널티를 {[PRIMARY_VALUE]} 감소시킵니다"
+        }
+    },
+    {
+        "name": {
+            "en": "Dark matter",
+            "es": "Materia oscura",
+            "de": "Dunkle Materie",
+            "fr": "Matière noire",
+            "it": "Materia oscura",
+            "nl": "Donkere materie",
+            "pt": "Matéria escura",
+            "ru": "Тёмная материя",
+            "ja": "ダークマター",
+            "zh": "暗物質",
+            "zh-CN": "暗物质",
+            "ko": "암흑 물질"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 10,
+            "prefix": null,
+            "suffix": "%"
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "{[PRIMARY_VALUE]} of not generating a section of the world.",
+            "es": "{[PRIMARY_VALUE]} de no generar una sección del mundo.",
+            "de": "{[PRIMARY_VALUE]} Chance, keinen Abschnitt der Welt zu generieren.",
+            "fr": "{[PRIMARY_VALUE]} de ne pas générer une section du monde.",
+            "it": "{[PRIMARY_VALUE]} di non generare una sezione del mondo.",
+            "nl": "{[PRIMARY_VALUE]} kans om geen sectie van de wereld te genereren.",
+            "pt": "{[PRIMARY_VALUE]} de não gerar uma secção do mundo.",
+            "ru": "{[PRIMARY_VALUE]} шанс не генерировать секцию мира.",
+            "ja": "{[PRIMARY_VALUE]}の確率で世界のセクションを生成しません",
+            "zh": "{[PRIMARY_VALUE]}機率不生成世界的一個區段",
+            "zh-CN": "{[PRIMARY_VALUE]}几率不生成世界的一个区段",
+            "ko": "{[PRIMARY_VALUE]}의 확률로 세계의 구간을 생성하지 않습니다"
+        }
+    },
+    {
+        "name": {
+            "en": "Death's end",
+            "es": "El fin de la muerte",
+            "de": "Ende des Todes",
+            "fr": "Fin de la mort",
+            "it": "Fine della morte",
+            "nl": "Einde van de dood",
+            "pt": "Fim da morte",
+            "ru": "Конец смерти",
+            "ja": "死の終わり",
+            "zh": "死神末日",
+            "zh-CN": "死神末日",
+            "ko": "죽음의 끝"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Get a dragon heart when your death scythe harvests an aristocrat's soul.",
+            "es": "Obtén un corazón de dragón cuando tu guadaña de la muerte coseche el alma de un aristócrata.",
+            "de": "Erhalte ein Drachenherz, wenn deine Todessense die Seele eines Aristokraten erntet.",
+            "fr": "Obtenez un cœur de dragon lorsque votre faux de la mort récolte l'âme d'un aristocrate.",
+            "it": "Ottieni un cuore di drago quando la tua falce della morte raccoglie l'anima di un aristocratico.",
+            "nl": "Krijg een drakenhart wanneer je doodseis de ziel van een aristocraat oogst.",
+            "pt": "Ganha um coração de dragão quando a tua foice da morte colhe a alma de um aristocrata.",
+            "ru": "Получите сердце дракона, когда ваша коса смерти соберёт душу аристократа.",
+            "ja": "死神の大鎌が貴族の魂を刈り取ったときドラゴンの心臓を獲得します",
+            "zh": "當你的死神鐮刀收割貴族靈魂時獲得龍心",
+            "zh-CN": "当你的死神镰刀收割贵族灵魂时获得龙心",
+            "ko": "죽음의 낫이 귀족의 영혼을 수확할 때 용의 심장을 획득합니다"
+        }
+    },
+    {
+        "name": {
+            "en": "Dimensional alignment",
+            "es": "Alineación dimensional",
+            "de": "Dimensionale Ausrichtung",
+            "fr": "Alignement dimensionnel",
+            "it": "Allineamento dimensionale",
+            "nl": "Dimensionale uitlijning",
+            "pt": "Alinhamento dimensional",
+            "ru": "Измерительное выравнивание",
+            "ja": "次元アライメント",
+            "zh": "次元排列",
+            "zh-CN": "次元排列",
+            "ko": "차원 정렬"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 100,
+            "prefix": "+",
+            "suffix": "%"
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "{[PRIMARY_VALUE]} dimensional rift appearance.",
+            "es": "{[PRIMARY_VALUE]} de aparición de fisuras dimensionales.",
+            "de": "{[PRIMARY_VALUE]} des Auftretens des Dimensionsspalts.",
+            "fr": "{[PRIMARY_VALUE]} de l'apparition de la faille dimensionnelle.",
+            "it": "{[PRIMARY_VALUE]} di apparizione della spaccatura dimensionale.",
+            "nl": "{[PRIMARY_VALUE]} van dimensionale kloof verschijning.",
+            "pt": "{[PRIMARY_VALUE]} do aparecimento da fenda dimensional.",
+            "ru": "{[PRIMARY_VALUE]} появления пространственного разлома.",
+            "ja": "次元の裂け目の出現率が{[PRIMARY_VALUE]}の場合",
+            "zh": "{[PRIMARY_VALUE]}維瑞夫出現的尺寸",
+            "zh-CN": "维度裂缝出现的{[PRIMARY_VALUE]}",
+            "ko": "{[PRIMARY_VALUE]} 차원 찢어진 외관"
+        }
+    },
+    {
+        "name": {
+            "en": "Divine intervention",
+            "es": "Intervención divina",
+            "de": "Göttliche Intervention",
+            "fr": "Intervention divine",
+            "it": "Intervento divino",
+            "nl": "Goddelijke interventie",
+            "pt": "Intervenção divina",
+            "ru": "Божественное вмешательство",
+            "ja": "神の介入",
+            "zh": "神聖干預",
+            "zh-CN": "神圣干预",
+            "ko": "신의 개입"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 50,
+            "prefix": "+",
+            "suffix": "%"
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "{[PRIMARY_VALUE]} of aristocrat, treasure chest, powerup, mystery egg and stellar donut appearance.",
+            "es": "{[PRIMARY_VALUE]} de aparición de aristócratas, cofres del tesoro, potenciadores, huevos misteriosos y dónuts estelares.",
+            "de": "{[PRIMARY_VALUE]} von Aristokrat, Schatztruhe, Powerup, Mystery-Ei und stellarem Donut-Auftritt.",
+            "fr": "{[PRIMARY_VALUE]} d'apparition d'aristocrate, de coffre au trésor, de powerup, d'œuf mystère et de beignet stellaire.",
+            "it": "{[PRIMARY_VALUE]} di aristocratico, scrigno del tesoro, powerup, uovo misterioso e aspetto di ciambella stellare.",
+            "nl": "{[PRIMARY_VALUE]} van aristocraat, schatkist, powerup, mysterie ei en stellaire donut verschijning.",
+            "pt": "{[PRIMARY_VALUE]} de aristocrata, arca do tesouro, powerup, ovo mistério e aparência de donut estelar.",
+            "ru": "{[PRIMARY_VALUE]} аристократа, сундук с сокровищами, бонусы, загадочное яйцо и появление звездного пончика.",
+            "ja": "貴族、宝箱、パワーアップ、ミステリーエッグ、スタードーナツ出現率{[PRIMARY_VALUE]}",
+            "zh": "{[PRIMARY_VALUE]}貴族、寶箱、通電、神秘彩蛋和星星甜甜圈外觀",
+            "zh-CN": "{[PRIMARY_VALUE]}贵族、宝箱、通电、神秘彩蛋和星星甜甜圈外观",
+            "ko": "귀족 {[PRIMARY_VALUE]}, 보물상자, 파워업, 수수께끼의 알, 별도넛 등장"
+        }
+    },
+    {
+        "name": {
+            "en": "Divine judgment",
+            "es": "Juicio divino",
+            "de": "Göttliches Urteil",
+            "fr": "Jugement divin",
+            "it": "Giudizio divino",
+            "nl": "Goddelijk oordeel",
+            "pt": "Julgamento divino",
+            "ru": "Божественный суд",
+            "ja": "神の裁き",
+            "zh": "神聖審判",
+            "zh-CN": "神圣审判",
+            "ko": "신의 심판"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 1000,
+            "prefix": "+",
+            "suffix": "%"
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "{[PRIMARY_VALUE]} thundercloud appearance.",
+            "es": "{[PRIMARY_VALUE]} de aparición de nubes de tormenta.",
+            "de": "{[PRIMARY_VALUE]} des Auftretens von Gewitterwolken.",
+            "fr": "{[PRIMARY_VALUE]} de l'apparition des nuages orageux.",
+            "it": "{[PRIMARY_VALUE]} di apparizione di nuvole di tuono.",
+            "nl": "{[PRIMARY_VALUE]} van onweerswolk verschijning.",
+            "pt": "{[PRIMARY_VALUE]} do aparecimento de trovoadas.",
+            "ru": "{[PRIMARY_VALUE]} появления грозовых облаков.",
+            "ja": "雷雲の出現率が{[PRIMARY_VALUE]}の場合",
+            "zh": "{[PRIMARY_VALUE]}雷雲出現",
+            "zh-CN": "雷云出现的{[PRIMARY_VALUE]}",
+            "ko": "{[PRIMARY_VALUE]} 천둥 구름 외모"
+        }
+    },
+    {
+        "name": {
+            "en": "Draconic meteor",
+            "es": "Meteoro dracónico",
+            "de": "Drakonischer Meteor",
+            "fr": "Météore draconique",
+            "it": "Meteora draconica",
+            "nl": "Draconische meteoor",
+            "pt": "Meteoro dracónico",
+            "ru": "Драконический метеор",
+            "ja": "ドラゴン流星",
+            "zh": "龍族流星",
+            "zh-CN": "龙族流星",
+            "ko": "용족 유성"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Rain destructive meteors from the sky.",
+            "es": "Haz llover meteoros destructivos del cielo.",
+            "de": "Lasse zerstörerische Meteore vom Himmel regnen.",
+            "fr": "Fait pleuvoir des météores destructeurs du ciel.",
+            "it": "Fai piovere meteore distruttive dal cielo.",
+            "nl": "Laat destructieve meteoren uit de hemel regenen.",
+            "pt": "Faz chover meteoros destrutivos do céu.",
+            "ru": "Обрушивает разрушительный дождь метеоров с неба.",
+            "ja": "空から破壊的な流星を降らせます。",
+            "zh": "從天空降下毀滅性流星。",
+            "zh-CN": "从天空降下毁灭性流星。",
+            "ko": "하늘에서 파괴적인 유성을 내리게 합니다."
+        }
+    },
+    {
+        "name": {
+            "en": "Eggsplosive",
+            "es": "Huevoplosivo",
+            "de": "Eierxplosiv",
+            "fr": "Œufsplosif",
+            "it": "Uovosplosivo",
+            "nl": "Eisplosief",
+            "pt": "Ovoplosivo",
+            "ru": "Яйцевзрывной",
+            "ja": "エッグスプロシブ",
+            "zh": "蛋爆炸",
+            "zh-CN": "蛋爆炸",
+            "ko": "에그스플로시브"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 10,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Avoiding mystery eggs will make them explode.",
+            "es": "Evitar huevos misteriosos los hará explotar.",
+            "de": "Das Ausweichen vor mysteriösen Eiern lässt sie explodieren.",
+            "fr": "Éviter les œufs mystérieux les fera exploser.",
+            "it": "Evitare le uova misteriose le farà esplodere.",
+            "nl": "Mysterieuze eieren ontwijken zorgt ervoor dat ze exploderen.",
+            "pt": "Evitar ovos misteriosos fá-los-á explodir.",
+            "ru": "Избегание загадочных яиц заставит их взорваться.",
+            "ja": "神秘の卵を避けると爆発させます。",
+            "zh": "避開神秘蛋會讓它們爆炸。",
+            "zh-CN": "避开神秘蛋会让它们爆炸。",
+            "ko": "신비한 알을 피하면 폭발하게 됩니다."
+        }
+    },
+    {
+        "name": {
+            "en": "Fortune alignment",
+            "es": "Alineación de la fortuna",
+            "de": "Glücks-Ausrichtung",
+            "fr": "Alignement de fortune",
+            "it": "Allineamento della fortuna",
+            "nl": "Geluksuitlijning",
+            "pt": "Alinhamento da fortuna",
+            "ru": "Выравнивание удачи",
+            "ja": "幸運のアライメント",
+            "zh": "財運排列",
+            "zh-CN": "财运排列",
+            "ko": "행운 정렬"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 100,
+            "prefix": "+",
+            "suffix": "%"
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "{[PRIMARY_VALUE]} of treasure chests appearance.",
+            "es": "{[PRIMARY_VALUE]} de aparición de cofres del tesoro.",
+            "de": "{[PRIMARY_VALUE]} des Auftretens von Schatztruhen.",
+            "fr": "{[PRIMARY_VALUE]} de l'apparition des coffres au trésor.",
+            "it": "Il {[PRIMARY_VALUE]} di apparizione dei forzieri del tesoro.",
+            "nl": "{[PRIMARY_VALUE]} van de schatkisten verschijnen.",
+            "pt": "{[PRIMARY_VALUE]} das arcas do tesouro aparecem.",
+            "ru": "{[PRIMARY_VALUE]} к появлению сундуков с сокровищами.",
+            "ja": "宝箱の出現率が{[PRIMARY_VALUE]}になります",
+            "zh": "{[PRIMARY_VALUE]}寶箱似乎",
+            "zh-CN": "{[PRIMARY_VALUE]}的宝箱出现",
+            "ko": "{[PRIMARY_VALUE]}보물 가슴의 외관"
+        }
+    },
+    {
+        "name": {
+            "en": "Fortune duplicator",
+            "es": "Duplicador de fortuna",
+            "de": "Glücksvervielfacher",
+            "fr": "Duplicateur de fortune",
+            "it": "Duplicatore di fortuna",
+            "nl": "Geluksduplicator",
+            "pt": "Duplicador de fortuna",
+            "ru": "Дупликатор удачи",
+            "ja": "幸運複製器",
+            "zh": "財運複製器",
+            "zh-CN": "财运复制器",
+            "ko": "행운 복제기"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Reaching a score of 999 will duplicate your crowns, mystery eggs and stellar donuts at the end of the run.",
+            "es": "Alcanzar una puntuación de 999 duplicará tus coronas, huevos misteriosos y donuts estelares al final de la partida.",
+            "de": "Das Erreichen einer Punktzahl von 999 verdoppelt deine Kronen, mysteriösen Eier und Sternendonuts am Ende des Laufs.",
+            "fr": "Atteindre un score de 999 dupliquera vos couronnes, œufs mystérieux et beignets stellaires à la fin de la partie.",
+            "it": "Raggiungere un punteggio di 999 duplicherà le tue corone, uova misteriose e ciambelle stellari alla fine della partita.",
+            "nl": "Het bereiken van een score van 999 dupliceert je kronen, mysterieuze eieren en sterrendonuts aan het einde van het spel.",
+            "pt": "Atingir uma pontuação de 999 duplicará as tuas coroas, ovos misteriosos e donuts estelares no final da partida.",
+            "ru": "Достижение счёта в 999 удвоит ваши короны, загадочные яйца и звёздные пончики в конце игры.",
+            "ja": "999点に到達すると、ゲーム終了時にクラウン、神秘の卵、星のドーナツが複製されます。",
+            "zh": "達到999分將在遊戲結束時複製你的皇冠、神秘蛋和星際甜甜圈。",
+            "zh-CN": "达到999分将在游戏结束时复制你的皇冠、神秘蛋和星际甜甜圈。",
+            "ko": "999점에 도달하면 게임 종료 시 크라운, 신비한 알, 스텔라 도넛이 복제됩니다."
+        }
+    },
+    {
+        "name": {
+            "en": "Galactic glasses",
+            "es": "Gafas galácticas",
+            "de": "Galaktische Brille",
+            "fr": "Lunettes galactiques",
+            "it": "Occhiali galattici",
+            "nl": "Galactische bril",
+            "pt": "Óculos galácticos",
+            "ru": "Галактические очки",
+            "ja": "銀河メガネ",
+            "zh": "銀河眼鏡",
+            "zh-CN": "银河眼镜",
+            "ko": "은하 안경"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 10,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Increases your vision range.",
+            "es": "Incrementa tu rango de visión.",
+            "de": "Erhöht deine Sichtweite.",
+            "fr": "Augmente votre portée de vision.",
+            "it": "Aumenta la tua portata visiva.",
+            "nl": "Verhoogt je zichtbereik.",
+            "pt": "Aumenta o teu alcance de visão.",
+            "ru": "Увеличивает дальность обзора.",
+            "ja": "視界範囲を拡大します。",
+            "zh": "增加你的視野範圍。",
+            "zh-CN": "增加你的视野范围。",
+            "ko": "시야 범위를 증가시킵니다."
+        }
+    },
+    {
+        "name": {
+            "en": "Gift of abundance",
+            "es": "Regalo de abundancia",
+            "de": "Geschenk der Fülle",
+            "fr": "Cadeau d'abondance",
+            "it": "Regalo dell'abbondanza",
+            "nl": "Geschenk van overvloed",
+            "pt": "Presente da abundância",
+            "ru": "Подарок изобилия",
+            "ja": "豊穣のプレゼント",
+            "zh": "豐饒禮物",
+            "zh-CN": "丰饶礼物",
+            "ko": "풍요의 선물"
+        },
+        "is_stackable": true,
+        "PRIMARY_VALUE": {
+            "value": 50,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Get {[PRIMARY_VALUE]} crowns.",
+            "es": "Obtén {[PRIMARY_VALUE]} coronas.",
+            "de": "Erhalte {[PRIMARY_VALUE]} Kronen.",
+            "fr": "Obtenez {[PRIMARY_VALUE]} couronnes.",
+            "it": "Ottieni {[PRIMARY_VALUE]} corone.",
+            "nl": "Krijg {[PRIMARY_VALUE]} kronen.",
+            "pt": "Ganha {[PRIMARY_VALUE]} coroas.",
+            "ru": "Получите {[PRIMARY_VALUE]} крон.",
+            "ja": "{[PRIMARY_VALUE]}クラウンを獲得します",
+            "zh": "獲得{[PRIMARY_VALUE]}個皇冠",
+            "zh-CN": "获得{[PRIMARY_VALUE]}个皇冠",
+            "ko": "{[PRIMARY_VALUE]}개의 크라운을 획득합니다"
+        }
+    },
+    {
+        "name": {
+            "en": "Gift of being",
+            "es": "Regalo de ser",
+            "de": "Geschenk des Seins",
+            "fr": "Cadeau d'existence",
+            "it": "Regalo dell'essere",
+            "nl": "Geschenk van bestaan",
+            "pt": "Presente do ser",
+            "ru": "Подарок бытия",
+            "ja": "存在のプレゼント",
+            "zh": "存在禮物",
+            "zh-CN": "存在礼物",
+            "ko": "존재의 선물"
+        },
+        "is_stackable": true,
+        "PRIMARY_VALUE": {
+            "value": 5,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Get {[PRIMARY_VALUE]} mystery eggs.",
+            "es": "Obtén {[PRIMARY_VALUE]} huevos misteriosos.",
+            "de": "Erhalte {[PRIMARY_VALUE]} mysteriöse Eier.",
+            "fr": "Obtenez {[PRIMARY_VALUE]} œufs mystérieux.",
+            "it": "Ottieni {[PRIMARY_VALUE]} uova misteriose.",
+            "nl": "Krijg {[PRIMARY_VALUE]} mysterieuze eieren.",
+            "pt": "Ganha {[PRIMARY_VALUE]} ovos misteriosos.",
+            "ru": "Получите {[PRIMARY_VALUE]} загадочных яиц.",
+            "ja": "{[PRIMARY_VALUE]}つの神秘の卵を獲得します",
+            "zh": "獲得{[PRIMARY_VALUE]}個神秘蛋",
+            "zh-CN": "获得{[PRIMARY_VALUE]}个神秘蛋",
+            "ko": "{[PRIMARY_VALUE]}개의 신비한 알을 획득합니다"
+        }
+    },
+    {
+        "name": {
+            "en": "Gift of renewal",
+            "es": "Regalo de renovación",
+            "de": "Geschenk der Erneuerung",
+            "fr": "Cadeau de renouveau",
+            "it": "Regalo del rinnovamento",
+            "nl": "Geschenk van vernieuwing",
+            "pt": "Presente da renovação",
+            "ru": "Подарок обновления",
+            "ja": "再生のプレゼント",
+            "zh": "重生禮物",
+            "zh-CN": "重生礼物",
+            "ko": "재생의 선물"
+        },
+        "is_stackable": true,
+        "PRIMARY_VALUE": {
+            "value": 3,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Get {[PRIMARY_VALUE]} dragon hearts.",
+            "es": "Obtén {[PRIMARY_VALUE]} corazones de dragón.",
+            "de": "Erhalte {[PRIMARY_VALUE]} Drachenherzen.",
+            "fr": "Obtenez {[PRIMARY_VALUE]} cœurs de dragon.",
+            "it": "Ottieni {[PRIMARY_VALUE]} cuori di drago.",
+            "nl": "Krijg {[PRIMARY_VALUE]} drakenharten.",
+            "pt": "Ganha {[PRIMARY_VALUE]} corações de dragão.",
+            "ru": "Получите {[PRIMARY_VALUE]} сердца дракона.",
+            "ja": "{[PRIMARY_VALUE]}つのドラゴンの心臓を獲得します",
+            "zh": "獲得{[PRIMARY_VALUE]}個龍心",
+            "zh-CN": "获得{[PRIMARY_VALUE]}个龙心",
+            "ko": "{[PRIMARY_VALUE]}개의 용의 심장을 획득합니다"
+        }
+    },
+    {
+        "name": {
+            "en": "Gift of sustenance",
+            "es": "Regalo de sustento",
+            "de": "Geschenk der Nahrung",
+            "fr": "Cadeau de subsistance",
+            "it": "Regalo del sostentamento",
+            "nl": "Geschenk van voeding",
+            "pt": "Presente do sustento",
+            "ru": "Подарок пропитания",
+            "ja": "栄養のプレゼント",
+            "zh": "維生禮物",
+            "zh-CN": "维生礼物",
+            "ko": "생존의 선물"
+        },
+        "is_stackable": true,
+        "PRIMARY_VALUE": {
+            "value": 2,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Get {[PRIMARY_VALUE]} stellar donuts.",
+            "es": "Obtén {[PRIMARY_VALUE]} donuts estelares.",
+            "de": "Erhalte {[PRIMARY_VALUE]} Sternendonuts.",
+            "fr": "Obtenez {[PRIMARY_VALUE]} beignets stellaires.",
+            "it": "Ottieni {[PRIMARY_VALUE]} ciambelle stellari.",
+            "nl": "Krijg {[PRIMARY_VALUE]} sterrendonuts.",
+            "pt": "Ganha {[PRIMARY_VALUE]} donuts estelares.",
+            "ru": "Получите {[PRIMARY_VALUE]} звездных пончиков.",
+            "ja": "{[PRIMARY_VALUE]}つの星のドーナツを獲得します",
+            "zh": "獲得{[PRIMARY_VALUE]}個星際甜甜圈",
+            "zh-CN": "获得{[PRIMARY_VALUE]}个星际甜甜圈",
+            "ko": "{[PRIMARY_VALUE]}개의 스텔라 도넛을 획득합니다"
+        }
+    },
+    {
+        "name": {
+            "en": "Golden ratio",
+            "es": "Proporción áurea",
+            "de": "Goldener Schnitt",
+            "fr": "Nombre d'or",
+            "it": "Sezione aurea",
+            "nl": "Gulden snede",
+            "pt": "Proporção áurea",
+            "ru": "Золотое сечение",
+            "ja": "黄金比",
+            "zh": "黃金比例",
+            "zh-CN": "黄金比例",
+            "ko": "황금비"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 1.618,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Multiply your crowns by {[PRIMARY_VALUE]} at the end of the run.",
+            "es": "Multiplica tus coronas por {[PRIMARY_VALUE]} al final de la partida.",
+            "de": "Multipliziere deine Kronen am Ende des Laufs mit {[PRIMARY_VALUE]}.",
+            "fr": "Multiplie vos couronnes par {[PRIMARY_VALUE]} à la fin de la partie.",
+            "it": "Moltiplica le tue corone per {[PRIMARY_VALUE]} alla fine della partita.",
+            "nl": "Vermenigvuldig je kronen met {[PRIMARY_VALUE]} aan het einde van het spel.",
+            "pt": "Multiplica as tuas coroas por {[PRIMARY_VALUE]} no final da partida.",
+            "ru": "Умножьте свои короны на {[PRIMARY_VALUE]} в конце игры.",
+            "ja": "ゲーム終了時にクラウンを{[PRIMARY_VALUE]}倍にします。",
+            "zh": "在遊戲結束時將你的皇冠乘以{[PRIMARY_VALUE]}。",
+            "zh-CN": "在游戏结束时将你的皇冠乘以{[PRIMARY_VALUE]}。",
+            "ko": "게임 종료 시 크라운에 {[PRIMARY_VALUE]}을 곱합니다."
+        }
+    },
+    {
+        "name": {
+            "en": "Icarus",
+            "es": "Ícaro",
+            "de": "Ikarus",
+            "fr": "Icare",
+            "it": "Icaro",
+            "nl": "Icarus",
+            "pt": "Ícaro",
+            "ru": "Икар",
+            "ja": "イカロス",
+            "zh": "伊卡洛斯",
+            "zh-CN": "伊卡洛斯",
+            "ko": "이카루스"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 100,
+            "prefix": null,
+            "suffix": "%"
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Powerup movement speed bonuses are increased by {[PRIMARY_VALUE]}.",
+            "es": "Los bonos de velocidad de movimiento de los potenciadores aumentan un {[PRIMARY_VALUE]}.",
+            "de": "Bewegungsgeschwindigkeitsboni von Power-ups werden um {[PRIMARY_VALUE]} erhöht.",
+            "fr": "Les bonus de vitesse de déplacement des power-ups sont augmentés de {[PRIMARY_VALUE]}.",
+            "it": "I bonus di velocità di movimento dei potenziamenti sono aumentati del {[PRIMARY_VALUE]}.",
+            "nl": "Bewegingssnelheidsbonussen van power-ups worden met {[PRIMARY_VALUE]} verhoogd.",
+            "pt": "Os bónus de velocidade de movimento dos power-ups são aumentados em {[PRIMARY_VALUE]}.",
+            "ru": "Бонусы к скорости движения от усилений увеличены на {[PRIMARY_VALUE]}.",
+            "ja": "パワーアップの移動速度ボーナスが{[PRIMARY_VALUE]}増加します。",
+            "zh": "強化道具的移動速度加成提高{[PRIMARY_VALUE]}。",
+            "zh-CN": "强化道具的移动速度加成提高{[PRIMARY_VALUE]}。",
+            "ko": "파워업의 이동 속도 보너스가 {[PRIMARY_VALUE]} 증가합니다."
+        }
+    },
+    {
+        "name": {
+            "en": "Life alignment",
+            "es": "Alineación de vida",
+            "de": "Lebens-Ausrichtung",
+            "fr": "Alignement de vie",
+            "it": "Allineamento di vita",
+            "nl": "Levensuitlijning",
+            "pt": "Alinhamento de vida",
+            "ru": "Выравнивание жизни",
+            "ja": "生命のアライメント",
+            "zh": "生命排列",
+            "zh-CN": "生命排列",
+            "ko": "생명 정렬"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 100,
+            "prefix": "+",
+            "suffix": "%"
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "{[PRIMARY_VALUE]} of mystery egg appearance.",
+            "es": "{[PRIMARY_VALUE]} de aparición de huevos misteriosos.",
+            "de": "{[PRIMARY_VALUE]} des Auftretens von mysteriösen Eiern.",
+            "fr": "{[PRIMARY_VALUE]} de l'apparence de l'œuf mystère.",
+            "it": "Il {[PRIMARY_VALUE]} dell'apparizione dell'uovo misterioso.",
+            "nl": "{[PRIMARY_VALUE]} van mysterieuze ei verschijning.",
+            "pt": "{[PRIMARY_VALUE]} do aparecimento do ovo mistério.",
+            "ru": "{[PRIMARY_VALUE]} появления загадочных яиц.",
+            "ja": "謎の卵の出現率は{[PRIMARY_VALUE]} です",
+            "zh": "{[PRIMARY_VALUE]}神秘蛋看起來",
+            "zh-CN": "{[PRIMARY_VALUE]}的神秘鸡蛋出现",
+            "ko": "{[PRIMARY_VALUE]} 수수께끼의 알을 낳습니다"
+        }
+    },
+    {
+        "name": {
+            "en": "Lingering echoes",
+            "es": "Ecos persistentes",
+            "de": "Nachklingende Echos",
+            "fr": "Échos persistants",
+            "it": "Echi persistenti",
+            "nl": "Aanhoudende echo's",
+            "pt": "Ecos persistentes",
+            "ru": "Затяжные отголоски",
+            "ja": "残響",
+            "zh": "殘留回音",
+            "zh-CN": "残留回音",
+            "ko": "지속되는 메아리"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 60,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Replacing a powerup will add up the remaining duration to the new one (up to {[PRIMARY_VALUE]} seconds).",
+            "es": "Reemplazar un potenciador sumará la duración restante al nuevo (hasta {[PRIMARY_VALUE]} segundos).",
+            "de": "Das Ersetzen eines Power-ups addiert die verbleibende Dauer zum neuen (bis zu {[PRIMARY_VALUE]} Sekunden).",
+            "fr": "Remplacer un bonus ajoutera la durée restante au nouveau (jusqu'à {[PRIMARY_VALUE]} secondes).",
+            "it": "Sostituire un potenziamento aggiungerà la durata rimanente a quello nuovo (fino a {[PRIMARY_VALUE]} secondi).",
+            "nl": "Het vervangen van een power-up telt de resterende duur op bij de nieuwe (tot {[PRIMARY_VALUE]} seconden).",
+            "pt": "Substituir um power-up somará a duração restante ao novo (até {[PRIMARY_VALUE]} segundos).",
+            "ru": "Замена усиления добавит оставшуюся длительность к новому (до {[PRIMARY_VALUE]} секунд).",
+            "ja": "パワーアップを置き換えると、残り時間が新しいものに加算されます（最大{[PRIMARY_VALUE]}秒）",
+            "zh": "替換強化道具會將剩餘持續時間加到新的上面（最多{[PRIMARY_VALUE]}秒）",
+            "zh-CN": "替换强化道具会将剩余持续时间加到新的上面（最多{[PRIMARY_VALUE]}秒）",
+            "ko": "파워업을 교체하면 남은 지속시간이 새로운 것에 추가됩니다(최대 {[PRIMARY_VALUE]}초)"
+        }
+    },
+    {
+        "name": {
+            "en": "Lunar fish",
+            "es": "Pez lunar",
+            "de": "Mondfisch",
+            "fr": "Poisson lunaire",
+            "it": "Pesce lunare",
+            "nl": "Maanvis",
+            "pt": "Peixe lunar",
+            "ru": "Лунная рыба",
+            "ja": "月の魚",
+            "zh": "月魚",
+            "zh-CN": "月鱼",
+            "ko": "달 물고기"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 8,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Mystery eggs summons a lunar fish (up to {[PRIMARY_VALUE]}).",
+            "es": "Los huevos misteriosos invocan un pez lunar (hasta {[PRIMARY_VALUE]}).",
+            "de": "Mysteriöse Eier beschwören einen Mondfisch (bis zu {[PRIMARY_VALUE]}).",
+            "fr": "Les œufs mystérieux invoquent un poisson lunaire (jusqu'à {[PRIMARY_VALUE]}).",
+            "it": "Le uova misteriose evocano un pesce lunare (fino a {[PRIMARY_VALUE]}).",
+            "nl": "Mysterieuze eieren roepen een maanvis op (tot {[PRIMARY_VALUE]}).",
+            "pt": "Os ovos misteriosos invocam um peixe lunar (até {[PRIMARY_VALUE]}).",
+            "ru": "Загадочные яйца призывают лунную рыбу (до {[PRIMARY_VALUE]}).",
+            "ja": "神秘の卵が月の魚を召喚します（最大{[PRIMARY_VALUE]}匹）",
+            "zh": "神秘蛋召喚月魚（最多{[PRIMARY_VALUE]}隻）",
+            "zh-CN": "神秘蛋召唤月鱼（最多{[PRIMARY_VALUE]}只）",
+            "ko": "신비한 알이 달 물고기를 소환합니다(최대 {[PRIMARY_VALUE]}마리)"
+        }
+    },
+    {
+        "name": {
+            "en": "Macrocosm",
+            "es": "Macrocosmos",
+            "de": "Makrokosmos",
+            "fr": "Macrocosme",
+            "it": "Macrocosmo",
+            "nl": "Macrokosmos",
+            "pt": "Macrocosmo",
+            "ru": "Макрокосм",
+            "ja": "大宇宙",
+            "zh": "宏觀世界",
+            "zh-CN": "宏观世界",
+            "ko": "대우주"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 50,
+            "prefix": null,
+            "suffix": "%"
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Increase your size by {[PRIMARY_VALUE]}.",
+            "es": "Aumenta tu tamaño en un {[PRIMARY_VALUE]}.",
+            "de": "Vergrößere deine Größe um {[PRIMARY_VALUE]}.",
+            "fr": "Augmente votre taille de {[PRIMARY_VALUE]}.",
+            "it": "Aumenta le tue dimensioni del {[PRIMARY_VALUE]}.",
+            "nl": "Vergroot je grootte met {[PRIMARY_VALUE]}.",
+            "pt": "Aumenta o teu tamanho em {[PRIMARY_VALUE]}.",
+            "ru": "Увеличивает ваш размер на {[PRIMARY_VALUE]}.",
+            "ja": "サイズを{[PRIMARY_VALUE]}拡大します",
+            "zh": "將你的尺寸增大{[PRIMARY_VALUE]}",
+            "zh-CN": "将你的尺寸增大{[PRIMARY_VALUE]}",
+            "ko": "크기를 {[PRIMARY_VALUE]} 증가시킵니다"
+        }
+    },
+    {
+        "name": {
+            "en": "Meteor shower",
+            "es": "Lluvia de meteoros",
+            "de": "Meteoritenschauer",
+            "fr": "Pluie de météores",
+            "it": "Pioggia di meteore",
+            "nl": "Meteorenregen",
+            "pt": "Chuva de meteoros",
+            "ru": "Метеоритный дождь",
+            "ja": "流星群",
+            "zh": "流星雨",
+            "zh-CN": "流星雨",
+            "ko": "유성우"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Rain crowns from the sky.",
+            "es": "Haz llover coronas del cielo.",
+            "de": "Lasse Kronen vom Himmel regnen.",
+            "fr": "Fait pleuvoir des couronnes du ciel.",
+            "it": "Fai piovere corone dal cielo.",
+            "nl": "Laat kronen uit de hemel regenen.",
+            "pt": "Faz chover coroas do céu.",
+            "ru": "Обрушивает дождь из корон с неба.",
+            "ja": "空から王冠を降らせます",
+            "zh": "從天空降下皇冠",
+            "zh-CN": "从天空降下皇冠",
+            "ko": "하늘에서 크라운을 내리게 합니다"
+        }
+    },
+    {
+        "name": {
+            "en": "Microcosm",
+            "es": "Microcosmos",
+            "de": "Mikrokosmos",
+            "fr": "Microcosme",
+            "it": "Microcosmo",
+            "nl": "Microkosmos",
+            "pt": "Microcosmo",
+            "ru": "Микрокосм",
+            "ja": "小宇宙",
+            "zh": "微觀世界",
+            "zh-CN": "微观世界",
+            "ko": "소우주"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 50,
+            "prefix": null,
+            "suffix": "%"
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Reduce your size by {[PRIMARY_VALUE]}.",
+            "es": "Reduce tu tamaño en un {[PRIMARY_VALUE]}.",
+            "de": "Reduziere deine Größe um {[PRIMARY_VALUE]}.",
+            "fr": "Réduit votre taille de {[PRIMARY_VALUE]}.",
+            "it": "Riduci le tue dimensioni del {[PRIMARY_VALUE]}.",
+            "nl": "Verminder je grootte met {[PRIMARY_VALUE]}.",
+            "pt": "Reduz o teu tamanho em {[PRIMARY_VALUE]}.",
+            "ru": "Уменьшает ваш размер на {[PRIMARY_VALUE]}.",
+            "ja": "サイズを{[PRIMARY_VALUE]}縮小します",
+            "zh": "將你的尺寸縮小{[PRIMARY_VALUE]}",
+            "zh-CN": "将你的尺寸缩小{[PRIMARY_VALUE]}",
+            "ko": "크기를 {[PRIMARY_VALUE]} 감소시킵니다"
+        }
+    },
+    {
+        "name": {
+            "en": "Ouroboros",
+            "es": "Ouroboros",
+            "de": "Ouroboros",
+            "fr": "Ouroboros",
+            "it": "Ouroboros",
+            "nl": "Ouroboros",
+            "pt": "Ouroboros",
+            "ru": "Уроборос",
+            "ja": "ウロボロス",
+            "zh": "銜尾蛇",
+            "zh-CN": "衔尾蛇",
+            "ko": "우로보로스"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Even sections are always empty. Odd sections are always full.",
+            "es": "Las secciones pares están siempre vacías. Las secciones impares están siempre llenas.",
+            "de": "Gerade Abschnitte sind immer leer. Ungerade Abschnitte sind immer voll.",
+            "fr": "Les sections paires sont toujours vides. Les sections impaires sont toujours pleines.",
+            "it": "Le sezioni pari sono sempre vuote. Le sezioni dispari sono sempre piene.",
+            "nl": "Even secties zijn altijd leeg. Oneven secties zijn altijd vol.",
+            "pt": "As secções pares estão sempre vazias. As secções ímpares estão sempre cheias.",
+            "ru": "Чётные секции всегда пусты. Нечётные секции всегда полны.",
+            "ja": "偶数セクションは常に空です。奇数セクションは常に満杯です",
+            "zh": "偶數區段總是空的。奇數區段總是滿的",
+            "zh-CN": "偶数区段总是空的。奇数区段总是满的",
+            "ko": "짝수 구간은 항상 비어있습니다. 홀수 구간은 항상 가득 차 있습니다"
+        }
+    },
+    {
+        "name": {
+            "en": "Power alignment",
+            "es": "Alineación de poder",
+            "de": "Macht-Ausrichtung",
+            "fr": "Alignement de puissance",
+            "it": "Allineamento di potere",
+            "nl": "Krachtsuitlijning",
+            "pt": "Alinhamento de poder",
+            "ru": "Выравнивание силы",
+            "ja": "パワーアライメント",
+            "zh": "力量排列",
+            "zh-CN": "力量排列",
+            "ko": "힘의 정렬"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 100,
+            "prefix": "+",
+            "suffix": "%"
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "{[PRIMARY_VALUE]} powerup appearance.",
+            "es": "{[PRIMARY_VALUE]} de aparición de potenciadores.",
+            "de": "{[PRIMARY_VALUE]} des Erscheinungsbildes beim Einschalten.",
+            "fr": "{[PRIMARY_VALUE]} de l'apparition du powerup.",
+            "it": "Il {[PRIMARY_VALUE]} dell'apparizione dell'accensione.",
+            "nl": "{[PRIMARY_VALUE]} van de powerup verschijning.",
+            "pt": "{[PRIMARY_VALUE]} do aparecimento do powerup.",
+            "ru": "{[PRIMARY_VALUE]}  к появлению бустов.",
+            "ja": "パワーアップ時の表示の{[PRIMARY_VALUE]}について",
+            "zh": "强化出现概率{[PRIMARY_VALUE]}",
+            "zh-CN": "强化出现概率{[PRIMARY_VALUE]}",
+            "ko": "{[PRIMARY_VALUE]} 파워 업 외관"
+        }
+    },
+    {
+        "name": {
+            "en": "Quantum entanglement",
+            "es": "Entrelazamiento cuántico",
+            "de": "Quantenverschränkung",
+            "fr": "Intrication quantique",
+            "it": "Entanglement quantistico",
+            "nl": "Kwantumverstrengeling",
+            "pt": "Emaranhamento quântico",
+            "ru": "Квантовая запутанность",
+            "ja": "量子もつれ",
+            "zh": "量子糾纏",
+            "zh-CN": "量子纠缠",
+            "ko": "양자 얽힘"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 6,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "You can carry up to {[PRIMARY_VALUE]} dragon hearts.",
+            "es": "Puedes cargar hasta {[PRIMARY_VALUE]} corazones de dragón.",
+            "de": "Du kannst bis zu {[PRIMARY_VALUE]} Drachenherzen tragen.",
+            "fr": "Vous pouvez porter jusqu'à {[PRIMARY_VALUE]} cœurs de dragon.",
+            "it": "Puoi trasportare fino a {[PRIMARY_VALUE]} cuori di drago.",
+            "nl": "Je kunt tot {[PRIMARY_VALUE]} drakenharten dragen.",
+            "pt": "Podes transportar até {[PRIMARY_VALUE]} corações de dragão.",
+            "ru": "Вы можете нести до {[PRIMARY_VALUE]} сердец дракона.",
+            "ja": "最大{[PRIMARY_VALUE]}つのドラゴンの心臓を持つことができます",
+            "zh": "你最多可以攜帶{[PRIMARY_VALUE]}個龍心",
+            "zh-CN": "你最多可以携带{[PRIMARY_VALUE]}个龙心",
+            "ko": "최대 {[PRIMARY_VALUE]}개의 용의 심장을 가질 수 있습니다"
+        }
+    },
+    {
+        "name": {
+            "en": "Score chaser",
+            "es": "Persiguepuntos",
+            "de": "Punktejäger",
+            "fr": "Chasseur de score",
+            "it": "Cacciatore di punteggio",
+            "nl": "Scoreachtervolger",
+            "pt": "Perseguidor de pontuação",
+            "ru": "Охотник за очками",
+            "ja": "スコアチェイサー",
+            "zh": "分數追逐者",
+            "zh-CN": "分数追逐者",
+            "ko": "점수 추적자"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Get an extra point when scoring.",
+            "es": "Obtén un punto extra al puntuar.",
+            "de": "Erhalte einen zusätzlichen Punkt beim Punkten.",
+            "fr": "Obtenez un point supplémentaire en marquant des points.",
+            "it": "Ottieni un punto extra quando segni punti.",
+            "nl": "Krijg een extra punt bij het scoren.",
+            "pt": "Ganha um ponto extra ao pontuar.",
+            "ru": "Получите дополнительное очко при наборе очков.",
+            "ja": "得点時に追加ポイントを獲得します。",
+            "zh": "得分時獲得額外點數。",
+            "zh-CN": "得分时获得额外点数。",
+            "ko": "점수를 획득할 때 추가 점수를 얻습니다."
+        }
+    },
+    {
+        "name": {
+            "en": "Score eater",
+            "es": "Devorapuntos",
+            "de": "Punktefresser",
+            "fr": "Mangeur de score",
+            "it": "Divoratore di punteggio",
+            "nl": "Scorevreter",
+            "pt": "Devorador de pontuação",
+            "ru": "Пожиратель очков",
+            "ja": "スコアイーター",
+            "zh": "分數吞噬者",
+            "zh-CN": "分数吞噬者",
+            "ko": "점수 포식자"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Get a crown when scoring.",
+            "es": "Obtén una corona al puntuar.",
+            "de": "Erhalte eine Krone beim Punkten.",
+            "fr": "Obtenez une couronne en marquant des points.",
+            "it": "Ottieni una corona quando segni punti.",
+            "nl": "Krijg een kroon bij het scoren.",
+            "pt": "Ganha uma coroa ao pontuar.",
+            "ru": "Получите корону при наборе очков.",
+            "ja": "得点時にクラウンを獲得します。",
+            "zh": "得分時獲得皇冠。",
+            "zh-CN": "得分时获得皇冠。",
+            "ko": "점수를 획득할 때 크라운을 얻습니다."
+        }
+    },
+    {
+        "name": {
+            "en": "Solar Ray",
+            "es": "Raya solar",
+            "de": "Sonnenrochen",
+            "fr": "Raie solaire",
+            "it": "Razza solare",
+            "nl": "Zonnerog",
+            "pt": "Raia solar",
+            "ru": "Солнечный скат",
+            "ja": "ソーラーレイ",
+            "zh": "太陽魟",
+            "zh-CN": "太阳鳐",
+            "ko": "태양 가오리"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 4,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Mystery eggs summons a solar ray (up to {[PRIMARY_VALUE]}).",
+            "es": "Los huevos misteriosos invocan una raya solar (hasta {[PRIMARY_VALUE]}).",
+            "de": "Mysteriöse Eier beschwören einen Sonnenrochen (bis zu {[PRIMARY_VALUE]}).",
+            "fr": "Les œufs mystérieux invoquent une raie solaire (jusqu'à {[PRIMARY_VALUE]}).",
+            "it": "Le uova misteriose evocano una razza solare (fino a {[PRIMARY_VALUE]}).",
+            "nl": "Mysterieuze eieren roepen een zonnerog op (tot {[PRIMARY_VALUE]}).",
+            "pt": "Os ovos misteriosos invocam uma raia solar (até {[PRIMARY_VALUE]}).",
+            "ru": "Загадочные яйца призывают солнечного ската (до {[PRIMARY_VALUE]}).",
+            "ja": "神秘の卵がソーラーレイを召喚します（最大{[PRIMARY_VALUE]}匹）",
+            "zh": "神秘蛋召喚太陽魟（最多{[PRIMARY_VALUE]}隻）",
+            "zh-CN": "神秘蛋召唤太阳鳐（最多{[PRIMARY_VALUE]}只）",
+            "ko": "신비한 알이 태양 가오리를 소환합니다(최대 {[PRIMARY_VALUE]}마리)"
+        }
+    },
+    {
+        "name": {
+            "en": "Space exploration",
+            "es": "Exploración espacial",
+            "de": "Weltraumerforschung",
+            "fr": "Exploration spatiale",
+            "it": "Esplorazione spaziale",
+            "nl": "Ruimteverkenning",
+            "pt": "Exploração espacial",
+            "ru": "Исследование космоса",
+            "ja": "宇宙探査",
+            "zh": "太空探索",
+            "zh-CN": "太空探索",
+            "ko": "우주 탐사"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 100,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 95,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Devouring aristocrats gives bounties of up to {[PRIMARY_VALUE]} crowns, but their appearance is reduced by 95%.",
+            "es": "Devorar aristócratas otorga recompensas de hasta {[PRIMARY_VALUE]} coronas, pero su aparición se reduce en un 95%.",
+            "de": "Das Verschlingen von Aristokraten bringt Kopfgelder von bis zu {[PRIMARY_VALUE]} Kronen ein, aber ihr Erscheinen ist um 95% reduziert.",
+            "fr": "Dévorer des aristocrates donne des primes allant jusqu'à {[PRIMARY_VALUE]} couronnes, mais leur apparition est réduite de 95%.",
+            "it": "Divorare gli aristocratici fornisce taglie fino a {[PRIMARY_VALUE]} corone, ma la loro apparizione è ridotta del 95%.",
+            "nl": "Het verslinden van aristocraten geeft beloningen tot {[PRIMARY_VALUE]} kronen, maar hun verschijning is met 95% verminderd.",
+            "pt": "Devorar aristocratas oferece recompensas de até {[PRIMARY_VALUE]} coroas, mas a sua aparição é reduzida em 95%.",
+            "ru": "Пожирание аристократов дает награды до {[PRIMARY_VALUE]} крон, но их появление уменьшено на 95%.",
+            "ja": "貴族を捕食すると最大{[PRIMARY_VALUE]}クラウンの賞金が得られますが、出現率が95%減少します。",
+            "zh": "吞噬貴族提供最高{[PRIMARY_VALUE]}皇冠的賞金，但其出現機率降低95%。",
+            "zh-CN": "吞噬贵族提供最高{[PRIMARY_VALUE]}皇冠的赏金，但其出现几率降低95%。",
+            "ko": "귀족을 포식하면 최대 {[PRIMARY_VALUE]} 크라운의 현상금을 얻지만, 그들의 출현 확률은 95% 감소합니다."
+        }
+    },
+    {
+        "name": {
+            "en": "Space folding",
+            "es": "Plegado espacial",
+            "de": "Raumfaltung",
+            "fr": "Pliage spatial",
+            "it": "Piegatura spaziale",
+            "nl": "Ruimtevouwing",
+            "pt": "Dobramento espacial",
+            "ru": "Складывание пространства",
+            "ja": "空間折りたたみ",
+            "zh": "空間摺疊",
+            "zh-CN": "空间折叠",
+            "ko": "공간 접기"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 75,
+            "prefix": null,
+            "suffix": "%"
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Squash your size by {[PRIMARY_VALUE]}.",
+            "es": "Aplasta tu tamaño en un {[PRIMARY_VALUE]}.",
+            "de": "Quetsche deine Größe um {[PRIMARY_VALUE]}.",
+            "fr": "Écrasez votre taille de {[PRIMARY_VALUE]}.",
+            "it": "Schiaccia le tue dimensioni del {[PRIMARY_VALUE]}.",
+            "nl": "Plat je grootte met {[PRIMARY_VALUE]}.",
+            "pt": "Esmaga o teu tamanho em {[PRIMARY_VALUE]}.",
+            "ru": "Сожмите свой размер на {[PRIMARY_VALUE]}.",
+            "ja": "サイズを{[PRIMARY_VALUE]}圧縮します",
+            "zh": "將你的尺寸壓縮{[PRIMARY_VALUE]}",
+            "zh-CN": "将你的尺寸压缩{[PRIMARY_VALUE]}",
+            "ko": "크기를 {[PRIMARY_VALUE]} 압축합니다"
+        }
+    },
+    {
+        "name": {
+            "en": "Space rocket",
+            "es": "Cohete espacial",
+            "de": "Weltraumrakete",
+            "fr": "Fusée spatiale",
+            "it": "Razzo spaziale",
+            "nl": "Ruimteraket",
+            "pt": "Foguetão espacial",
+            "ru": "Космическая ракета",
+            "ja": "宇宙ロケット",
+            "zh": "太空火箭",
+            "zh-CN": "太空火箭",
+            "ko": "우주 로켓"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 10,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Incrementally increases your speed while holding your finger down.",
+            "es": "Aumenta gradualmente tu velocidad mientras mantienes presionado el dedo.",
+            "de": "Erhöht schrittweise deine Geschwindigkeit, während du den Finger gedrückt hältst.",
+            "fr": "Augmente progressivement votre vitesse tant que vous maintenez votre doigt appuyé.",
+            "it": "Aumenta gradualmente la tua velocità mentre tieni premuto il dito.",
+            "nl": "Verhoogt geleidelijk je snelheid terwijl je je vinger ingedrukt houdt.",
+            "pt": "Aumenta gradualmente a tua velocidade enquanto mantiveres o dedo pressionado.",
+            "ru": "Постепенно увеличивает вашу скорость при удержании пальца.",
+            "ja": "指を押し続けている間、速度を段階的に増加させます。",
+            "zh": "按住手指時逐漸提升速度。",
+            "zh-CN": "按住手指时逐渐提升速度。",
+            "ko": "손가락을 누르고 있는 동안 점진적으로 속도를 증가시킵니다."
+        }
+    },
+    {
+        "name": {
+            "en": "Supermassive whale",
+            "es": "Ballena supermasiva",
+            "de": "Supermassiver Wal",
+            "fr": "Baleine supermassive",
+            "it": "Balena supermassiccia",
+            "nl": "Supermassieve walvis",
+            "pt": "Baleia supermassiva",
+            "ru": "Сверхмассивный кит",
+            "ja": "超大質量クジラ",
+            "zh": "超大質量鯨魚",
+            "zh-CN": "超大质量鲸鱼",
+            "ko": "초대질량 고래"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 1,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 5,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Mystery eggs summon a supermassive whale (up to {[PRIMARY_VALUE]}).",
+            "es": "Los huevos misteriosos invocan una ballena supermasiva (hasta {[PRIMARY_VALUE]}).",
+            "de": "Mysteriöse Eier beschwören einen supermassiven Wal (bis zu {[PRIMARY_VALUE]}).",
+            "fr": "Les œufs mystérieux invoquent une baleine supermassive (jusqu'à {[PRIMARY_VALUE]}).",
+            "it": "Le uova misteriose evocano una balena supermassiccia (fino a {[PRIMARY_VALUE]}).",
+            "nl": "Mysterieuze eieren roepen een supermassieve walvis op (tot {[PRIMARY_VALUE]}).",
+            "pt": "Os ovos misteriosos invocam uma baleia supermassiva (até {[PRIMARY_VALUE]}).",
+            "ru": "Загадочные яйца призывают сверхмассивного кита (до {[PRIMARY_VALUE]}).",
+            "ja": "神秘の卵が超大質量クジラを召喚します（最大{[PRIMARY_VALUE]}匹）。",
+            "zh": "神秘蛋召喚超大質量鯨魚（最多{[PRIMARY_VALUE]}隻）。",
+            "zh-CN": "神秘蛋召唤超大质量鲸鱼（最多{[PRIMARY_VALUE]}只）。",
+            "ko": "신비한 알이 초대질량 고래를 소환합니다(최대 {[PRIMARY_VALUE]}마리)."
+        }
+    },
+    {
+        "name": {
+            "en": "Supernova",
+            "es": "Supernova",
+            "de": "Supernova",
+            "fr": "Supernova",
+            "it": "Supernova",
+            "nl": "Supernova",
+            "pt": "Supernova",
+            "ru": "Сверхновая",
+            "ja": "超新星",
+            "zh": "超新星",
+            "zh-CN": "超新星",
+            "ko": "초신성"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 100,
+            "prefix": "+",
+            "suffix": "%"
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "{[PRIMARY_VALUE]} explosion radius.",
+            "es": "{[PRIMARY_VALUE]} de radio de explosión.",
+            "de": "{[PRIMARY_VALUE]} Explosionsradius.",
+            "fr": "{[PRIMARY_VALUE]} de rayon d'explosion.",
+            "it": "{[PRIMARY_VALUE]} raggio di esplosione.",
+            "nl": "{[PRIMARY_VALUE]} explosieradius.",
+            "pt": "{[PRIMARY_VALUE]} de raio de explosão.",
+            "ru": "{[PRIMARY_VALUE]} радиус взрыва.",
+            "ja": "{[PRIMARY_VALUE]}爆発範囲。",
+            "zh": "{[PRIMARY_VALUE]}爆炸範圍。",
+            "zh-CN": "{[PRIMARY_VALUE]}爆炸范围。",
+            "ko": "{[PRIMARY_VALUE]} 폭발 반경."
+        }
+    },
+    {
+        "name": {
+            "en": "Surprise egg",
+            "es": "Huevo sorpresa",
+            "de": "Überraschungsei",
+            "fr": "Œuf surprise",
+            "it": "Uovo sorpresa",
+            "nl": "Verrassingsei",
+            "pt": "Ovo surpresa",
+            "ru": "Яйцо-сюрприз",
+            "ja": "サプライズエッグ",
+            "zh": "驚喜蛋",
+            "zh-CN": "惊喜蛋",
+            "ko": "서프라이즈 에그"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Treasure chests contain a mystery egg inside.",
+            "es": "Los cofres del tesoro contienen un huevo misterioso en su interior.",
+            "de": "Schatztruhen enthalten ein mysteriöses Ei im Inneren.",
+            "fr": "Les coffres au trésor contiennent un œuf mystérieux à l'intérieur.",
+            "it": "I forzieri del tesoro contengono un uovo misterioso all'interno.",
+            "nl": "Schatkisten bevatten een mysterieus ei van binnen.",
+            "pt": "Os baús do tesouro contêm um ovo misterioso no interior.",
+            "ru": "Сундуки с сокровищами содержат загадочное яйцо внутри.",
+            "ja": "宝箱の中に神秘の卵が入っています。",
+            "zh": "寶箱內含有神秘蛋。",
+            "zh-CN": "宝箱内含有神秘蛋。",
+            "ko": "보물 상자 안에 신비한 알이 들어있습니다."
+        }
+    },
+    {
+        "name": {
+            "en": "Toroid alignment",
+            "es": "Alineación toroidal",
+            "de": "Toroide Ausrichtung",
+            "fr": "Alignement toroïdal",
+            "it": "Allineamento toroidale",
+            "nl": "Toroïdale uitlijning",
+            "pt": "Alinhamento toroidal",
+            "ru": "Тороидальное выравнивание",
+            "ja": "トロイドアライメント",
+            "zh": "環面排列",
+            "zh-CN": "环面排列",
+            "ko": "토로이드 정렬"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 100,
+            "prefix": "+",
+            "suffix": "%"
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "{[PRIMARY_VALUE]} of stellar donuts appearance.",
+            "es": "{[PRIMARY_VALUE]} de aparición de dónuts estelares.",
+            "de": "{[PRIMARY_VALUE]} der stellaren Donuts erscheinen.",
+            "fr": "{[PRIMARY_VALUE]} apparitions de donuts stellaires.",
+            "it": "{[PRIMARY_VALUE]} di apparizione di ciambelle stellari.",
+            "nl": "{[PRIMARY_VALUE]} van stellaire donuts verschijning.",
+            "pt": "{[PRIMARY_VALUE]} dos donuts estelares aparecem.",
+            "ru": "{[PRIMARY_VALUE]} звездных пончиков.",
+            "ja": "スタードーナツ出現率{[PRIMARY_VALUE]}",
+            "zh": "{[PRIMARY_VALUE]} 的明星甜甜圈出現",
+            "zh-CN": "{[PRIMARY_VALUE]} 的明星甜甜圈出现",
+            "ko": "{[PRIMARY_VALUE]}의 별 도넛 등장"
+        }
+    },
+    {
+        "name": {
+            "en": "Transfiguration",
+            "es": "Transfiguración",
+            "de": "Verwandlung",
+            "fr": "Transfiguration",
+            "it": "Trasfigurazione",
+            "nl": "Gedaanteverwisseling",
+            "pt": "Transfiguração",
+            "ru": "Преображение",
+            "ja": "変身術",
+            "zh": "變形術",
+            "zh-CN": "变形术",
+            "ko": "변형술"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Upgrade all treasure chests to the highest quality.",
+            "es": "Mejora todos los cofres del tesoro a la máxima calidad.",
+            "de": "Verbessere alle Schatztruhen auf die höchste Qualität.",
+            "fr": "Améliore tous les coffres au trésor à la plus haute qualité.",
+            "it": "Migliora tutti i forzieri del tesoro alla qualità più alta.",
+            "nl": "Upgrade alle schatkisten naar de hoogste kwaliteit.",
+            "pt": "Melhora todos os baús do tesouro para a mais alta qualidade.",
+            "ru": "Улучшает все сундуки с сокровищами до наивысшего качества.",
+            "ja": "すべての宝箱を最高品質にアップグレードします",
+            "zh": "將所有寶箱升級至最高品質",
+            "zh-CN": "将所有宝箱升级至最高品质",
+            "ko": "모든 보물 상자를 최고 품질로 업그레이드합니다"
+        }
+    },
+    {
+        "name": {
+            "en": "Y-4RT1LL3RY",
+            "es": "Y-4RT1LL3RY",
+            "de": "Y-4RT1LL3RY",
+            "fr": "Y-4RT1LL3RY",
+            "it": "Y-4RT1LL3RY",
+            "nl": "Y-4RT1LL3RY",
+            "pt": "Y-4RT1LL3RY",
+            "ru": "Y-4RT1LL3RY",
+            "ja": "Y-4RT1LL3RY",
+            "zh": "Y-4RT1LL3RY",
+            "zh-CN": "Y-4RT1LL3RY",
+            "ko": "Y-4RT1LL3RY"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Shoot a missile per second.",
+            "es": "Dispara un misil por segundo.",
+            "de": "Schieße eine Rakete pro Sekunde.",
+            "fr": "Tirez un missile par seconde.",
+            "it": "Spara un missile al secondo.",
+            "nl": "Schiet een raket per seconde.",
+            "pt": "Dispara um míssil por segundo.",
+            "ru": "Выпускайте ракету в секунду.",
+            "ja": "1秒間に1発のミサイルを発射します。",
+            "zh": "每秒發射一枚飛彈。",
+            "zh-CN": "每秒发射一枚导弹。",
+            "ko": "초당 미사일을 발사합니다."
+        }
+    },
+    {
+        "name": {
+            "en": "Y-R4D4R",
+            "es": "Y-R4D4R",
+            "de": "Y-R4D4R",
+            "fr": "Y-R4D4R",
+            "it": "Y-R4D4R",
+            "nl": "Y-R4D4R",
+            "pt": "Y-R4D4R",
+            "ru": "Y-R4D4R",
+            "ja": "Y-R4D4R",
+            "zh": "Y-R4D4R",
+            "zh-CN": "Y-R4D4R",
+            "ko": "Y-R4D4R"
+        },
+        "is_stackable": false,
+        "PRIMARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "SECONDARY_VALUE": {
+            "value": 0,
+            "prefix": null,
+            "suffix": null
+        },
+        "description": {
+            "en": "Show warning indicators for incoming obstacles.",
+            "es": "Muestra indicadores de advertencia para obstáculos que se aproximan.",
+            "de": "Zeige Warnindikatoren für herannahende Hindernisse.",
+            "fr": "Affiche des indicateurs d'avertissement pour les obstacles qui approchent.",
+            "it": "Mostra indicatori di avvertimento per gli ostacoli in arrivo.",
+            "nl": "Toon waarschuwingsindicatoren voor naderende obstakels.",
+            "pt": "Mostra indicadores de aviso para obstáculos que se aproximam.",
+            "ru": "Показывать предупреждающие индикаторы для приближающихся препятствий.",
+            "ja": "接近する障害物の警告インジケータを表示します。",
+            "zh": "顯示即將到來的障礙物警告指示器。",
+            "zh-CN": "显示即将到来的障碍物警告指示器。",
+            "ko": "다가오는 장애물에 대한 경고 표시기를 보여줍니다."
+        }
+    }
+]

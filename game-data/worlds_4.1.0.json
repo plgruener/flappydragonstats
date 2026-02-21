@@ -1,0 +1,2014 @@
+[
+    {
+        "name": {
+            "en": "Arehma desert",
+            "es": "Desierto de Arehma",
+            "de": "Arehma-Wüste",
+            "fr": "Désert d'Arehma",
+            "it": "Arehma desert",
+            "nl": "Arehma woestijn",
+            "pt": "Deserto de Arehma",
+            "ru": "пустыня Арехма",
+            "ja": "アレフマ砂漠",
+            "zh": "阿雷瑪沙漠",
+            "zh-CN": "雷玛沙漠",
+            "ko": "아레마 사막"
+        },
+        "description": {
+            "en": "An arid desert with frequent sandstorms that was visited by... aliens?",
+            "es": "Un árido desierto con frecuentes tormentas de arenas que fue visitado por... ¿extraterrestres?",
+            "de": "Eine trockene Wüste mit häufigen Sandstürmen, die von... Außerirdischen besucht wurde?",
+            "fr": "Un désert aride avec de fréquentes tempêtes de sable qui a été visité par... des extraterrestres ?",
+            "it": "Un deserto arido con frequenti tempeste di sabbia che è stato visitato da... alieni?",
+            "nl": "Een dorre woestijn met frequente zandstormen die bezocht werd door... aliens?",
+            "pt": "Um deserto árido com frequentes tempestades de areia que foi visitado por... alienígenas?",
+            "ru": "Засушливая пустыня с частыми песчаными бурями, которую посетили... инопланетяне?",
+            "ja": "頻繁に砂嵐が起こる乾燥した砂漠で、宇宙人が訪れた？",
+            "zh": "一個經常被...外星人拜訪的干旱沙漠？",
+            "zh-CN": "一个经常被...外星人拜访的干旱沙漠？",
+            "ko": "외계인이 방문한 빈번한 모래 폭풍이있는 건조한 사막?"
+        },
+        "aristocrats": [
+            {
+                "name": "Alien",
+                "can_sleep": true
+            },
+            {
+                "name": "Mummy",
+                "can_sleep": true
+            },
+            {
+                "name": "Captain",
+                "can_sleep": true
+            }
+        ],
+        "themes": [
+            {
+                "name": "Arehma Desert Day",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Arehma Desert Night",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Arehma Desert Twillight",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Arehma Desert Sunset",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Bay Beach",
+            "es": "Playa de la Bahía",
+            "de": "Bay Beach",
+            "fr": "Plage de la baie",
+            "it": "Spiaggia della baia",
+            "nl": "Bay Beach",
+            "pt": "Praia da Baía",
+            "ru": "Пляж Бэй",
+            "ja": "ベイビーチ",
+            "zh": "海灣海灘",
+            "zh-CN": "海湾海滩",
+            "ko": "베이 비치"
+        },
+        "description": {
+            "en": "Everyone deserves a break. Relax and enjoy the waves and sand on this beautiful beach.",
+            "es": "Todo el mundo se merece un descanso. Relájate y disfruta de las olas y la arena en esta bonita playa.",
+            "de": "Jeder hat eine Pause verdient. Entspannen Sie sich und genießen Sie die Wellen und den Sand an diesem schönen Strand.",
+            "fr": "Tout le monde mérite une pause. Détendez-vous et profitez des vagues et du sable sur cette magnifique plage.",
+            "it": "Tutti si meritano una pausa. Rilassatevi e godetevi le onde e la sabbia di questa bellissima spiaggia.",
+            "nl": "Iedereen verdient een pauze. Ontspan en geniet van de golven en het zand op dit prachtige strand.",
+            "pt": "Todos merecem uma pausa. Relaxe e desfrute das ondas e da areia nesta bela praia.",
+            "ru": "Каждый заслуживает передышки. Расслабьтесь и насладитесь волнами и песком на этом прекрасном пляже.",
+            "ja": "誰にでも休憩は必要です。この美しいビーチで、波と砂を楽しみながらリラックスしてください。",
+            "zh": "每個人都應該休息一下。放鬆並在這個美麗的海灘上享受海浪和沙子。",
+            "zh-CN": "每个人都应该休息一下。放松并在这个美丽的海滩上享受海浪和沙子。",
+            "ko": "모두가 휴식을 취할 자격이 있습니다.이 아름다운 해변에서 휴식을 취하고 파도와 모래를 즐기십시오."
+        },
+        "aristocrats": [
+            {
+                "name": "Beach Bay Surfer",
+                "can_sleep": true
+            },
+            {
+                "name": "Beach Bay Merfolk",
+                "can_sleep": true
+            },
+            {
+                "name": "Beach Bay Lifeguard",
+                "can_sleep": true
+            }
+        ],
+        "themes": [
+            {
+                "name": "Bay Beach Day",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Bay Beach Night",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Bay Beach Rain",
+                "is_night": false,
+                "has_rain": true,
+                "has_snow": false
+            },
+            {
+                "name": "Bay Beach Snow",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": true
+            },
+            {
+                "name": "Bay Beach Sunset",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Bay Beach Twillight",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Cactus Canyon",
+            "es": "Cañón Cactus",
+            "de": "Kaktus-Canyon",
+            "fr": "Canyon Cactus",
+            "it": "Canyon Cactus",
+            "nl": "Cactuskloof",
+            "pt": "Cânion Cactus",
+            "ru": "Каньон Кактусов",
+            "ja": "カクタスキャニオン",
+            "zh": "仙人掌峽谷",
+            "zh-CN": "仙人掌峡谷",
+            "ko": "선인장 캐니언"
+        },
+        "description": {
+            "en": "Trains transport valuable dragonite through this arid and thorny canyon.",
+            "es": "Los trenes transportan valiosa dragonita por este árido y espinoso cañón.",
+            "de": "Züge transportieren wertvolles Dragonit durch diese trockene und dornige Schlucht.",
+            "fr": "Les trains transportent de précieuse dragonite à travers ce canyon aride et épineux.",
+            "it": "I treni trasportano preziosa dragonite attraverso questo canyon arido e spinoso.",
+            "nl": "Treinen vervoeren waardevolle dragoniet door deze dorre en doornige canyon.",
+            "pt": "Os comboios transportam valiosa dragonita por este árido e espinhoso desfiladeiro.",
+            "ru": "Поезда перевозят ценный драгонит через этот засушливый и колючий каньон.",
+            "ja": "列車がこの乾燥した棘だらけの峡谷を通って貴重なドラゴナイトを運んでいます。",
+            "zh": "列車運送珍貴的龍晶礦穿越這個乾旱多刺的峽谷。",
+            "zh-CN": "列车运送珍贵的龙晶矿穿越这个干旱多刺的峡谷。",
+            "ko": "열차가 이 건조하고 가시 돋친 협곡을 통해 귀중한 드래고나이트를 운반합니다."
+        },
+        "aristocrats": [
+            {
+                "name": "Driver",
+                "can_sleep": true
+            },
+            {
+                "name": "Sheriff",
+                "can_sleep": true
+            },
+            {
+                "name": "Bard",
+                "can_sleep": true
+            }
+        ],
+        "themes": [
+            {
+                "name": "Cactus Canyon Sunset",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Cactus Canyon Dawn",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Cactus Canyon Day",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Cactus Canyon Twillight",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Cactus Canyon Night",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Cactus Canyon Rain",
+                "is_night": false,
+                "has_rain": true,
+                "has_snow": false
+            },
+            {
+                "name": "Cactus Canyon Snow",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": true
+            },
+            {
+                "name": "Cactus Canyon Scorch",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Cake peaks",
+            "es": "Picos pastel",
+            "de": "Tortenspitzen",
+            "fr": "Pointes de gâteau",
+            "it": "Picchi di torta",
+            "nl": "Taart pieken",
+            "pt": "Picos de bolo",
+            "ru": "Пики пирога",
+            "ja": "ケーキのピーク",
+            "zh": "蛋糕峰",
+            "zh-CN": "蛋糕峰",
+            "ko": "케이크 봉우리"
+        },
+        "description": {
+            "en": "A place of celebration and joy. Eat as many sweets as you can!",
+            "es": "Un lugar de celebración y alegría. ¡Come todos los dulces que puedas!",
+            "de": "Ein Ort des Feierns und der Freude. Essen Sie so viele Süßigkeiten, wie Sie können!",
+            "fr": "Un lieu de célébration et de joie. Mangez autant de sucreries que vous le pouvez !",
+            "it": "Un luogo di festa e di gioia. Mangiate tutti i dolci che potete!",
+            "nl": "Een plek van feest en vreugde. Eet zoveel snoep als je kunt!",
+            "pt": "Um lugar de festa e de alegria. Coma todos os doces que puder!",
+            "ru": "Место праздника и радости. Ешьте как можно больше сладостей!",
+            "ja": "お祝いと喜びの場。お菓子を好きなだけ食べよう！",
+            "zh": "慶祝和喜悅的地方。盡可能多地吃糖果！",
+            "zh-CN": "庆祝和喜悦的地方。尽可能多地吃糖果！",
+            "ko": "축하와 기쁨의 장소.가능한 한 많은 과자를 먹어라!"
+        },
+        "aristocrats": [
+            {
+                "name": "Cupcake",
+                "can_sleep": true
+            },
+            {
+                "name": "Strawberry",
+                "can_sleep": false
+            },
+            {
+                "name": "Candle",
+                "can_sleep": true
+            }
+        ],
+        "themes": [
+            {
+                "name": "Cake Peaks Marzipan",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Cake Peaks Twillight",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Cake Peaks Dawn",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Cake Peaks Day",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Cake Peaks Sunset",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Cake Peaks Night",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Cake Peaks Rain",
+                "is_night": false,
+                "has_rain": true,
+                "has_snow": false
+            },
+            {
+                "name": "Cake Peaks Snow",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": true
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Canary Islands",
+            "es": "Islas Canarias",
+            "de": "Kanarische Inseln",
+            "fr": "Îles Canaries",
+            "it": "Isole Canarie",
+            "nl": "Canarische Eilanden",
+            "pt": "Ilhas Canárias",
+            "ru": "Канарские острова",
+            "ja": "カナリア諸島",
+            "zh": "加那利群島",
+            "zh-CN": "加那利群岛",
+            "ko": "카나리아 제도"
+        },
+        "description": {
+            "en": "An archipelago ruled by reptilian tribes who associate dragons as bad omens.",
+            "es": "Un archipiélago gobernado por tribus reptilianas que asocian los dragones como malos augurios.",
+            "de": "Ein Archipel, das von Reptilienstämmen beherrscht wird, die Drachen als schlechtes Omen ansehen.",
+            "fr": "Un archipel gouverné par des tribus reptiliennes qui associent les dragons à de mauvais présages.",
+            "it": "Un arcipelago governato da tribù di rettili che associano i draghi a cattivi presagi.",
+            "nl": "Een archipel geregeerd door reptielachtige stammen die draken associëren als slechte voortekenen.",
+            "pt": "Um arquipélago governado por tribos reptilianas que associam dragões como maus presságios.",
+            "ru": "Архипелаг, которым правят племена рептилий, считающие драконов плохим предзнаменованием.",
+            "ja": "ドラゴンを縁起の悪いものとして連想する爬虫類族が支配する群島。",
+            "zh": "一個由爬行動物部落管理的群島，將龍與不良預兆相關聯。",
+            "zh-CN": "一个由爬行动物部落管理的群岛，将龙与不良预兆相关联。",
+            "ko": "드래곤을 나쁜 징조로 연관시키는 파충류 부족이 지배하는 군도."
+        },
+        "aristocrats": [
+            {
+                "name": "Black Lizard",
+                "can_sleep": true
+            },
+            {
+                "name": "Blue Lizard",
+                "can_sleep": true
+            },
+            {
+                "name": "Green Lizard",
+                "can_sleep": true
+            }
+        ],
+        "themes": [
+            {
+                "name": "Canary Islands Day",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Canary Islands Dawn",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Canary Islands Night",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Canary Islands Rain",
+                "is_night": false,
+                "has_rain": true,
+                "has_snow": false
+            },
+            {
+                "name": "Canary Islands Snow",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": true
+            },
+            {
+                "name": "Canary Islands Sunset",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Canary Islands Twillight",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Celestial ruins",
+            "es": "Ruinas celestiales",
+            "de": "Die himmlischen Ruinen",
+            "fr": "Ruines célestes",
+            "it": "Rovine celesti",
+            "nl": "Hemelse ruïnes",
+            "pt": "Ruínas celestiais",
+            "ru": "Небесные руины",
+            "ja": "天空の遺跡",
+            "zh": "天體廢墟",
+            "zh-CN": "天体废墟",
+            "ko": "천상의 유적"
+        },
+        "description": {
+            "en": "Legends tell of an ancient civilisation that try to conquer the heavens. Such hubris angered the gods.",
+            "es": "Las leyendas hablan de una antigua civilización que intentó conquistar los cielos. Tal arrogancia enfureció a los dioses.",
+            "de": "Legenden erzählen von einer alten Zivilisation, die versuchte, den Himmel zu erobern. Diese Hybris erzürnte die Götter.",
+            "fr": "Les légendes racontent qu'une ancienne civilisation a tenté de conquérir les cieux. Un tel orgueil a irrité les dieux.",
+            "it": "Le leggende narrano di un'antica civiltà che cercò di conquistare il cielo. Tale arroganza fece arrabbiare gli dei.",
+            "nl": "Legenden vertellen over een oude beschaving die de hemel probeerde te veroveren. Dergelijke overmoed maakte de goden woedend.",
+            "pt": "As lendas falam de uma civilização antiga que tentou conquistar os céus. Tal arrogância enfureceu os deuses.",
+            "ru": "Легенды рассказывают о древней цивилизации, которая пыталась покорить небеса. Такая самонадеянность разгневала богов.",
+            "ja": "天界を征服しようとした古代文明の伝説がある。その傲慢さは神々を怒らせた。",
+            "zh": "傳說講述了一個古老的文明，試圖征服天堂。這樣的傲慢激怒了眾神。",
+            "zh-CN": "传说讲述了一个古老的文明，试图征服天堂。这样的傲慢激怒了众神。",
+            "ko": "전설은 하늘을 정복하려는 고대 문명에 대해 이야기합니다.그러한 허비는 신들을 화나게했다."
+        },
+        "aristocrats": [
+            {
+                "name": "Seraphim",
+                "can_sleep": false
+            },
+            {
+                "name": "Cherubim",
+                "can_sleep": false
+            },
+            {
+                "name": "Ophanim",
+                "can_sleep": false
+            }
+        ],
+        "themes": [
+            {
+                "name": "Celestial Ruins Gold",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Celestial Ruins Dawn",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Celestial Ruins Day",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Celestial Ruins Sunset",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Celestial Ruins Twillight",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Celestial Ruins Night",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Celestial Ruins Rain",
+                "is_night": false,
+                "has_rain": true,
+                "has_snow": false
+            },
+            {
+                "name": "Celestial Ruins Snow",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": true
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Coral Reef",
+            "es": "Arrecife de coral",
+            "de": "Korallenriff",
+            "fr": "Récif de corail",
+            "it": "Barriera corallina",
+            "nl": "Koraalrif",
+            "pt": "Coral Reef",
+            "ru": "Коралловый риф",
+            "ja": "コーラルリーフ",
+            "zh": "珊瑚礁",
+            "zh-CN": "珊瑚礁",
+            "ko": "산호초"
+        },
+        "description": {
+            "en": "Explore the submerged ruins of an ancient civilisation that was wiped out by a flood.",
+            "es": "Explora las ruinas sumergidas de una antigua civilización que fue arrasada por un diluvio.",
+            "de": "Erkunden Sie die versunkenen Ruinen einer alten Zivilisation, die durch eine Flut ausgelöscht wurde.",
+            "fr": "Explorez les ruines submergées d'une ancienne civilisation qui a été anéantie par une inondation.",
+            "it": "Esplorate le rovine sommerse di un'antica civiltà spazzata via da un'alluvione.",
+            "nl": "Verken de ondergedompelde ruïnes van een oude beschaving die werd weggevaagd door een overstroming.",
+            "pt": "Explorar as ruínas submersas de uma civilização antiga que foi dizimada por uma inundação.",
+            "ru": "Исследуйте затопленные руины древней цивилизации, которая была уничтожена наводнением.",
+            "ja": "洪水で消滅した古代文明の水没した遺跡を探検する。",
+            "zh": "探索被洪水散佈的古代文明的淹沒廢墟。",
+            "zh-CN": "探索被洪水散布的古代文明的淹没废墟。",
+            "ko": "홍수로 인해 고대 문명의 침수 된 폐허를 탐험하십시오."
+        },
+        "aristocrats": [
+            {
+                "name": "Coral Reef Cultist",
+                "can_sleep": true
+            },
+            {
+                "name": "Coral Reef Surfer",
+                "can_sleep": true
+            },
+            {
+                "name": "Coral Reef Merfolk",
+                "can_sleep": true
+            }
+        ],
+        "themes": [
+            {
+                "name": "Coral Reef Ocean",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Coral Reef Kelp",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Coral Reef Night",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Coral Reef Abyss",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Coral Reef Polar",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": true
+            },
+            {
+                "name": "Coral Reef Sunset",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Coral Reef Twillight",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Draco Dwarf Galaxy",
+            "es": "Galaxia enana de Draco",
+            "de": "Dracos Zwerggalaxie",
+            "fr": "Galaxie naine de Draco",
+            "it": "Galassia nana di Draco",
+            "nl": "Draco's dwergstelsel",
+            "pt": "Galáxia anã de Draco",
+            "ru": "Карликовая галактика Драко",
+            "ja": "ドラコ矮小銀河",
+            "zh": "龍矮星銀河",
+            "zh-CN": "龙矮星银河",
+            "ko": "드래곤 드워프 갤럭시"
+        },
+        "description": {
+            "en": "Travel across the galaxy, dodging asteroids and meeting new life forms.",
+            "es": "Viaja a través de la galaxia, esquivando asteroides y conociendo nuevas formas de vida.",
+            "de": "Reisen Sie durch die Galaxie, weichen Sie Asteroiden aus und treffen Sie neue Lebensformen.",
+            "fr": "Voyagez à travers la galaxie, en évitant les astéroïdes et en rencontrant de nouvelles formes de vie.",
+            "it": "Viaggiate attraverso la galassia, schivando gli asteroidi e incontrando nuove forme di vita.",
+            "nl": "Reis door het heelal, ontwijk asteroïden en ontmoet nieuwe levensvormen.",
+            "pt": "Viajar pela galáxia, esquivando-se aos asteróides e encontrando novas formas de vida.",
+            "ru": "Путешествуйте по галактике, уворачиваясь от астероидов и встречая новые формы жизни.",
+            "ja": "銀河系を旅して、小惑星をかわし、新しい生命体と出会う。",
+            "zh": "他穿過銀河系，躲避小行星並了解新的生活形式。",
+            "zh-CN": "他穿过银河系，躲避小行星并了解新的生活形式。",
+            "ko": "그는 은하계를 통해 소행성을 피하고 새로운 생명체를 알고 있습니다."
+        },
+        "aristocrats": [
+            {
+                "name": "UFO",
+                "can_sleep": false
+            },
+            {
+                "name": "Space Pirate",
+                "can_sleep": false
+            },
+            {
+                "name": "Satellite",
+                "can_sleep": false
+            },
+            {
+                "name": "Nelian Alpha",
+                "can_sleep": false
+            },
+            {
+                "name": "Nelian Beta",
+                "can_sleep": false
+            },
+            {
+                "name": "Nelian Gamma",
+                "can_sleep": false
+            }
+        ],
+        "themes": [
+            {
+                "name": "Draco Dwarf Galaxy Solar System",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Draco Dwarf Galaxy Binary Star",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Draco Dwarf Galaxy Black Hole",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Draco Dwarf Donut Dreams",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Draco Dwarf Galaxy Emerald Scattering",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Draco Dwarf Galaxy Artificial Luna",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Draco Dwarf Galaxy Eptetron Prime",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Dragon Graveyard",
+            "es": "Cementerio de Dragones",
+            "de": "Drachenfriedhof",
+            "fr": "Cimetière des Dragons",
+            "it": "Cimitero dei Draghi",
+            "nl": "Drakenbegraafplaats",
+            "pt": "Cemitério de Dragões",
+            "ru": "Кладбище Драконов",
+            "ja": "龍の墓場",
+            "zh": "龍之墓地",
+            "zh-CN": "龙之墓地",
+            "ko": "용의 무덤"
+        },
+        "description": {
+            "en": "A resting place where dragons spend their final days. Shrouded in a mysterious and dangerous miasma.",
+            "es": "Lugar de descanso donde los dragones pasan sus últimos días. Envuelto en una misteriosa y peligrosa miasma.",
+            "de": "Ein Ruheort, wo Drachen ihre letzten Tage verbringen. Eingehüllt in ein mysteriöses und gefährliches Miasma.",
+            "fr": "Un lieu de repos où les dragons passent leurs derniers jours. Enveloppé d'un miasme mystérieux et dangereux.",
+            "it": "Un luogo di riposo dove i draghi trascorrono i loro ultimi giorni. Avvolto in un miasma misterioso e pericoloso.",
+            "nl": "Een rustplaats waar draken hun laatste dagen doorbrengen. Gehuld in een mysterieus en gevaarlijk miasma.",
+            "pt": "Local de repouso onde os dragões passam os seus últimos dias. Envolto num miasma misterioso e perigoso.",
+            "ru": "Место отдыха, где драконы проводят свои последние дни. Окутано таинственной и опасной миазмой.",
+            "ja": "龍たちが最期の日々を過ごす休息の地。不思議で危険な瘴気に包まれている。",
+            "zh": "龍族度過最後時光的安息之地。籠罩在神秘而危險的瘴氣之中。",
+            "zh-CN": "龙族度过最后时光的安息之地。笼罩在神秘而危险的瘴气之中。",
+            "ko": "용들이 마지막 날들을 보내는 휴식처. 신비롭고 위험한 독기에 휩싸여 있습니다."
+        },
+        "aristocrats": [
+            {
+                "name": "Queen Beensect",
+                "can_sleep": true
+            },
+            {
+                "name": "Praetorian Beensect",
+                "can_sleep": true
+            },
+            {
+                "name": "Sage Beensect",
+                "can_sleep": true
+            }
+        ],
+        "themes": [
+            {
+                "name": "Dragon Graveyard Miasma",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Dragon Graveyard Dawn",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Dragon Graveyard Day",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Dragon Graveyard Sunset",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Dragon Graveyard Twillight",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Dragon Graveyard Night",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Dragon Graveyard Rain",
+                "is_night": false,
+                "has_rain": true,
+                "has_snow": false
+            },
+            {
+                "name": "Dragon Graveyard Snow",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": true
+            },
+            {
+                "name": "Dragon Graveyard Inferno",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Dragonite Mines",
+            "es": "Minas de Dragonita",
+            "de": "Drachensteinminen",
+            "fr": "Mines de dragonite",
+            "it": "Miniere di Dragonite",
+            "nl": "Dragonite Mijnen",
+            "pt": "Minas de Dragonite",
+            "ru": "Драгонитовые рудники",
+            "ja": "ドラゴナイト鉱山",
+            "zh": "龍礦",
+            "zh-CN": "龙矿",
+            "ko": "용의 광산"
+        },
+        "description": {
+            "en": "The work never stops inside the mountain, where the dwarves dig deeper and deeper in search of dragonite.",
+            "es": "Las obras nunca cesan en el interior de la montaña, donde los enanos cavan cada vez más profundo en busca de dragonita.",
+            "de": "Die Arbeit hört im Inneren des Berges nie auf, wo die Zwerge auf der Suche nach Dragonit immer tiefer graben.",
+            "fr": "Le travail ne s'arrête jamais à l'intérieur de la montagne, où les nains creusent de plus en plus profondément à la recherche de dragonite.",
+            "it": "Il lavoro non si ferma mai all'interno della montagna, dove i nani scavano sempre più in profondità alla ricerca della dragonite.",
+            "nl": "Het werk stopt nooit in de berg, waar de dwergen steeds dieper graven op zoek naar drakeniet...",
+            "pt": "O trabalho nunca pára dentro da montanha, onde os anões escavam cada vez mais fundo em busca da dragonite.",
+            "ru": "Работа никогда не прекращается внутри горы, где гномы копают все глубже и глубже в поисках драконита.",
+            "ja": "ドワーフたちはドラゴナイトを探すため、山の中を深く深く掘っていく。",
+            "zh": "這項工作永遠不會停在山內，矮人在那裡越來越深地挖掘龍田",
+            "zh-CN": "这项工作永远不会停在山内，矮人在那里越来越深地挖掘龙田",
+            "ko": "작업은 산 안에서 멈추지 않으며, 드래곤 라이트를 찾아 드레인드가 더 깊고 깊어 지는데"
+        },
+        "aristocrats": [
+            {
+                "name": "Miner Mole",
+                "can_sleep": true
+            },
+            {
+                "name": "Miner Mole",
+                "can_sleep": true
+            },
+            {
+                "name": "Female Mole",
+                "can_sleep": true
+            }
+        ],
+        "themes": [
+            {
+                "name": "Dragonite Mines Magma",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Dragonite Mines Ice",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Dragonite Mines Mineral",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Dragonite Mines Caverns",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Dragonite Mines Tropical",
+                "is_night": false,
+                "has_rain": true,
+                "has_snow": false
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Fairy forest",
+            "es": "Bosque de las hadas",
+            "de": "Feenwald",
+            "fr": "Forêt de fées",
+            "it": "Bosco delle fate",
+            "nl": "Sprookjesbos",
+            "pt": "Floresta de fadas",
+            "ru": "Сказочный лес",
+            "ja": "妖精の森",
+            "zh": "童話森林",
+            "zh-CN": "童话森林",
+            "ko": "요정 숲"
+        },
+        "description": {
+            "en": "Lush magical forest, where the trees grow endlessly thanks to the power of the fairies.",
+            "es": "Frondoso bosque mágico, donde los árboles crecen sin parar gracias al poder de las hadas.",
+            "de": "Ein üppiger Zauberwald, in dem die Bäume dank der Macht der Feen unendlich wachsen.",
+            "fr": "Une forêt magique luxuriante, où les arbres poussent à l'infini grâce au pouvoir des fées.",
+            "it": "Una rigogliosa foresta magica, dove gli alberi crescono all'infinito grazie al potere delle fate.",
+            "nl": "Weelderig magisch bos, waar de bomen eindeloos groeien dankzij de kracht van de feeën.",
+            "pt": "Floresta mágica exuberante, onde as árvores crescem infinitamente graças ao poder das fadas.",
+            "ru": "Пышный волшебный лес, где деревья растут бесконечно благодаря силе фей.",
+            "ja": "妖精の力で木々が無限に成長する、緑豊かな魔法の森。",
+            "zh": "鬱鬱蔥蔥的魔法森林，由於仙女的力量，樹木無休止地生長。",
+            "zh-CN": "郁郁葱葱的魔法森林，由于仙女的力量，树木无休止地生长。",
+            "ko": "요정의 힘 덕분에 나무가 끝없이 자라는 무성한 마법의 숲."
+        },
+        "aristocrats": [
+            {
+                "name": "Fairy Forest",
+                "can_sleep": false
+            },
+            {
+                "name": "Big Acorn",
+                "can_sleep": false
+            },
+            {
+                "name": "Small Acorn",
+                "can_sleep": false
+            },
+            {
+                "name": "Centipede",
+                "can_sleep": false
+            }
+        ],
+        "themes": [
+            {
+                "name": "Fairy Forest Blossom",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Fairy Forest Day",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Fairy Forest Night",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Fairy Forest Twillight",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Fairy Forest Sunset",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Fairy Forest Dawn",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Fairy Forest Rain",
+                "is_night": false,
+                "has_rain": true,
+                "has_snow": false
+            },
+            {
+                "name": "Fairy Forest Snow",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": true
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Loola Archipelago",
+            "es": "Archipiélago de Loola",
+            "de": "Loola-Archipel",
+            "fr": "Archipel de Loola",
+            "it": "Arcipelago di Loola",
+            "nl": "Loola archipel",
+            "pt": "Arquipélago de Loola",
+            "ru": "Архипелаг Лоола",
+            "ja": "ルーラ群島",
+            "zh": "洛拉群島",
+            "zh-CN": "洛拉群岛",
+            "ko": "루 올라 군도"
+        },
+        "description": {
+            "en": "Islands threatened by a permanently active volcano, which the local tribes worship as their god.",
+            "es": "Islas amenazadas por un volcán permanentemente en activo, al cual las tribus locales veneran como su dios.",
+            "de": "Inseln, die von einem ständig aktiven Vulkan bedroht sind, den die lokalen Stämme als ihren Gott verehren.",
+            "fr": "Des îles menacées par un volcan en activité permanente, que les tribus locales vénèrent comme leur dieu.",
+            "it": "Isole minacciate da un vulcano sempre attivo, che le tribù locali venerano come loro dio.",
+            "nl": "Eilanden bedreigd door een permanent actieve vulkaan, die door de lokale stammen als hun god wordt aanbeden.",
+            "pt": "Ilhas ameaçadas por um vulcão permanentemente activo, que as tribos locais adoram como seu deus.",
+            "ru": "Острова, которым угрожает постоянно действующий вулкан, которому местные племена поклоняются как своему богу.",
+            "ja": "火山に脅かされている島で、火山は地元の部族に神として崇められている。",
+            "zh": "島嶼受到永久活躍的火山的威脅，當地部落像他們的上帝一樣崇拜。",
+            "zh-CN": "岛屿受到永久活跃的火山的威胁，当地部落像他们的上帝一样崇拜。",
+            "ko": "섬들은 영구적으로 활동적인 화산으로 위협을 받았으며, 지역 부족은 그들의 신처럼 존경합니다."
+        },
+        "aristocrats": [
+            {
+                "name": "Bard",
+                "can_sleep": true
+            },
+            {
+                "name": "Palm Tree",
+                "can_sleep": true
+            },
+            {
+                "name": "Shaman",
+                "can_sleep": true
+            }
+        ],
+        "themes": [
+            {
+                "name": "Loola Archipielago Day",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Loola Archipielago Dawn",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Loola Archipielago Inferno",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Loola Archipielago Night",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Loola Archipielago Rain",
+                "is_night": false,
+                "has_rain": true,
+                "has_snow": false
+            },
+            {
+                "name": "Loola Archipielago Snow",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": true
+            },
+            {
+                "name": "Loola Archipielago Sunset",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Loola Archipielago Twillight",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Maelstrom",
+            "es": "Vorágine",
+            "de": "Mahlstrom",
+            "fr": "Maelström",
+            "it": "Maelstrom",
+            "nl": "Maelstrom",
+            "pt": "Voragem",
+            "ru": "Маэлстром",
+            "ja": "マエストロム",
+            "zh": "漩渦",
+            "zh-CN": "大漩涡",
+            "ko": "큰 소용돌이"
+        },
+        "description": {
+            "en": "Old seafaring tales tell of a monstrous hydra imprisoned beneath the waves, spinning ever since in an attempt to free itself.",
+            "es": "Viejos cuentos marineros hablan sobre una monstruosa hidra aprisionada bajo las olas, girando desde entonces para intentar liberarse.",
+            "de": "Alte Seefahrergeschichten erzählen von einer monströsen Hydra, die unter den Wellen gefangen ist und seither immer wieder versucht, sich zu befreien.",
+            "fr": "De vieilles histoires de marins parlent d'une hydre monstrueuse emprisonnée sous les vagues, qui tourne depuis lors pour tenter de se libérer.",
+            "it": "Antichi racconti marinari narrano di una mostruosa idra imprigionata sotto le onde, che da allora gira nel tentativo di liberarsi.",
+            "nl": "Oude zeemansverhalen vertellen over een monsterlijke hydra die onder de golven gevangen zit en sindsdien ronddraait in een poging zichzelf te bevrijden.",
+            "pt": "Antigas histórias de marinheiros falam de uma hidra monstruosa aprisionada sob as ondas, girando desde então numa tentativa de se libertar.",
+            "ru": "Старые морские сказания повествуют о чудовищной гидре, заточенной под волнами и с тех пор вращающейся в попытках освободиться.",
+            "ja": "古くから伝わる海上の物語によれば、怪物ヒドラが波の下に幽閉され、自らを解き放とうと回転し続けているという。",
+            "zh": "老式水手的故事談論了一個巨大的愚蠢的人，被海浪被囚禁在海浪中，從那以後轉過身來試圖釋放自己。",
+            "zh-CN": "老式水手的故事谈论了一个巨大的愚蠢的人，被海浪被囚禁在海浪中，从那以后转过身来试图释放自己。",
+            "ko": "오래된 선원 이야기는 파도 아래에서 수두 투옥 된 괴물에 대해 이야기하고 그 이후로 스스로를 자유롭게하려고 노력합니다."
+        },
+        "aristocrats": [
+            {
+                "name": "Ghost Captain",
+                "can_sleep": false
+            },
+            {
+                "name": "Ghost Scribe",
+                "can_sleep": false
+            },
+            {
+                "name": "Ghost Skyglass",
+                "can_sleep": false
+            }
+        ],
+        "themes": [
+            {
+                "name": "Maelstrom Day",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Maelstrom Twillight",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Maelstrom Dawn",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Maelstrom Sunset",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Maelstrom Night",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Maelstrom Rain",
+                "is_night": false,
+                "has_rain": true,
+                "has_snow": false
+            },
+            {
+                "name": "Maelstrom Snow",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": true
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Oad Prime",
+            "es": "Oad Prime",
+            "de": "Oad Prime",
+            "fr": "Oad Prime",
+            "it": "Oad Prime",
+            "nl": "Oad Prime",
+            "pt": "Oad Prime",
+            "ru": "Оад Прайм",
+            "ja": "オード・プライム",
+            "zh": "奧德主星",
+            "zh-CN": "奥德主星",
+            "ko": "오드 프라임"
+        },
+        "description": {
+            "en": "Heart of the parasitic mushroom network that keeps conquering the land and its inhabitants.",
+            "es": "Corazón de la red de hongos parásitos que sigue conquistando la tierra y sus habitantes.",
+            "de": "Herz des parasitären Pilznetzwerks, das weiterhin das Land und seine Bewohner erobert.",
+            "fr": "Cœur du réseau de champignons parasites qui continue de conquérir la terre et ses habitants.",
+            "it": "Cuore della rete di funghi parassiti che continua a conquistare la terra e i suoi abitanti.",
+            "nl": "Hart van het parasitaire paddenstoelennetwerk dat het land en zijn bewoners blijft veroveren.",
+            "pt": "Coração da rede de cogumelos parasitas que continua a conquistar a terra e os seus habitantes.",
+            "ru": "Сердце паразитической грибной сети, которая продолжает завоёвывать землю и её обитателей.",
+            "ja": "大地とその住民を征服し続ける寄生キノコネットワークの心臓。",
+            "zh": "持續征服大地及其居民的寄生蘑菇網絡之心。",
+            "zh-CN": "持续征服大地及其居民的寄生蘑菇网络之心。",
+            "ko": "땅과 그 주민들을 계속해서 정복하는 기생 버섯 네트워크의 심장."
+        },
+        "aristocrats": [
+            {
+                "name": "Zombie Mushroom",
+                "can_sleep": false
+            },
+            {
+                "name": "Zombie Beensect",
+                "can_sleep": false
+            },
+            {
+                "name": "Rob",
+                "can_sleep": false
+            }
+        ],
+        "themes": [
+            {
+                "name": "Oad Prime Parasite",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Oad Prime Day",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Oad Prime Sunset",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Oad Prime Dawn",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Oad Prime Twillight",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Oad Prime Night",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Oad Prime Rain",
+                "is_night": false,
+                "has_rain": true,
+                "has_snow": false
+            },
+            {
+                "name": "Oad Prime Snow",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": true
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Paradise Lost",
+            "es": "Paraíso perdido",
+            "de": "Das verlorene Paradies",
+            "fr": "Paradis perdu",
+            "it": "Paradiso perduto",
+            "nl": "Het verloren paradijs",
+            "pt": "Paraíso perdido",
+            "ru": "Потерянный рай",
+            "ja": "失楽園",
+            "zh": "失樂園",
+            "zh-CN": "失乐园",
+            "ko": "실낙원"
+        },
+        "description": {
+            "en": "A kingdom lost in the jungle, home to the feathered serpent.",
+            "es": "Un reino perdido en la jungla, hogar de la serpiente emplumada.",
+            "de": "Ein im Dschungel verlorenes Königreich, Heimat der gefiederten Schlange.",
+            "fr": "Un royaume perdu dans la jungle, demeure du serpent à plumes.",
+            "it": "Un regno perduto nella giungla, dimora del serpente piumato.",
+            "nl": "Een koninkrijk verloren in de jungle, thuis van de gevederde slang.",
+            "pt": "Um reino perdido na selva, lar da serpente emplumada.",
+            "ru": "Королевство, затерянное в джунглях, дом пернатого змея.",
+            "ja": "ジャングルに失われた王国、羽毛の蛇の住処。",
+            "zh": "一個在叢林中失落的王國，羽蛇的家園。",
+            "zh-CN": "一个在丛林中失落的王国，羽蛇的家园。",
+            "ko": "정글에서 잃어버린 왕국, 깃털 달린 뱀의 거처."
+        },
+        "aristocrats": [
+            {
+                "name": "Sym Synth",
+                "can_sleep": false
+            },
+            {
+                "name": "Sym Red",
+                "can_sleep": false
+            },
+            {
+                "name": "Sym Blue",
+                "can_sleep": false
+            },
+            {
+                "name": "Sym Green",
+                "can_sleep": false
+            }
+        ],
+        "themes": [
+            {
+                "name": "Paradise Lost Radiance",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Paradise Lost Dawn",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Paradise Lost Day",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Paradise Lost Twillight",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Paradise Lost Sunset",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Paradise Lost Night",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Paradise Lost Rain",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Paradise Lost Snow",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": true
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Pipeland",
+            "es": "Tuboterra",
+            "de": "Erdungsrohr",
+            "fr": "Tubeterre",
+            "it": "Tuboterra",
+            "nl": "Terrabuis",
+            "pt": "Tuboterra",
+            "ru": "Терратрубка",
+            "ja": "テラチューブ",
+            "zh": "管道土地",
+            "zh-CN": "管道土地",
+            "ko": "튜브 랜드"
+        },
+        "description": {
+            "en": "A strange land full of giant pipes. Where do they lead to?",
+            "es": "Una tierra extraña llena de tuberías gigantes. ¿Adónde conducen?",
+            "de": "Ein fremdes Land voller riesiger Rohre. Wohin führen sie?",
+            "fr": "Une terre étrange pleine de tuyaux géants. Où mènent-ils ?",
+            "it": "Una strana terra piena di tubi giganti. Dove portano?",
+            "nl": "Een vreemd land vol gigantische pijpen. Waar leiden ze naartoe?",
+            "pt": "Uma terra estranha, cheia de tubos gigantes. Aonde é que eles levam?",
+            "ru": "Странная страна, полная гигантских труб. Куда они ведут?",
+            "ja": "巨大なパイプが立ち並ぶ不思議な国。どこにつながっているのだろう？",
+            "zh": "一個充滿巨型管道的奇怪土地。他們在哪里通往？",
+            "zh-CN": "一个充满巨型管道的奇怪土地。他们在哪里通往？",
+            "ko": "거대한 파이프로 가득 찬 이상한 땅.그들은 어디로 이끌까요?"
+        },
+        "aristocrats": [
+            {
+                "name": "Plant",
+                "can_sleep": true
+            },
+            {
+                "name": "Mushroom",
+                "can_sleep": true
+            }
+        ],
+        "themes": [
+            {
+                "name": "Pipeland Twillight",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Pipeland Rain",
+                "is_night": false,
+                "has_rain": true,
+                "has_snow": false
+            },
+            {
+                "name": "Pipeland Night",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Pipeland Sunset",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Pipeland Snow",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": true
+            },
+            {
+                "name": "Pipeland Dawn",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Ronoka Mountains",
+            "es": "Montañas Ronoka",
+            "de": "Ronoka-Berge",
+            "fr": "Montagnes Ronoka",
+            "it": "Monti Ronoka",
+            "nl": "Ronoka Bergen",
+            "pt": "Montanhas Ronoka",
+            "ru": "Горы Ронока",
+            "ja": "ロノカ山",
+            "zh": "羅諾卡山脈",
+            "zh-CN": "罗诺卡山脉",
+            "ko": "로노카 산맥"
+        },
+        "description": {
+            "en": "Evade the towers of the Ronoka kingdom in this beautiful mountainous region.",
+            "es": "Evade las torres del reino de Ronoka en esta hermosa región montañosa.",
+            "de": "Entkomme den Türmen des Ronoka-Königreichs in dieser wunderschönen Bergregion.",
+            "fr": "Évitez les tours du royaume de Ronoka dans cette magnifique région montagneuse.",
+            "it": "Sfuggite alle torri del regno di Ronoka in questa splendida regione montuosa.",
+            "nl": "Ontwijk de torens van het Ronoka koninkrijk in dit prachtige berggebied.",
+            "pt": "Evadir as torres do reino de Ronoka nesta bela região montanhosa.",
+            "ru": "Уклоняйтесь от башен королевства Ронока в этом прекрасном горном регионе.",
+            "ja": "この美しい山岳地帯で、ロノカ王国の塔を避けよう。",
+            "zh": "在這個美麗的山區逃避羅諾卡王國的塔樓。",
+            "zh-CN": "在这个美丽的山区逃避罗诺卡王国的塔楼。",
+            "ko": "이 아름다운 산악 지역에서 로노카 왕국의 탑을 피하십시오."
+        },
+        "aristocrats": [
+            {
+                "name": "Ronoka King",
+                "can_sleep": true
+            },
+            {
+                "name": "Ronoka Queen",
+                "can_sleep": true
+            },
+            {
+                "name": "Ronoka Mage",
+                "can_sleep": true
+            }
+        ],
+        "themes": [
+            {
+                "name": "Ronoka Mountains Day",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Ronoka Mountains Night",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Ronoka Mountains Twillight",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Ronoka Mountains Sunset",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Ronoka Mountains Snow",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": true
+            },
+            {
+                "name": "Ronoka Mountains Rain",
+                "is_night": false,
+                "has_rain": true,
+                "has_snow": false
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Scale route",
+            "es": "Ruta de las escamas",
+            "de": "Route skalieren",
+            "fr": "Route de l'échelle",
+            "it": "Percorso in scala",
+            "nl": "Schaalverdeling route",
+            "pt": "Rota da balança",
+            "ru": "Масштабный маршрут",
+            "ja": "スケールルート",
+            "zh": "秤路線",
+            "zh-CN": "秤路线",
+            "ko": "비늘 경로"
+        },
+        "description": {
+            "en": "Trading route infested with pirate ships. Watch out for the masts!",
+            "es": "Ruta comercial infestada de barcos piratas. ¡Cuidado con los mástiles!",
+            "de": "Handelsroute, die von Piratenschiffen heimgesucht wird. Achten Sie auf die Masten!",
+            "fr": "Route commerciale infestée de bateaux pirates. Attention aux mâts !",
+            "it": "Rotta commerciale infestata da navi pirata. Attenzione agli alberi!",
+            "nl": "Handelsroute geteisterd door piratenschepen. Kijk uit voor de masten!",
+            "pt": "Rota comercial infestada de navios piratas. Cuidado com os mastros!",
+            "ru": "Торговый путь, кишащий пиратскими кораблями. Берегитесь мачт!",
+            "ja": "海賊船がはびこる交易路。マストに気をつけろ",
+            "zh": "貿易路線被海盜船感染。當心桅杆！",
+            "zh-CN": "贸易路线被海盗船感染。当心桅杆！",
+            "ko": "해적 선박에 감염된 거래 경로.마스트를 조심하십시오!"
+        },
+        "aristocrats": [
+            {
+                "name": "Captain",
+                "can_sleep": true
+            },
+            {
+                "name": "Scribe",
+                "can_sleep": true
+            },
+            {
+                "name": "Skyglass",
+                "can_sleep": true
+            }
+        ],
+        "themes": [
+            {
+                "name": "Scales Road Day",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Scales Road Night",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Scales Road Twillight",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Scales Road Sunset",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Scales Road Rain",
+                "is_night": false,
+                "has_rain": true,
+                "has_snow": false
+            },
+            {
+                "name": "Scales Road Ghost",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Scales Road Kraken",
+                "is_night": false,
+                "has_rain": true,
+                "has_snow": false
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Spookylvania",
+            "es": "Spookylvania",
+            "de": "Spookylvania",
+            "fr": "Spookylvania",
+            "it": "Spookylvania",
+            "nl": "Spookylvania",
+            "pt": "Spookylvania",
+            "ru": "Охлаждающие земли",
+            "ja": "スプーキルバニア",
+            "zh": "寒冷的土地",
+            "zh-CN": "寒冷的土地",
+            "ko": "냉담한 땅"
+        },
+        "description": {
+            "en": "Ghostly kingdom led by creatures of the night... Chilling!",
+            "es": "Reino fantasmal liderado por criaturas de la noche... ¡Escalofriante!",
+            "de": "Ein geisterhaftes Königreich, angeführt von Kreaturen der Nacht... Gruselig!",
+            "fr": "Un royaume fantomatique dirigé par des créatures de la nuit... Effrayant !",
+            "it": "Regno spettrale guidato da creature della notte... Agghiacciante!",
+            "nl": "Spookachtig koninkrijk geleid door wezens van de nacht... Griezelig!",
+            "pt": "Reino fantasmagórico liderado por criaturas da noite... É arrepiante!",
+            "ru": "Призрачное королевство, возглавляемое ночными существами... Захватывающе!",
+            "ja": "夜の生き物が率いる幽霊の王国...。ゾクゾクする！？",
+            "zh": "幽靈王國由夜晚的生物領導……令人毛骨悚然！",
+            "zh-CN": "幽灵王国由夜晚的生物领导……令人毛骨悚然！",
+            "ko": "밤의 생물이 이끄는 유령 왕국 ... 냉담한!"
+        },
+        "aristocrats": [
+            {
+                "name": "Witch",
+                "can_sleep": false
+            },
+            {
+                "name": "Countess",
+                "can_sleep": false
+            },
+            {
+                "name": "Creepy Tree",
+                "can_sleep": false
+            }
+        ],
+        "themes": [
+            {
+                "name": "Spookylvania Witching Hour",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Spookylvania Blood Moon",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Spookylvania Dawn",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Spookylvania Day",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Spookylvania Night",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Spookylvania Rain",
+                "is_night": false,
+                "has_rain": true,
+                "has_snow": false
+            },
+            {
+                "name": "Spookylvania Snow",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": true
+            },
+            {
+                "name": "Spookylvania Sunset",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Spookylvania Twillight",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Synthonia",
+            "es": "Synthonia",
+            "de": "Synthonia",
+            "fr": "Synthonia",
+            "it": "Synthonia",
+            "nl": "Synthonia",
+            "pt": "Synthonia",
+            "ru": "Синтония",
+            "ja": "シンソニア",
+            "zh": "合城波",
+            "zh-CN": "合城波",
+            "ko": "신토 니아"
+        },
+        "description": {
+            "en": "Experience a melodic distant future (or is it the past?).",
+            "es": "Experimenta un melódico futuro lejano (¿o es el pasado?).",
+            "de": "Erleben Sie eine melodische, ferne Zukunft (oder ist es die Vergangenheit?).",
+            "fr": "Faites l'expérience d'un futur lointain mélodique (ou est-ce le passé ?).",
+            "it": "Sperimentate un futuro melodico lontano (o è il passato?).",
+            "nl": "Beleef een melodieuze verre toekomst (of is het het verleden?).",
+            "pt": "Experimente um futuro distante melódico (ou será o passado?).",
+            "ru": "Почувствуйте мелодичное далекое будущее (или прошлое?).",
+            "ja": "メロディックな遠い未来（あるいは過去か）を体験してください",
+            "zh": "體驗旋律遙遠的未來（還是過去？）",
+            "zh-CN": "体验旋律遥远的未来（还是过去？）",
+            "ko": "멜로디 먼 미래를 경험하십시오 (아니면 과거입니까?)"
+        },
+        "aristocrats": [
+            {
+                "name": "Synth Palm Tree",
+                "can_sleep": false
+            },
+            {
+                "name": "Polyking",
+                "can_sleep": false
+            },
+            {
+                "name": "Rob",
+                "can_sleep": false
+            }
+        ],
+        "themes": [
+            {
+                "name": "Synthonia Retro",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Synthonia Matrix",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Synthonia Dark Synth",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Synthonia Photon Beam",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Synthonia Datastream",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Synthonia Hiperdrive",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Synthonia Synthwave",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Synthonia Glitch",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Synthonia Cyberpunk",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Synthonia Supernova",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Wind Valley",
+            "es": "Valle del Viento",
+            "de": "Windtal",
+            "fr": "Vallée du vent",
+            "it": "Valle del vento",
+            "nl": "Windvallei",
+            "pt": "Vale do Vento",
+            "ru": "Долина ветров",
+            "ja": "ウインドバレー",
+            "zh": "風谷",
+            "zh-CN": "风谷",
+            "ko": "윈드 밸리"
+        },
+        "description": {
+            "en": "An ancient empire where dragons are worshipped and offerings are made to them in exchange for their protection.",
+            "es": "Imperio ancestral donde se venera a los dragones y se les realiza ofrendas a cambio de su protección.",
+            "de": "Ein altes Reich, in dem Drachen verehrt und ihnen im Austausch für ihren Schutz Opfer dargebracht werden.",
+            "fr": "Un ancien empire où les dragons sont vénérés et où des offrandes leur sont faites en échange de leur protection.",
+            "it": "Un antico impero in cui si venerano i draghi e si fanno loro offerte in cambio della loro protezione.",
+            "nl": "Een oud rijk waar draken worden aanbeden en offers aan hen worden gebracht in ruil voor hun bescherming.",
+            "pt": "Um império antigo onde os dragões são adorados e lhes são feitas oferendas em troca da sua protecção.",
+            "ru": "Древняя империя, где поклоняются драконам и делают им подношения в обмен на их защиту.",
+            "ja": "ドラゴンが崇拝され、その保護と引き換えにドラゴンに供物が捧げられる古代帝国のこと。",
+            "zh": "祖先的帝國尊敬龍並提供祭品以換取他們的保護。",
+            "zh-CN": "祖先的帝国尊敬龙并提供祭品以换取他们的保护。",
+            "ko": "드래곤이 숭배되고 보호를 대가로 제물이 이루어지는 조상 제국."
+        },
+        "aristocrats": [
+            {
+                "name": "Emperor",
+                "can_sleep": true
+            },
+            {
+                "name": "Flautist",
+                "can_sleep": true
+            },
+            {
+                "name": "Ninja",
+                "can_sleep": true
+            }
+        ],
+        "themes": [
+            {
+                "name": "Wind Valley Twillight",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Wind Valley Dawn",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Wind Valley Night",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Wind Valley Rain",
+                "is_night": false,
+                "has_rain": true,
+                "has_snow": false
+            },
+            {
+                "name": "Wind Valley Sakura",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Wind Valley Snow",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": true
+            },
+            {
+                "name": "Wind Valley Sunset",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Wind Valley Fireworks",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Wind Valley Day",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Wind Valley Inferno",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            }
+        ]
+    },
+    {
+        "name": {
+            "en": "Wispernalia",
+            "es": "Wispernalia",
+            "de": "Wispernalia",
+            "fr": "Wispernalia",
+            "it": "Wispernalia",
+            "nl": "Wispernalia",
+            "pt": "Wispernalia",
+            "ru": "Замороженные земли",
+            "ja": "ウィスパーナリア",
+            "zh": "冷凍土地",
+            "zh-CN": "冷冻土地",
+            "ko": "얼어 붙은 땅"
+        },
+        "description": {
+            "en": "Their structures are made of mountain dragon bones and dark ice to better protect them from the frequent blizzards.",
+            "es": "Sus estructuras están hechas de huesos de dragones de montaña y hielo oscuro para protegerse mejor de las frecuentes ventiscas.",
+            "de": "Ihre Strukturen bestehen aus Bergdrachenknochen und dunklem Eis, um sie besser vor den häufigen Schneestürmen zu schützen.",
+            "fr": "Leurs structures sont faites d'os de dragon des montagnes et de glace sombre pour mieux les protéger des blizzards fréquents.",
+            "it": "Le loro strutture sono fatte di ossa di drago di montagna e ghiaccio scuro per proteggerle meglio dalle frequenti bufere di neve.",
+            "nl": "Hun structuren zijn gemaakt van beenderen van bergdraken en donker ijs om hen beter te beschermen tegen de frequente sneeuwstormen.",
+            "pt": "As suas estruturas são feitas de ossos de dragão de montanha e gelo escuro para melhor os proteger das frequentes nevascas.",
+            "ru": "Их строения сделаны из костей горного дракона и темного льда, чтобы лучше защитить их от частых метелей.",
+            "ja": "その構造は、頻繁に起こるブリザードから身を守るために、山竜の骨とダークアイスで作られています。",
+            "zh": "它們的結構是由山龍和深色冰的骨頭製成的，可以更好地防止頻繁繞組。",
+            "zh-CN": "它们的结构是由山龙和深色冰的骨头制成的，可以更好地防止频繁绕组。",
+            "ko": "그들의 구조물은 산악 용과 어두운 얼음의 뼈로 만들어져 빈번한 와인딩으로부터 더 잘 보호합니다."
+        },
+        "aristocrats": [
+            {
+                "name": "Ice Queen",
+                "can_sleep": true
+            },
+            {
+                "name": "Festive Tree",
+                "can_sleep": false
+            },
+            {
+                "name": "Snowman",
+                "can_sleep": false
+            }
+        ],
+        "themes": [
+            {
+                "name": "Wispernalia Aurora",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Wispernalia Dawn",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Wispernalia Day",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Wispernalia Night",
+                "is_night": true,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Wispernalia Rain",
+                "is_night": false,
+                "has_rain": true,
+                "has_snow": false
+            },
+            {
+                "name": "Wispernalia Snow",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": true
+            },
+            {
+                "name": "Wispernalia Sunset",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            },
+            {
+                "name": "Wispernalia Twillight",
+                "is_night": false,
+                "has_rain": false,
+                "has_snow": false
+            }
+        ]
+    }
+]
