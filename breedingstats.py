@@ -191,8 +191,10 @@ def breeding_sum_lookup(name_pairs,lookup=lookup):
 
 #TODO unify lookup- and p- parameter usage
 def search_all(dragonlist,lookup=lookup,p=p_shiny):
-    print(f'{len(dragonlist)=} {dragonlist=}')
     num=number_pairings(len(dragonlist)) # == 654_729_075 = 6.5E8 for n=20
+    print(f'#dragons = {len(dragonlist)}')
+    print(f'#pairs = {num}')
+    print(f'{dragonlist=}')
     bestval=0
     bestpairing=[]
 
@@ -217,7 +219,9 @@ def print_result(list_or_pairing,p=p_shiny):
 def print_result_pairing(dragonpairing,p=p_shiny):
     for val,pair in sorted([(breeding_value(d1,d2,p),(d1,d2)) for (d1,d2) in dragonpairing],reverse=True):
         print(f'{val:>9.4f}: {pair}')
-    print(f'{breeding_sum_pairing(dragonpairing,p):.4f}  total mean' )
+    print(f'{breeding_sum_pairing(dragonpairing,p):9.4f}  total' )
+    print(f'{breeding_sum_pairing(dragonpairing,p)/len(dragonpairing):9.4f}    /pair' )
+    print(f'{breeding_sum_pairing(dragonpairing,p)/len(dragonpairing)/2:9.4f}    /dragon' )
     print('='*80)
 def print_result_list(dragonlist,p=p_shiny):
     print_result_pairing(list2pairs(dragonlist),p)
