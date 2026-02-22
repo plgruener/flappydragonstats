@@ -41,7 +41,7 @@ p_shiny = compute_p_shiny(compute_x(10,100)) # = 0.06740506 # 1/p=14.836795
 
 # number N of all possible pairings of n (n even) dragons [(d1,d2),(d3,d4),…(dn-1,dn)],
 # without order of or in the pairs,r
-# N = n!/( 2!^(n/2) * (n/2)! ) = (n-1)*(n-2)*…*5*3*1
+# N = n!/( 2!^(n/2) * (n/2)! ) = (n-1)*(n-3)*…*5*3*1
 def number_pairings(n):
     return math.prod(range(1,n,2))
 
