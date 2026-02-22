@@ -97,7 +97,11 @@ class Dragon:
     name: str
     type: str
     rarity: str
+    control: str
     breeding_eggs: list[str]
+    speed: float
+    force: float
+    weight: float
 
     # to simplify instanciating from the JSON object
     # stolen from https://stackoverflow.com/a/55096964
