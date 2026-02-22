@@ -99,7 +99,7 @@ def get_dragon(name: str) -> dict:
     return next(dragon for dragon in dragon_dict if dragon['name']==name)
 def dragon_name(dragon:dict)->str:
     return dragon['name']
-def dragon_rarity(dragon:str)->int:
+def dragon_rarity(dragon:str)->str:
     return get_dragon(dragon)['rarity']
 def dragon_eggs(dragon:str)->list:
     return get_dragon(dragon)['breeding_eggs']
