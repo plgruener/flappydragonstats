@@ -91,7 +91,9 @@ def sorted_tuplelist(l,i,reverse=True):
 ################################################################################
 
 ### DRAGON DATA ################################################################
-with open('dragons.json') as f:
+VERSION='4.4.0'
+print(f"{VERSION=}")
+with open(f"game-data/dragons_{VERSION}.json") as f:
     dragon_dict = json.load(f)
 dragon_names:list = sorted([dragon['name'] for dragon in dragon_dict])
 
@@ -163,12 +165,12 @@ def generate_lookup_table(p=p_shiny)->dict:
 
 # lookup generation takes a minute, so we might want to save the table to file
 try:
-    with open('breeding_lookup.pickle','rb') as f:
+    with open(f"breeding_lookup_{VERSION}.pickle",'rb') as f:
         lookup = pickle.load(f)
 except FileNotFoundError:
     print('Cannot find lookup table file, re-generating.')
     lookup=generate_lookup_table() # still pretty fast
-    with open('breeding_lookup.pickle','wb') as f:
+    with open(f"breeding_lookup_{VERSION}.pickle",'wb') as f:
         pickle.dump(lookup,f)
 
 # now we can use the lookup table to redefine the breeding_sum function
