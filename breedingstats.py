@@ -91,7 +91,7 @@ def sorted_tuplelist(l,i,reverse=True):
 ################################################################################
 
 ### DRAGON DATA ################################################################
-VERSION='4.4.0'
+VERSION='4.4.1'
 print(f"{VERSION=}")
 with open(f"game-data/dragons_{VERSION}.json") as f:
     dragon_dict = json.load(f)
