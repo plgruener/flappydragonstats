@@ -144,13 +144,13 @@ def breeding_value(d1:str,d2:str,p=p_shiny):
 # [name,name,…] or [(name,name),(…),…]
 def breeding_sum(list_or_pairing,p=p_shiny):
     if isinstance(list_or_pairing[0],str):
-        breeding_sum_list(list_or_pairing,p)
+        return breeding_sum_list(list_or_pairing,p)
     if isinstance(list_or_pairing[0],tuple):
-        breeding_sum_pairing(list_or_pairing,p)
+        return breeding_sum_pairing(list_or_pairing,p)
 def breeding_sum_pairing(pairs,p=p_shiny):
     return sum([breeding_value(d1,d2,p) for (d1,d2) in pairs])
 def breeding_sum_list(list,p=p_shiny):
-    return breeding_sum_pairing(list2pairs(l),p)
+    return breeding_sum_pairing(list2pairs(list),p)
 
 ### LOOKUP TABLE ###############################################################
 
