@@ -192,24 +192,25 @@ def breeding_sum_lookup(name_pairs,lookup=lookup):
 #
 
 #TODO unify lookup- and p- parameter usage
-def search_all(dragonlist,lookup=lookup,p=p_shiny):
+def search_all(dragonlist,lookup=lookup,p=p_shiny,progress=False):
     num=number_pairings(len(dragonlist)) # == 654_729_075 = 6.5E8 for n=20
-    print(f'#dragons = {len(dragonlist)}')
-    print(f'#pairs = {num}')
-    print(f'{dragonlist=}')
+    if progress:
+        print(f'#dragons = {len(dragonlist)}')
+        print(f'#pairs = {num}')
+        print(f'{dragonlist=}')
     bestval=0
     bestpairing=[]
 
     for i,pk in enumerate(gen_pairings(dragonlist)):
-        if i%1_000_000==0: #adjust if necessary
+        if progress and i%1_000_000==0: #adjust if necessary
             print(f'progress: {i/num:.4f}') # very simple progress indicator
         r = breeding_sum_lookup(pk,lookup)
         if r > bestval:
             bestval=r
             bestpairing=pk
-            print(f'==> NEW BEST: {bestval}')
-            print_result(bestpairing)
-    print_result(bestpairing)
+            if progress:
+                print(f'==> NEW BEST: {bestval}')
+                print_result(bestpairing)
     return bestpairing
 
 def print_result(list_or_pairing,p=p_shiny):
@@ -290,7 +291,8 @@ def selection_4(num_pairs=10):
     selection = [name for (score,name) in sorted([(dragon_sums[d],d) for d in dragon_sums],reverse=True)]
     return selection[:2*num_pairs]
 
-search_all(selection_2())
+result = search_all(selection_2(),progress=True)
+print_result(result)
 
 ################################################################################
 
