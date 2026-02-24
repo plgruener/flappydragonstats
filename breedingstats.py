@@ -248,14 +248,14 @@ def dragon_score_1(dragon:str,p=p_shiny)->float:
     eggs = dragon_eggs(dragon)
     return p*0.5*dragon_value(dragon) + (1-p)*sum([egg_value(e) for e in eggs])/len(eggs)
 
-def selection_1(n=20):
-    return dragons_by_score(dragon_score_1)[:n]
+def selection_1(num_pairs=10):
+    return dragons_by_score(dragon_score_1)[:2*num_pairs]
 
 ### Option 2 ###
 # order all possible pairs of dragons by their value (we already computed those),
-# then pick the dragons of the first "free" n/2 pairs from the top
+# then pick the dragons of the first "free" k pairs from the top
 
-def selection_2(n=20):
+def selection_2(num_pairs=10):
     # [ (score,(d1,d2)),… ]
     pair_values = list(map(lambda pair: (lookup[pair],pair),itertools.combinations(dragon_names,2)))
     sl=[]
@@ -263,12 +263,12 @@ def selection_2(n=20):
         if (d1 not in sl) and (d2 not in sl):
             sl.append(d1)
             sl.append(d2)
-    return sl[:n]
+    return sl[:2*num_pairs]
 
 ### Option 3 ###
 # almost the same as Option 2, but use the first n dragon from the top,
 # even if that specific pair is not "free"
-def selection_3(n=20):
+def selection_3(num_pairs=10):
     pair_values = list(map(lambda pair: (lookup[pair],pair),itertools.combinations(dragon_names,2)))
     sl=[]
     for (v,(d1,d2)) in sorted(pair_values,reverse=True):
@@ -276,11 +276,11 @@ def selection_3(n=20):
             sl.append(d1)
         if (d2 not in sl):
             sl.append(d2)
-    return sl[:n]
+    return sl[:2*num_pairs]
 
 ### Option 4 ###
 # assign dragon score based on sum of all breeding values of pairs this dragon is part of
-def selection_4(n=20):
+def selection_4(num_pairs=10):
     dragon_sums = {d:0 for d in dragon_names}
     pair_values = list(map(lambda pair: (lookup[pair],pair),itertools.combinations(dragon_names,2)))
     for (v,(d1,d2)) in pair_values:
@@ -288,7 +288,7 @@ def selection_4(n=20):
         dragon_sums[d2]+=v
 
     selection = [name for (score,name) in sorted([(dragon_sums[d],d) for d in dragon_sums],reverse=True)]
-    return selection[:n]
+    return selection[:2*num_pairs]
 
 search_all(selection_2())
 
