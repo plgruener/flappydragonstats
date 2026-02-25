@@ -29,7 +29,7 @@
             "ko": "심연의 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -84,7 +84,7 @@
             "ko": "기념일의 용을 포함합니다"
         },
         "incubation_time": 8,
-        "egg_subtype": "Season",
+        "category": "Season",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -139,7 +139,7 @@
             "ko": "인공 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -200,7 +200,7 @@
             "ko": "베헤모스 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -257,7 +257,7 @@
             "ko": "크리스마스 시즌 드래곤즈가 들어 있습니다"
         },
         "incubation_time": 8,
-        "egg_subtype": "Season",
+        "category": "Season",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -327,7 +327,7 @@
             "ko": "천체 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -380,7 +380,7 @@
             "ko": "곤충 하위 유형의 용을 포함합니다"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -440,7 +440,7 @@
             "ko": "클래식 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -514,7 +514,7 @@
             "ko": "코카트리스 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -570,7 +570,7 @@
             "ko": "공통의 드래곤이 포함되어 있습니다"
         },
         "incubation_time": 1,
-        "egg_subtype": "Rarity",
+        "category": "Rarity",
         "rarity_pool": "Common",
         "type_pool": "All",
         "custom_pool": [],
@@ -617,7 +617,7 @@
             "ko": "우주 유형의 용을 포함합니다"
         },
         "incubation_time": 12,
-        "egg_subtype": "Type",
+        "category": "Type",
         "rarity_pool": "All",
         "type_pool": "Cosmic",
         "custom_pool": [],
@@ -664,7 +664,7 @@
             "ko": "사막 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -721,7 +721,7 @@
             "ko": "드레이크 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -788,7 +788,7 @@
             "ko": "동부 유형의 용을 포함합니다"
         },
         "incubation_time": 12,
-        "egg_subtype": "Type",
+        "category": "Type",
         "rarity_pool": "All",
         "type_pool": "Eastern",
         "custom_pool": [],
@@ -835,7 +835,7 @@
             "ko": "서사시의 드래곤이 포함되어 있습니다"
         },
         "incubation_time": 8,
-        "egg_subtype": "Rarity",
+        "category": "Rarity",
         "rarity_pool": "Epic",
         "type_pool": "All",
         "custom_pool": [],
@@ -882,7 +882,7 @@
             "ko": "요정 유형의 용을 포함합니다"
         },
         "incubation_time": 12,
-        "egg_subtype": "Type",
+        "category": "Type",
         "rarity_pool": "All",
         "type_pool": "Fairy",
         "custom_pool": [],
@@ -929,7 +929,7 @@
             "ko": "깃털 유형의 용을 포함합니다"
         },
         "incubation_time": 12,
-        "egg_subtype": "Type",
+        "category": "Type",
         "rarity_pool": "All",
         "type_pool": "Feathered",
         "custom_pool": [],
@@ -976,7 +976,7 @@
             "ko": "마법의 눈송이와 관련된 기술을 가진 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Powerup",
+        "category": "Powerup",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [],
@@ -1023,7 +1023,7 @@
             "ko": "요정 먼지와 관련된 기술을 가진 용이 들어 있습니다"
         },
         "incubation_time": 8,
-        "egg_subtype": "Powerup",
+        "category": "Powerup",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [],
@@ -1070,7 +1070,7 @@
             "ko": "골렘 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -1138,7 +1138,7 @@
             "ko": "그리핀 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -1197,7 +1197,7 @@
             "ko": "드래곤의 마음과 관련된 기술을 가진 용이 들어 있습니다"
         },
         "incubation_time": 8,
-        "egg_subtype": "Powerup",
+        "category": "Powerup",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [],
@@ -1244,7 +1244,7 @@
             "ko": "히드라 하위 유형의 드래곤 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -1303,7 +1303,7 @@
             "ko": "전설적인 희귀 성의 용을 포함합니다"
         },
         "incubation_time": 12,
-        "egg_subtype": "Rarity",
+        "category": "Rarity",
         "rarity_pool": "Legendary",
         "type_pool": "All",
         "custom_pool": [],
@@ -1350,7 +1350,7 @@
             "ko": "해양 괴물 유형의 용을 포함합니다"
         },
         "incubation_time": 12,
-        "egg_subtype": "Type",
+        "category": "Type",
         "rarity_pool": "All",
         "type_pool": "Leviathan",
         "custom_pool": [],
@@ -1397,7 +1397,7 @@
             "ko": "발렌타인 시즌의 용을 포함합니다"
         },
         "incubation_time": 8,
-        "egg_subtype": "Season",
+        "category": "Season",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -1455,7 +1455,7 @@
             "ko": "달의 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -1507,7 +1507,7 @@
             "ko": "용 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -1567,7 +1567,7 @@
             "ko": "린드뷔름 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -1619,7 +1619,7 @@
             "ko": "해양 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -1675,7 +1675,7 @@
             "ko": "산 타입의 용을 포함합니다"
         },
         "incubation_time": 12,
-        "egg_subtype": "Type",
+        "category": "Type",
         "rarity_pool": "All",
         "type_pool": "Mountain",
         "custom_pool": [],
@@ -1722,7 +1722,7 @@
             "ko": "신화적인 드문 드래곤이 포함되어 있습니다"
         },
         "incubation_time": 24,
-        "egg_subtype": "Rarity",
+        "category": "Rarity",
         "rarity_pool": "Mythic",
         "type_pool": "All",
         "custom_pool": [],
@@ -1769,7 +1769,7 @@
             "ko": "해양 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -1830,7 +1830,7 @@
             "ko": "용 눈과 관련된 기술을 가진 용이 들어 있습니다"
         },
         "incubation_time": 8,
-        "egg_subtype": "Powerup",
+        "category": "Powerup",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [],
@@ -1877,7 +1877,7 @@
             "ko": "식물 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -1932,7 +1932,7 @@
             "ko": "원시적인 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -1989,7 +1989,7 @@
             "ko": "구부러진 숟가락과 관련된 기술을 가진 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Powerup",
+        "category": "Powerup",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [],
@@ -2036,7 +2036,7 @@
             "ko": "피 테로 락틸 서브 타입 용을 함유한다"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -2098,7 +2098,7 @@
             "ko": "피라우스타 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -2161,7 +2161,7 @@
             "ko": "새해 시즌의 드래곤이 포함되어 있습니다"
         },
         "incubation_time": 8,
-        "egg_subtype": "Season",
+        "category": "Season",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -2215,7 +2215,7 @@
             "ko": "기린 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -2267,7 +2267,7 @@
             "ko": "행운의 부적과 관련된 기술을 가진 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Powerup",
+        "category": "Powerup",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [],
@@ -2314,7 +2314,7 @@
             "ko": "드문 드문 드래곤이 포함되어 있습니다"
         },
         "incubation_time": 4,
-        "egg_subtype": "Rarity",
+        "category": "Rarity",
         "rarity_pool": "Rare",
         "type_pool": "All",
         "custom_pool": [],
@@ -2361,7 +2361,7 @@
             "ko": "성스러운 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -2415,7 +2415,7 @@
             "ko": "바다 뱀 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -2467,7 +2467,7 @@
             "ko": "소름 끼치는 유령과 관련된 기술을 가진 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Powerup",
+        "category": "Powerup",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [],
@@ -2514,7 +2514,7 @@
             "ko": "용 고추와 관련된 기술을 가진 용이 들어 있습니다"
         },
         "incubation_time": 8,
-        "egg_subtype": "Powerup",
+        "category": "Powerup",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [],
@@ -2561,7 +2561,7 @@
             "ko": "우주의 별과 관련된 기술을 가진 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Powerup",
+        "category": "Powerup",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [],
@@ -2608,7 +2608,7 @@
             "ko": "폭풍 구름과 관련된 기술을 가진 용이 들어 있습니다"
         },
         "incubation_time": 8,
-        "egg_subtype": "Powerup",
+        "category": "Powerup",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [],
@@ -2655,7 +2655,7 @@
             "ko": "의심스러운 버섯과 관련된 기술을 가진 용이 들어 있습니다"
         },
         "incubation_time": 8,
-        "egg_subtype": "Powerup",
+        "category": "Powerup",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [],
@@ -2702,7 +2702,7 @@
             "ko": "달콤한 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -2753,7 +2753,7 @@
             "ko": "신디파 하위 유형의 용을 포함합니다"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -2813,7 +2813,7 @@
             "ko": "낡은 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -2871,7 +2871,7 @@
             "ko": "할로윈 시즌의 용을 포함합니다"
         },
         "incubation_time": 8,
-        "egg_subtype": "Season",
+        "category": "Season",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -2944,7 +2944,7 @@
             "ko": "시간의 모래와 관련된 기술을 가진 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Powerup",
+        "category": "Powerup",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [],
@@ -2991,7 +2991,7 @@
             "ko": "드문 드문 드래곤이 포함되어 있습니다"
         },
         "incubation_time": 2,
-        "egg_subtype": "Rarity",
+        "category": "Rarity",
         "rarity_pool": "Uncommon",
         "type_pool": "All",
         "custom_pool": [],
@@ -3038,7 +3038,7 @@
             "ko": "언데드 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -3096,7 +3096,7 @@
             "ko": "미지의 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -3150,7 +3150,7 @@
             "ko": "서부 유형의 용을 포함합니다"
         },
         "incubation_time": 12,
-        "egg_subtype": "Type",
+        "category": "Type",
         "rarity_pool": "All",
         "type_pool": "Western",
         "custom_pool": [],
@@ -3197,7 +3197,7 @@
             "ko": "야생 하위 유형의 드래곤 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
@@ -3253,7 +3253,7 @@
             "ko": "와이번 하위 유형의 드래곤을 포함"
         },
         "incubation_time": 8,
-        "egg_subtype": "Subtype",
+        "category": "Subtype",
         "rarity_pool": "All",
         "type_pool": "All",
         "custom_pool": [
