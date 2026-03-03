@@ -107,13 +107,13 @@ def dragon_eggs(dragon:str)->list:
     return get_dragon(dragon)['breeding_eggs']
 
 # value = number of crowns for duplicated dragons
-# RARITY    TIME   VALUE
-# Common     1       40
-# Uncommon   2       80
-# Rare       4      160
-# Epic       8      320
-# Legendary 12      640
-# Mythic    24     1280
+# RARITY    TIME   VALUE  PROBABILITY
+# Common     1       40   0.38
+# Uncommon   2       80   0.28
+# Rare       4      160   0.18
+# Epic       8      320   0.09
+# Legendary 12      640   0.05
+# Mythic    24     1280   0.02
 rarities = ['Common','Uncommon','Rare','Epic','Legendary','Mythic']
 def dragon_value(dragon: str) -> int:
     return 40*2**rarities.index(dragon_rarity(dragon))
