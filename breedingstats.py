@@ -7,6 +7,8 @@ from operator import itemgetter
 from pprint import pprint
 import pickle
 
+from PIL import Image, ImageDraw
+
 ################################################################################
 
 ### SHINY CHANCE ###############################################################
@@ -293,6 +295,24 @@ def selection_4(num_pairs=10):
 
 result = search_all(selection_2(),progress=True)
 print_result(result)
+
+#def image_merge_landscape(im1:Image,im2:Image) -> Image.Image
+def image_merge_pair(d1:str,d2:str) -> Image.Image:
+    im1 = Image.open(f"sprites/Dragons/{d1}_1.png")
+    im2 = Image.open(f"sprites/Dragons/{d2}_1.png")
+    w_total = im1.size[0]+im2.size[0]
+    h_total = max(im1.size[1],im2.size[1])
+    im_new = Image.new('RGBA',(w_total,h_total))
+
+    im_new.paste(im1)
+    im_new.paste(im2, (im1.size[0],0)) #linke obere Ecke?
+    return im_new
+
+im = image_merge_pair('Abtum','Albarosa')
+#im = Image.new('RGB',(50,50),(127,0,50))
+draw = ImageDraw.Draw(im)
+draw.text( (0,0), 'ABTUM', font_size=20 )
+im.show()
 
 ################################################################################
 
